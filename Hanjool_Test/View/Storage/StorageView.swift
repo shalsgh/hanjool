@@ -37,7 +37,7 @@ struct StorageView: View {
                     
                     Spacer()
                     
-//                    admob()
+                    admob()
                 }
                 .navigationTitle("나의 기록")
             } else {
@@ -58,7 +58,7 @@ struct StorageView: View {
                         ComposeView()
                     }
                     
-//                    admob()
+                    admob()
                 }
             }
         }

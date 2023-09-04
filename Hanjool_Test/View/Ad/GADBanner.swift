@@ -26,6 +26,6 @@ struct GADBanner: UIViewControllerRepresentable {
 }
 
 @ViewBuilder func admob() -> some View {
-    // admob
+    admob
     GADBanner().frame(width: GADAdSizeBanner.size.width, height: GADAdSizeBanner.size.height)
 }

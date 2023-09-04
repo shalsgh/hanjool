@@ -36,7 +36,7 @@ struct DetailView: View {
                         .padding()
                 }
             }
-//            admob()
+            admob()
         }
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {

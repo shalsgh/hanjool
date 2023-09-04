@@ -14,7 +14,7 @@ struct MainListView: View {
     var body: some View {
         VStack {
             QuoteListView(quotes: store.list)
-//            admob()
+            admob()
         }
     }
 }
