@@ -34,9 +34,9 @@ struct DetailView: View {
                     
                     Text(memo.memoSubject ?? "")
                         .padding()
-                    
                 }
             }
+//            admob()
         }
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {

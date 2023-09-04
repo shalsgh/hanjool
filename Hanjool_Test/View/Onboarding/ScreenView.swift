@@ -38,14 +38,12 @@ struct ScreenView: View {
                             .cornerRadius(10)
                     })
                 }
-                
-                
                 Spacer()
             }
             .padding()
             
             Spacer(minLength: 0)
-            
+                        
             Image(image)
                 .resizable()
                 .aspectRatio(contentMode: .fit)

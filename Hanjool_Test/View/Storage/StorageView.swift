@@ -20,6 +20,9 @@ struct StorageView: View {
         NavigationView {
             if memoList.isEmpty {
                 VStack {
+                    
+                    Spacer()
+                    
                     Image("empty")
                         .renderingMode(.template)
                         .resizable()
@@ -31,24 +34,31 @@ struct StorageView: View {
                     Text("당신의 한줄을 추가해주세요.")
                         .font(.custom("Pretendard-Light.otf", size: 15))
                         .foregroundColor(.secondary)
+                    
+                    Spacer()
+                    
+//                    admob()
                 }
                 .navigationTitle("나의 기록")
             } else {
-                List {
-                    ForEach(memoList) { memo in
-                        NavigationLink {
-                            DetailView(memo: memo)
-                        } label: {
-                            MemoCell(memo: memo)
+                VStack {
+                    List {
+                        ForEach(memoList) { memo in
+                            NavigationLink {
+                                DetailView(memo: memo)
+                            } label: {
+                                MemoCell(memo: memo)
+                            }
                         }
+                        .onDelete(perform: delete)
                     }
-                    .onDelete(perform: delete)
+                    .listStyle(.plain)
+                    .navigationTitle("나의 기록")
+                    .sheet(isPresented: $showComposer) {
+                        ComposeView()
+                    }
                     
-                }
-                .listStyle(.plain)
-                .navigationTitle("나의 기록")
-                .sheet(isPresented: $showComposer) {
-                    ComposeView()
+//                    admob()
                 }
             }
         }

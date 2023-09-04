@@ -19,19 +19,39 @@ struct Tab_View: View {
     var body: some View {
         ZStack {
             if currentPage > totalPages{
-                TabView(selection: $selectedIndex) {
-                    MainListView(selectionIndex: $selectedIndex, store: store)
-                    .tabItem {
-                        Label("오늘의 한줄", systemImage: "text.book.closed.fill")
-                            .padding()
-                    }
-
-                    StorageView()
+                
+                if colorScheme == .light {
+                    TabView(selection: $selectedIndex) {
+                        MainListView(selectionIndex: $selectedIndex, store: store)
                         .tabItem {
-                            Label("나의 기록", systemImage: "pin")
+                            Label("오늘의 한줄", systemImage: "text.book.closed.fill")
                                 .padding()
                         }
-                        .tag(1)
+
+                        StorageView()
+                            .tabItem {
+                                Label("나의 기록", systemImage: "pin")
+                                    .padding()
+                            }
+                            .tag(1)
+                    }
+                    .tint(.black)
+                } else {
+                    TabView(selection: $selectedIndex) {
+                        MainListView(selectionIndex: $selectedIndex, store: store)
+                        .tabItem {
+                            Label("오늘의 한줄", systemImage: "text.book.closed.fill")
+                                .padding()
+                        }
+
+                        StorageView()
+                            .tabItem {
+                                Label("나의 기록", systemImage: "pin")
+                                    .padding()
+                            }
+                            .tag(1)
+                    }
+                    .tint(.white)
                 }
             }
             else{

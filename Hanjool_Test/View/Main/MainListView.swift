@@ -12,7 +12,10 @@ struct MainListView: View {
     @State var store: QuoteStore
 
     var body: some View {
-        QuoteListView(quotes: store.list)
+        VStack {
+            QuoteListView(quotes: store.list)
+//            admob()
+        }
     }
 }
 
