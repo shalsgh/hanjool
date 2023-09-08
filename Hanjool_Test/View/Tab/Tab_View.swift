@@ -21,12 +21,13 @@ struct Tab_View: View {
             if currentPage > totalPages{
                 
                 if colorScheme == .light {
-                    TabView(selection: $selectedIndex) {
-                        MainListView(selectionIndex: $selectedIndex, store: store)
+                    TabView(selection: $store.selectionTabIndex) {
+                        MainListView(selectionIndex: $store.selectionTabIndex, store: store)
                         .tabItem {
                             Label("오늘의 한줄", systemImage: "text.book.closed.fill")
                                 .padding()
                         }
+                        .tag(0)
 
                         StorageView()
                             .tabItem {
@@ -37,12 +38,14 @@ struct Tab_View: View {
                     }
                     .tint(.black)
                 } else {
-                    TabView(selection: $selectedIndex) {
-                        MainListView(selectionIndex: $selectedIndex, store: store)
+                    TabView(selection: $store.selectionTabIndex) {
+                        MainListView(selectionIndex: $store.selectionTabIndex, store: store)
                         .tabItem {
                             Label("오늘의 한줄", systemImage: "text.book.closed.fill")
                                 .padding()
                         }
+                        .tag(0)
+
 
                         StorageView()
                             .tabItem {
@@ -98,4 +101,4 @@ struct TabView_Previews: PreviewProvider {
     }
 }
 
-var totalPages = 3
+var totalPages = 4

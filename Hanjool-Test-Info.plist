@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>GADApplicationIdentifier</key>
-	<string>ca-app-pub-4948351456840245~3518639923</string>
+	<string>ca-app-pub-4948351456840245~5198902156</string>
 	<key>GADIsAdManagerApp</key>
 	<true/>
 	<key>SKAdNetworkItems</key>
@@ -211,5 +211,7 @@
 		<string>부크크명조_굵은글씨.ttf</string>
 		<string>부크크명조_얇은글씨.ttf</string>
 	</array>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>사진을 저장하기 위해 사진 라이브러리에 접근하도록 허용합니다.</string>
 </dict>
 </plist>
