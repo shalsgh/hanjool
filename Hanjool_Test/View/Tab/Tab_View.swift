@@ -21,8 +21,8 @@ struct Tab_View: View {
             if currentPage > totalPages{
                 
                 if colorScheme == .light {
-                    TabView(selection: $store.selectionTabIndex) {
-                        MainListView(selectionIndex: $store.selectionTabIndex, store: store)
+                    TabView(selection: $selectedIndex) {
+                        MainListView(selectionIndex: $selectedIndex, store: store)
                         .tabItem {
                             Label("오늘의 한줄", systemImage: "text.book.closed.fill")
                                 .padding()
@@ -38,8 +38,8 @@ struct Tab_View: View {
                     }
                     .tint(.black)
                 } else {
-                    TabView(selection: $store.selectionTabIndex) {
-                        MainListView(selectionIndex: $store.selectionTabIndex, store: store)
+                    TabView(selection: $selectedIndex) {
+                        MainListView(selectionIndex: $selectedIndex, store: store)
                         .tabItem {
                             Label("오늘의 한줄", systemImage: "text.book.closed.fill")
                                 .padding()
@@ -61,6 +61,8 @@ struct Tab_View: View {
                     WalkthroughScreen()
             }
             
+            // 스플래쉬 분기
+            
             if !isContentReady {
                 if colorScheme == .light {
                     SplashView()
@@ -81,6 +83,9 @@ struct Tab_View: View {
                 }
             }
         }
+        
+        
+        // 컬러분기
 
     }
 }
@@ -101,4 +106,4 @@ struct TabView_Previews: PreviewProvider {
     }
 }
 
-var totalPages = 4
+var totalPages = 3

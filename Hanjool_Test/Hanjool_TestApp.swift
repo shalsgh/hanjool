@@ -28,7 +28,7 @@ struct Hanjool_TestApp: App {
                 .environmentObject(manager)
                 .onReceive(NotificationCenter.default.publisher(for: UIApplication.didBecomeActiveNotification)) { _ in
                         ATTrackingManager.requestTrackingAuthorization(completionHandler: { _ in })
-                      }
+            }
         }
     }
 }

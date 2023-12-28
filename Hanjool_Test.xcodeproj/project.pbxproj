@@ -28,12 +28,10 @@
 		5A6F38BA2A90214A002F282D /* SplashView_dark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6F38B92A90214A002F282D /* SplashView_dark.swift */; };
 		5A6F38C62A902B0C002F282D /* splash_anim_dark.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A6F38C52A902B0C002F282D /* splash_anim_dark.json */; };
 		5A6F38C82A9031C7002F282D /* pretendard in Resources */ = {isa = PBXBuildFile; fileRef = 5A6F38C72A9031C7002F282D /* pretendard */; };
-		5A999B622A9DB9B900642EC2 /* Highlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A999B612A9DB9B900642EC2 /* Highlight.swift */; };
 		5A999B7F2A9DE4E800642EC2 /* Walkthrough.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A999B7E2A9DE4E800642EC2 /* Walkthrough.swift */; };
 		5A999B822A9DE50700642EC2 /* ScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A999B812A9DE50700642EC2 /* ScreenView.swift */; };
 		5A999BF22A9F51ED00642EC2 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 5A999BF12A9F51ED00642EC2 /* GoogleMobileAds */; };
 		5A999BF52A9F540100642EC2 /* GADBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A999BF42A9F540100642EC2 /* GADBanner.swift */; };
-		5AD274192AA956D600F0DDBC /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD274182AA956D600F0DDBC /* ActivityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,11 +57,9 @@
 		5A6F38B92A90214A002F282D /* SplashView_dark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView_dark.swift; sourceTree = "<group>"; };
 		5A6F38C52A902B0C002F282D /* splash_anim_dark.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = splash_anim_dark.json; sourceTree = "<group>"; };
 		5A6F38C72A9031C7002F282D /* pretendard */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pretendard; sourceTree = "<group>"; };
-		5A999B612A9DB9B900642EC2 /* Highlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Highlight.swift; sourceTree = "<group>"; };
 		5A999B7E2A9DE4E800642EC2 /* Walkthrough.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Walkthrough.swift; sourceTree = "<group>"; };
 		5A999B812A9DE50700642EC2 /* ScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenView.swift; sourceTree = "<group>"; };
 		5A999BF42A9F540100642EC2 /* GADBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GADBanner.swift; sourceTree = "<group>"; };
-		5AD274182AA956D600F0DDBC /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +118,6 @@
 		5A6F38792A8CB6BA002F282D /* View */ = {
 			isa = PBXGroup;
 			children = (
-				5AD274172AA956C700F0DDBC /* ActivityView */,
 				5A999B7D2A9DE4CE00642EC2 /* Onboarding */,
 				5A999BF32A9F53F100642EC2 /* Ad */,
 				5A6F38932A8CBA5A002F282D /* Tab */,
@@ -137,7 +132,6 @@
 			children = (
 				5A6F388A2A8CB7B9002F282D /* Quote.swift */,
 				5A6F388D2A8CB7C5002F282D /* QuoteStore.swift */,
-				5A999B612A9DB9B900642EC2 /* Highlight.swift */,
 			);
 			path = Memory;
 			sourceTree = "<group>";
@@ -163,8 +157,8 @@
 			isa = PBXGroup;
 			children = (
 				5A6F38912A8CB90B002F282D /* StorageView.swift */,
-				5A6F38852A8CB799002F282D /* ComposeView.swift */,
 				5A6F38872A8CB7A2002F282D /* DetailView.swift */,
+				5A6F38852A8CB799002F282D /* ComposeView.swift */,
 				5A6F38A12A8E5D4B002F282D /* MemoCell.swift */,
 			);
 			path = Storage;
@@ -222,14 +216,6 @@
 				5A999BF42A9F540100642EC2 /* GADBanner.swift */,
 			);
 			path = Ad;
-			sourceTree = "<group>";
-		};
-		5AD274172AA956C700F0DDBC /* ActivityView */ = {
-			isa = PBXGroup;
-			children = (
-				5AD274182AA956D600F0DDBC /* ActivityView.swift */,
-			);
-			path = ActivityView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,9 +304,7 @@
 				5A6F38952A8CBA7B002F282D /* Tab_View.swift in Sources */,
 				5A6F38882A8CB7A2002F282D /* DetailView.swift in Sources */,
 				5A6F388B2A8CB7B9002F282D /* Quote.swift in Sources */,
-				5A999B622A9DB9B900642EC2 /* Highlight.swift in Sources */,
 				5A6F38902A8CB8BD002F282D /* MainListView.swift in Sources */,
-				5AD274192AA956D600F0DDBC /* ActivityView.swift in Sources */,
 				5A6F38862A8CB799002F282D /* ComposeView.swift in Sources */,
 				5A999B822A9DE50700642EC2 /* ScreenView.swift in Sources */,
 				5A6F38AE2A8F5991002F282D /* SplashView.swift in Sources */,
@@ -478,7 +462,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.minho.Hanjool-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -512,7 +496,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.minho.Hanjool-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

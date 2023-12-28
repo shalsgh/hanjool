@@ -17,14 +17,10 @@ struct WalkthroughScreen: View {
                     .transition(.scale)
             }
             if currentPage == 2{
-                ScreenView(image: "heart", title: "두번 탭해서\n\'한줄\'을 보관 할 수 있어요!", detail: "")
+                ScreenView(image: "heart", title: "두번 탭해서\n보관 할 수 있어요!", detail: "")
                     .transition(.scale)
             }
             if currentPage == 3{
-                ScreenView(image: "share", title: "공유 버튼을 눌러\n\'한줄\'을 공유하거나 저장 할 수 있어요!", detail: "")
-                    .transition(.scale)
-            }
-            if currentPage == 4{
                 ScreenView(image: "notes", title: "나의 기록을 메모 할 수 있어요!", detail: "")
                     .transition(.scale)
             }

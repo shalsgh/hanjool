@@ -61,6 +61,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "우리가\n가지고 있는\n시간이 짧은\n것이 아니라\n우리가 시간을\n 낭비하고\n있는 것이다.\n시간은 충분히 길다.", author: "세네카"),
         Quote(contents: "설사 실행에\n옮기지 못한다고 해도\n가치 있는 학문을\n추구한다는 것만으로도\n칭찬받아 마땅한 일이다.", author: "세네카"),
         Quote(contents: "우리는 어떠한 지배자\n밑에 있는 것이 아니다.\n자기 정신이 지배하고 있다.\n자기 힘으로 하라!", author: "세네카"),
+        Quote(contents: "어려우니까\n감히 손대지 못하는\n것이 아니다.\n과감하게\n손대지 않으니까\n어려워지는 것이다.", author: "세네카"),
         Quote(contents: "만일 당신이\n현재 갖고 있는 것으로\n만족하지 못한다면,\n온 세계를 차지해도\n불행할 것이다.", author: "세네카"),
         Quote(contents: "민중을 따르기만 하면\n민중과 함께 망할 것이고\n민중을 거스르면\n민중에게 망할 것이다.", author: "세네카"),
         Quote(contents: "네가 동의하면\n운명은 너를 인도하고\n네가 동의하지 않으면\n운명은 너를 강제한다.", author: "세네카"),
@@ -100,6 +101,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "우정은\n풍요를 더 빛나게 하고,\n풍요를 나누고 공유해 역경을 줄인다.", author: "키케로"),
         Quote(contents: "쾌락을\n최고선으로 놓는 자는\n결코 절제하는 자가\n될 수 없다.", author: "키케로"),
         Quote(contents: "영혼의 병은\n육체의 그것보다도\n위험하고 무섭다.", author: "키케로"),
+        Quote(contents: "자기의 소유 이상으로\n바라지 않는 자가\n부자다.", author: "키케로"),
         Quote(contents: "모든 일에 있어\n최대의 쾌락 뒤엔\n실증이 온다.", author: "키케로"),
         Quote(contents: "은혜를\n되갚는 것 보다\n더한 의무는 없다.", author: "키케로"),
         Quote(contents: "현명한 사고보다도\n신중한 행동이 중요하다.", author: "키케로"),
@@ -108,8 +110,9 @@ class QuoteStore: ObservableObject {
         Quote(contents: "사는 것은 생각하는 것이다.", author: "키케로"),
         Quote(contents: "절약은 가장 큰 수입이다.", author: "키케로"),
 
+
     // ## 중세 철학
-            
+
     // - 블레즈 파스칼
         Quote(contents: "단순한 것은 사람을\n매혹시키는 힘을 갖고 있다.\n어린아이의 세계에서\n찾을 수 있는 매력도\n그 단순함 속에 있다.", author: "블레즈 파스칼"),
         Quote(contents: "왜 사람들은 다수에 복종하는가?\n더 많은 도리를\n가지고 있기 때문일까?\n아니다.\n더 많은 힘을 가졌기 때문이다.", author: "블레즈 파스칼"),
@@ -122,7 +125,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "힘없는 정의는 무능이고,\n정의 없는 힘은 폭력이다.", author: "블레즈 파스칼"),
         Quote(contents: "숨겨진 고결한 행위는\n가장 존경할 만한 행위이다.", author: "블레즈 파스칼"),
 
-            
+
     // - 발타자르 그라시안
         Quote(contents: "감정폭발은\n곧 이성의 결함이다.\n어리석은 사람이\n격분하고 있을 때,\n냉정을 잃지 않는 사람은\n성숙한 인간의 징표이다. ", author: "발타자르 그라시안"),
         Quote(contents: "감정은 언제나\n이성을 짓밟아\n버리는 경향이 있다.\n감정에 충실하게 행동하면,\n모든 것이 광기로 흐르기 쉽다. ", author: "발타자르 그라시안"),
@@ -145,6 +148,8 @@ class QuoteStore: ObservableObject {
         Quote(contents: "감사를 받기 위해서\n먼저 고마움을 표시하라. ", author: "발타자르 그라시안"),
         Quote(contents: "가장 귀중한\n사랑의 가치는\n희생과 헌신이다.", author: "발타자르 그라시안"),
         Quote(contents: "꾸밈이 없는\n사람일수록\n호감을 산다.", author: "발타자르 그라시안"),
+        Quote(contents: "남의 불행에 깊이 빠져들지 마라.", author: "발타자르 그라시안"),
+
 
     // - 아우구스티누스
         Quote(contents: "어떤 사람도\n자신의 운명에서\n벗어날 수 없다.\n다만 어떻게 잘 살아야할지에\n대해 고민해라.", author: "아우렐리우스 아우구스티누스"),
@@ -166,7 +171,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "첫째도 겸손,\n둘째도 겸손,\n셋째도 겸손이다.", author: "아우렐리우스 아우구스티누스"),
         Quote(contents: "당신의 삶의 행복은\n당신의 생각에 달려 있다.", author: "아우렐리우스 아우구스티누스"),
         Quote(contents: "절대 미래가\n당신을 방해하게\n해서는 안된다.", author: "아우렐리우스 아우구스티누스"),
-        Quote(contents: "진정한 행운은\n당신이 스스로 만드는 것이다.", author: "아우렐리우스 아우구스티누스"),
+        Quote(contents: "진정한 행운은\n당신이 스스로\n만드는 것이다.", author: "아우렐리우스 아우구스티누스"),
         Quote(contents: "행복하게 사는 것은\n영혼의 내적인 힘이다.", author: "아우렐리우스 아우구스티누스"),
         Quote(contents: "영혼은\n생각의 색으로 물들어간다.", author: "아우렐리우스 아우구스티누스"),
         Quote(contents: "그대의 오늘은 영원이다.", author: "아우렐리우스 아우구스티누스"),
@@ -176,7 +181,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "영원의 말씀은\n침묵 속에서만 들린다.", author: "마이스터 에크하르트"),
 
 // ## 근현대 철학
-        
+
     // - 허버트 스펜서
         Quote(contents: "인생은 석재(石材)이다.\n이것에다\n신의 형상을 새기든\n악마의 형상을 새기든\n그것은 각자의 자유이다.", author: "허버트 스펜서"),
         Quote(contents: "인간은\n죽음이 두려워\n종교를 만들고\n삶이 두려워\n사회를 만들었다.", author: "허버트 스펜서"),
@@ -185,6 +190,7 @@ class QuoteStore: ObservableObject {
     // - 키에르케고르
         Quote(contents: "인생에서\n진정한 승리란\n조심스레 쌓아올린 것이\n일 순간에 무너졌을 때\n처음부터\n다시 시작하는\n용기에 있다.", author: "키에르케고르"),
         Quote(contents: "절망은 현재형이다.\n만일 절망하고 있다면\n과거나 미래의 것을\n현재로 가져왔기 때문이다.", author: "키에르케고르"),
+        Quote(contents: "그 여자를\n제 것으로 만들 수\n없는 기간 동안만\n남자는 여자에게\n열광하는 것이다.", author: "키에르케고르"),
         Quote(contents: "고민이 있을 때\n한명에게라도 털어놓으면\n긴장이 풀리거나\n절망에서 벗어날 수 있다.", author: "키에르케고르"),
         Quote(contents: "인생은\n뒤를 향해야만\n이해될 수 있다.\n그러나 인생은\n앞을 향해서\n살아야 한다.", author: "키에르케고르"),
         Quote(contents: "마음 깊은 곳에\n혼란, 압박 부조화, 불안\n따위를 갖고 있지 않은 인간은 없다.", author: "키에르케고르"),
@@ -198,14 +204,14 @@ class QuoteStore: ObservableObject {
         Quote(contents: "절망은 일종의 죄요\n죽음에 이르는 병이다.", author: "키에르케고르"),
         Quote(contents: "인품이 훌륭할수록\n뉘우침의 깊이도 깊다.", author: "키에르케고르"),
 
-    
+
     // - 임마누엘 칸트
         Quote(contents: "고뇌란\n활동하는 데\n박차를 가하게 한다.\n그리고 그\n활동 속에서만\n우리들은 자신의\n생명을 느낀다.", author: "임마누엘 칸트"),
         Quote(contents: "남의 자유를\n방해하지 않는 범위내에서\n자기의 자유를 확장하는 것,\n이것이 자유의 법칙이다.", author: "임마누엘 칸트"),
         Quote(contents: "인간은\n교육을 통하지 않고는\n인간이 될 수 없는\n유일한 존재다.", author: "임마누엘 칸트"),
         Quote(contents: "나는 고독하다.\n나는 자유이다.\n나는 나 자신의 왕이다.", author: "임마누엘 칸트"),
         Quote(contents: "노동 뒤에 휴식이야말로\n가장 편안하고 순수한 기쁨이다.", author: "임마누엘 칸트"),
-        Quote(contents: "나는 해야 한다,\n그러므로 나는 할 수 있다.", author: "임마누엘 칸트"),
+        Quote(contents: "나는 해야 한다,\n그러므로\n나는 할 수 있다.", author: "임마누엘 칸트"),
         Quote(contents: "모든 지식은\n경험에 바탕을 두고 있다.", author: "임마누엘 칸트"),
 
     // - 괴테
@@ -218,11 +224,14 @@ class QuoteStore: ObservableObject {
         Quote(contents: "하늘은 어디에서나\n푸르다는 사실을 알기 위해서\n세계 일주 여행을\n할 필요는 없다.", author: "요한 볼프강 폰 괴테"),
         Quote(contents: "항상 바람직한 목적을\n잃지 않고\n노력하는 한,\n최후에는 반드시\n구함을 받는다.", author: "요한 볼프강 폰 괴테"),
         Quote(contents: "고난이 있을 때마다\n그것이 참된 인간이\n되어 가는 과정임을 기억해야 한다.", author: "요한 볼프강 폰 괴테"),
-        Quote(contents: "사람을 타락시키는\n가장 큰 악마는\n자신을 부정적으로 생각하는 것이다.", author: "요한 볼프강 폰 괴테"),
+        Quote(contents: "사람을 타락시키는\n가장 큰 악마는\n자신을 부정적으로\n생각하는 것이다.", author: "요한 볼프강 폰 괴테"),
         Quote(contents: "고통이 남기고 간 뒤를 보라! 고난이 지나면\n반드시 기쁨이 스며든다.", author: "요한 볼프강 폰 괴테"),
         Quote(contents: "나는 항상 생각한다.\n이 세계는\n나의 천재보다\n훨씬 천재적이라고.", author: "요한 볼프강 폰 괴테"),
         Quote(contents: "현재에 열중하라.\n오직 현재 속에서만\n인간은 영원을 알 수 있다.", author: "요한 볼프강 폰 괴테"),
         Quote(contents: "노력은 적게 하고\n많은 것을 얻으려는 곳에\n한숨이 숨어 있다.", author: "요한 볼프강 폰 괴테"),
+        Quote(contents: "즐길 수 있을 때\n충분히 즐기고,\n참아야 할 때\n꾹 참아라.", author: "요한 볼프강 폰 괴테"),
+        Quote(contents: "아하하,\n이봐, 젊은이.\n자네는 완벽을 바라고 있군 그래.", author: "요한 볼프강 폰 괴테"),
+        Quote(contents: "스스로를 신뢰하는 순간\n어떻게 살아야 할지\n깨닫게 된다.", author: "요한 볼프강 폰 괴테"),
         Quote(contents: "나는 인간이다.\n그것은 \'싸우는 자\'\n라는 의미이다.", author: "요한 볼프강 폰 괴테"),
         Quote(contents: "기쁘게 일하고 해 놓은 일을 기뻐하는 사람은 행복하다.", author: "요한 볼프강 폰 괴테"),
         Quote(contents: "꿈을 계속 간직하고 있으면\n반드시 실현할 때가 온다.", author: "요한 볼프강 폰 괴테"),
@@ -234,13 +243,15 @@ class QuoteStore: ObservableObject {
         Quote(contents: "선을 행하는 데는\n나중이라는 말이 필요없다.", author: "요한 볼프강 폰 괴테"),
         Quote(contents: "영웅이 아니면\n영웅을 알 수가 없다.", author: "요한 볼프강 폰 괴테"),
         Quote(contents: "지갑이 가벼우면\n마음은 무겁다.", author: "요한 볼프강 폰 괴테"),
-        Quote(contents: "진정한 행복은 절제에서 나온다.", author: "요한 볼프강 폰 괴테"),
-        Quote(contents: "사람은 한 번밖에 살지 못한다.", author: "요한 볼프강 폰 괴테"),
-        Quote(contents: "바보는 결코 걱정하지 않는다.", author: "요한 볼프강 폰 괴테"),
-        Quote(contents: "태양이 비치면 먼지도 빛난다.", author: "요한 볼프강 폰 괴테"),
+        Quote(contents: "진정한 행복은\n절제에서 나온다.", author: "요한 볼프강 폰 괴테"),
+        Quote(contents: "사람은\n한 번밖에\n살지 못한다.", author: "요한 볼프강 폰 괴테"),
+        Quote(contents: "바보는\n결코\n걱정하지 않는다.", author: "요한 볼프강 폰 괴테"),
+        Quote(contents: "태양이 비치면\n먼지도 빛난다.", author: "요한 볼프강 폰 괴테"),
+
 
 
     // - 쇼펜하우어
+        Quote(contents: "떨어져 있을 때의 추위와\n붙으면 가시에 찔리는 아픔\n사이를 반복하다가\n결국 우리는\n적당한 거리를\n유지하는 법을\n배우게 된다.", author: "아르투어 쇼펜하우어"),
         Quote(contents: "평범한 사람들은\n단지 어떻게 시간을\n소비할까 생각하지만,\n지성인은 그 시간을\n어떻게 사용할까 노력한다.", author: "아르투어 쇼펜하우어"),
         Quote(contents: "나쁜 책을\n읽지 않는 것은\n좋은 책을\n읽기 위한 조건이다.\n인생은 짧고\n시간과 능력에는\n한계가 있다.", author: "아르투어 쇼펜하우어"),
         Quote(contents: "사람들은\n자신의\n내적 만족이\n부족할수록,\n남들에게\n행복한 사람으로\n보이기를 바란다.", author: "아르투어 쇼펜하우어"),
@@ -253,6 +264,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "예술이야말로 인간을\n고통과 욕망에서\n벗어나게 해주는\n신성한 탈출구이다.", author: "아르투어 쇼펜하우어"),
         Quote(contents: "인간의\n행복과 불행은\n무엇을 자신의 마음을\n가득 채우느냐에 달려있다.", author: "아르투어 쇼펜하우어"),
         Quote(contents: "격한 어조로\n말하지 말라,\n그것은 언제나\n비이성적인 말을 동반한다.", author: "아르투어 쇼펜하우어"),
+        Quote(contents: "근육의 운동을 잘 하여라.\n그러나 신경을 언제나\n적절히 써야한다.", author: "아르투어 쇼펜하우어"),
         Quote(contents: "사람들은\n책을 샀다는 것만으로\n그 책이 자기 것이라고\n착각한다.", author: "아르투아 쇼펜하우어"),
         Quote(contents: "가장 멋진 생각은\n적어두지 않으면\n까맣게 잊힐 위험성이 있다.", author: "아르투르 쇼펜하우어"),
         Quote(contents: "지혜로운 사람은\n생각과 말 사이에\n간격을 유지한다.", author: "아르투어 쇼펜하우어"),
@@ -261,6 +273,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "늦게 일어나서\n아침을 짧게 하지 말라.", author: "아루트아 쇼펜하우어"),
         Quote(contents: "죽음은 태어나기\n이전의 나 자신이다.", author: "아르투어 쇼펜하우어"),
         Quote(contents: "사람은 나면서부터 사형선고를 받았다.", author: "아르투아 쇼펜하우어"),
+
 
     // - 애덤 스미스
         Quote(contents: "인생의 티켓을\n도박에 맡기면 당신은 무조건 잃는다.\n티켓수가 많아질수록\n이는 더욱 명확해진다.", author: "애덤 스미스"),
@@ -273,12 +286,12 @@ class QuoteStore: ObservableObject {
         Quote(contents: "안전함이\n부유함보다\n우수한 것이다.", author: "애덤 스미스"),
         Quote(contents: "행복은\n절대 맥을 짚지 않는다.", author: "애덤 스미스"),
         Quote(contents: "모든 돈은\n믿음의 문제다.", author: "애덤 스미스"),
-                
+
     // - 앙리 베르그송
         Quote(contents: "웃음은\n문화적 분열을\n연결하는 보편적인 언어이며,\n우리의 공통된 인간성을 상기시킨다.", author: "앙리 베르그송"),
         Quote(contents: "행동하는 사람처럼 생각하고,\n생각하는 사람처럼 행동하라.", author: "앙리 베르그송"),
         Quote(contents: "성숙해지는 것은\n끝없이 자신을\n창조하는 것이다.", author: "앙리 베르그송"),
-    
+
     // - 나폴레옹
         Quote(contents: "죽음은 아무 것도 아니다.\n그러나 승리하지 못한 삶을\n살 바엔 차라리 죽는 게 낫다.", author: "나폴레옹 보나파르트"),
         Quote(contents: "숙고할 시간을 가져라.\n그러나\n일단 행동할 시간이 되면\n생각을 멈추고 돌진하라.", author: "나폴레옹 보나파르트"),
@@ -301,7 +314,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "천국을\n창조하려면\n자신부터\n천국이 되어야 한다.", author: "단테"),
         Quote(contents: "다른 사람의\n고난과 시련을\n헤어려볼 줄 알라.", author: "단테"),
         Quote(contents: "가장 현명한 자는\n허송 세월을\n가장 슬퍼한다.", author: "단테"),
-        Quote(contents: "오늘은 결코\n두번 다시 오지 않는다.", author: "단테"),
+        Quote(contents: "오늘은\n결코\n두번 다시\n오지 않는다.", author: "단테"),
 
     // - 데카르트
         Quote(contents: "누군가\n나의 기분을\n상하게 할 때,\n나는 나의 영혼을\n아주 높이 끌어 올려서\n그런 기분이\n내 영혼까지 도달하지 못하도록 노력한다.", author: "르네 데카르트"),
@@ -319,12 +332,16 @@ class QuoteStore: ObservableObject {
 
     // - 니체
         Quote(contents: "진정으로\n자유롭고 싶다면\n자신의 감정이\n제멋대로 날뛰지 않도록\n어떻게든 구속할 필요가 있다.", author: "프리드리히 니체"),
+        Quote(contents: "큰 고통이야말로\n정신의 마지막 해방자다.\n이 고통만이\n우리를 최후의 깊이에\n이르게 해준다.", author: "프리드리히 니체"),
+        Quote(contents: "기억력이 나쁜 것의\n장점은 같은 일을 여러 번,\n마치 처음처럼\n즐길 수 있다는 것이다.", author: "프리드리히 니체"),
         Quote(contents: "여론을\n따르는 것은\n인간이 스스로\n자신의 눈과 귀를\n가리는 행위에 다름없다.", author: "프리드리히 니체"),
         Quote(contents: "행복이란 무엇인가?\n힘이 성장하고 있다는 감정,\n저항을 극복했다는 감정이다.", author: "프리드리히 니체"),
         Quote(contents: "춤추는 사람은\n미친 것처럼 보일 수도 있다.\n음악을 듣지 못하는 사람에게는.", author: "프리드리히 니체"),
         Quote(contents: "\'성숙\'이란\n어릴 때 놀이에\n열중하던 진지함을\n다시 발견하는 데 있다.", author: "프리드리히 니체"),
         Quote(contents: "지금 이 인생을\n다시 한번 완전히 똑같이\n살아도 좋다는 마음으로 살라.", author: "프리드리히 니체"),
         Quote(contents: "어느 정도 깊이\n괴로워하느냐\n하는 것이 거의\n인간의 위계를 결정한다.", author: "프리드리히 니체"),
+        Quote(contents: "춤추는 별을\n잉태하려면\n반드시\n스스로의 내면에\n혼돈을 지녀야 한다.", author: "프리드리히 니체"),
+        Quote(contents: "그 하룻 밤,\n그 책 한권,\n그 한줄이\n인생을 바꿀지도 모른다.", author: "프리드리히 니체"),
         Quote(contents: "위험하게 살아라!\n베수비오 화산의 비탈에\n너의 도시를 세워라!", author: "프리드리히 니체"),
         Quote(contents: "하루의 3분의 2를\n자기 마음대로 쓰지\n못하는 사람은 노예다.", author: "프리드리히 니체"),
         Quote(contents: "나를 죽이지 못하는 것은\n나를 더 강하게 만든다.", author: "프리드리히 니체"),
@@ -333,6 +350,11 @@ class QuoteStore: ObservableObject {
         Quote(contents: "인간은\n극복되어야 할\n그 무엇이다.", author: "프리드리히 니체"),
         Quote(contents: "결혼 생활은 긴 대화이다.", author: "프리드리히 니체"),
         Quote(contents: "네 운명을 사랑하라.", author: "프리드리히 니체"),
+
+
+
+
+
 
     // - 볼테르
         Quote(contents: "관용이란 무엇인가?\n인간애의 결과라 할 수 있다.\n우리는 모두 불완전한 존재이니\n서로의 실수를 용서하는 것,\n이것이 첫번째 자연의 섭리다.", author: "볼테르"),
@@ -351,22 +373,25 @@ class QuoteStore: ObservableObject {
         Quote(contents: "부모들은\n본인이 독을 탔으면서\n왜 하천이 뿌연지를\n궁금해한다.", author: "존 로크"),
         Quote(contents: "걱정거리는\n곧 우리를 통제한다.", author: "존 로크"),
         Quote(contents: "모든 부는\n노력의 산물이다.", author: "존 로크"),
- 
+
     // - 몽테뉴
         Quote(contents: "한 가족이 같은 추억을\n공유하는 것이야말로\n진정한 행복이다.", author: "미셸 에켐 드 몽테뉴"),
         Quote(contents: "나는 존재를 그리지 않는다.\n내가 그리는 것은 과정이다.", author: "미셸 에켐 드 몽테뉴"),
         Quote(contents: "지혜의\n가장 명백한 징조는\n쉴새없이 명랑한 것이다.", author: "미셸 에켐 드 몽테뉴"),
         Quote(contents: "순박함과 진실한 태도는\n시대를 초월해 통용된다.", author: "미셸 에켐 드 몽테뉴"),
+        Quote(contents: "어떤 일을 잊고자 할수록\n더 강하게 기억에 남는다.", author: "미셸 드 몽테뉴"),
         Quote(contents: "인생은 그 자체로\n목적이고 목표여야 한다.", author: "미셸 에켐 드 몽테뉴"),
 
     // - 스피노자
         Quote(contents: "헛된 사람은\n자신이 사람들에게\n주는 혐오감도 모른 채,\n자기의 존재가\n모든 사람에게\n호감을 받는 줄 알고\n흐믓해 하는 사람이다.", author: "바뤼흐 스피노자"),
         Quote(contents: "희망 없는 두려움도 없고,\n두려움 없는 희망도 없다.", author: "바뤼흐 스피노자"),
         Quote(contents: "훌륭한 모든 것은\n이루기 어렵고,\n그만큼 귀하다.", author: "바뤼흐 스피노자"),
+        Quote(contents: "눈물 흘리지 마라,\n화내지 마라.\n이해하라.", author: "바뤼흐 스피노자"),
         Quote(contents: "신을 두려워하는 것은\n지혜의 시작이다.", author: "바뤼흐 스피노자"),
 
     // - 베이컨
         Quote(contents: "부를 경멸하는 인물을\n너무 믿지 말라.\n부를 얻는 데\n절망한 인간이\n부를 경멸한다.", author: "프랜시스 베이컨"),
+        Quote(contents: "질투는 언제나\n타인과의 비교로\n인해 생겨나며,\n비교가 없는 곳에는\n질투도 없다.", author: "프랜시스 베이컨"),
         Quote(contents: "부모의 기쁨은\n숨겨져 드러나지 않는다.\n슬픔이나 근심도 마찬가지다.", author: "프랜시스 베이컨"),
         Quote(contents: "두려움\n그 자체 외에는\n그 어떤 것도 무서워할 것이 없다.", author: "프랜시스 베이컨"),
         Quote(contents: "내일 해야 할 일이 있으면\n오늘 중으로 하라.", author: "프랜시스 베이컨"),
@@ -378,8 +403,8 @@ class QuoteStore: ObservableObject {
     // - 존 스튜어트 밀
         Quote(contents: "행복을 수중에 넣는 유일한 방법은\n행복 그 자체를\n인생의 목적으로 생각지 말고,\n행복 이외의\n어떤 다른 목적을\n인생의 목적으로 삼는 일이다.", author: "존 스튜어트 밀"),
         Quote(contents: "믿음을 가진 1명은\n흥미만 있는 99명과 맞먹는다.", author: "존 스튜어트 밀"),
- 
-        
+
+
 // ## 20세기 이후 철학 (26)
     // 놈 촘스키
         Quote(contents: "우리는 영웅을\n찾는 것이 아니라\n좋은 아이디어를\n찾아야 합니다.", author: "놈 촘스키"),
@@ -412,7 +437,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "자아는\n만들어져 있는 것이\n아니라\n선택하고 행함을\n통해 계속해서\n만들어져 가는 것이다.", author: "존 듀이"),
         Quote(contents: "교육의 목적은\n개인으로 하여금\n계속해서 스스로를\n교육할 수 있게 하는 것이다.", author: "존 듀이"),
         Quote(contents: "하나의 목표를\n이루는 것은\n또 다른 목표에\n대한 시작점이다.", author: "존 듀이"),
-        Quote(contents: "나에게 있어서\n믿음이란\n걱정하지 않는 것을\n의미한다.", author: "존 듀이"),
+        Quote(contents: "나에게 있어서\n믿음이란\n걱정하지\n않는 것을\n의미한다.", author: "존 듀이"),
         Quote(contents: "우리는\n문제에 봉착했을 때에만\n생각을 한다.", author: "존 듀이"),
         Quote(contents: "궁금증은\n모든 과학의 어머니이다.", author: "존 듀이"),
         Quote(contents: "소유가 아닌\n존재에 대한 갈망", author: "존 듀이"),
@@ -434,7 +459,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "사랑한다는 것은\n관심을 갖는 것이며,\n존중하는 것이다,\n사랑한다는 것은\n책임감을 느끼는 것이며\n이해하는 것이고,\n주는 것이다.", author: "에리히 프롬"),
         Quote(contents: "걸음마를 배우는 어린아이를 본받자.\n어린아이의 집중력을 배우자,\n걸을 수 있을 때까지\n도전하는 어린아이의\n그 인내를 터득하자.", author: "에리히 프롬"),
         Quote(contents: "받는 것보다\n주는 것이 즐겁다.\n주는 행동은\n박탈당하는 것이 아니라,\n내가 살아있다는 증거이기 때문이다.", author: "에리히 프롬"),
-        Quote(contents: "어머니의 사랑은 평화이다.\n그것은\n어떠한 노력이나\n자격을 요구하지 않는다.", author: "에리히 프롬"),
+        Quote(contents: "어머니의 사랑은\n평화이다.\n그것은\n어떠한 노력이나\n자격을 요구하지 않는다.", author: "에리히 프롬"),
         Quote(contents: "자기 스스로를\n신뢰하는 사람만이\n다른 사람에게\n성실하게 대할 수 있다.", author: "에리히 프롬"),
         Quote(contents: "인생의 유일한 의미는\n자신이 어떤 힘을\n지녔는지를 발견하는 것이다.", author: "에리히 프롬"),
         Quote(contents: "사랑은\n휴식처가 아니라\n함께 움직이고\n성장하고 일하는 것이다.", author: "에리히 프롬"),
@@ -462,10 +487,10 @@ class QuoteStore: ObservableObject {
         Quote(contents: "우리가 불안을\n벗어날 수 없는 것은\n확실하다.\n바로 우리가\n불안 그 자체이므로.", author: "장폴 사르트르"),
         Quote(contents: "자유란\n당신에게\n주어진 것을 갖고\n당신이\n실행하는 무엇이다.", author: "장폴 사르트르"),
         Quote(contents: "혼자 있을 때 외롭다면,\n친구를 잘 못 사귄 것이다.", author: "장폴 사르트르"),
-        Quote(contents: "내가 세계를 알게 된 것은 책에 의해서였다.", author: "장폴 사르트르"),
+        Quote(contents: "내가 세계를\n알게 된 것은\n책에 의해서였다.", author: "장폴 사르트르"),
         Quote(contents: "삶은 절망의\n다른 면에서 시작한다.", author: "장폴 사르트르"),
-        Quote(contents: "약속은 말이 아니라 행동이다.", author: "장폴 사르트르"),
-        Quote(contents: "언어는 장전된 권총과도 같다.", author: "장폴 사르트르"),
+        Quote(contents: "약속은\n말이 아니라\n행동이다.", author: "장폴 사르트르"),
+        Quote(contents: "언어는\n장전된 권총과도 같다.", author: "장폴 사르트르"),
     // - 버트런드 러셀
         Quote(contents: "현대의 문제는\n똑똑한 사람들은\n매사를 의심하는데,\n바보들은 지나치게\n자신만만하다는 것이다.", author: "버트런드 러셀"),
         Quote(contents: "사람은\n자기 자신과\n평화로울 줄 알 때\n비로소 다른 사람과도\n평화로울 수 있다.", author: "버트런드 러셀"),
@@ -478,21 +503,28 @@ class QuoteStore: ObservableObject {
     // - 공자
         Quote(contents: "가장 위대한 영광은\n한 번도\n실패하지 않음이 아니라\n실패할 때마다\n다시 일어서는 데에 있느니라.", author: "공자"),
         Quote(contents: "깊은 산 속에서 핀\n난초라도\n알아주는 사람이 없다고 하여\n향기롭지 않은 것이 아니다.", author: "공자"),
+        Quote(contents: "군자는\n말하고자 하는 바를\n먼저 행하고, 그후에는\n자신이 행함에 따라\n말하느니라.", author: "공자"),
         Quote(contents: "군자는\n극복해야 할 어려움을\n최우선 과제로 삼으며,\n성공은 그 이후에 생각한다.", author: "공자"),
         Quote(contents: "군자는\n세상에서 좋아하거나\n싫어하는 것이 없이\n오직 옳은 것을 따를 뿐이다.", author: "공자"),
+        Quote(contents: "겸손함이 없이\n말하는 이는\n말을 잘 하는 것의\n어려움을 알게\n될 것이니라.", author: "공자"),
+        Quote(contents: "남이 나의 능력을\n알아주지 않는 것을\n근심치 말고\n나의 무능을 근심하라.", author: "공자"),
+        Quote(contents: "남이 나를\n알아주지 않아도\n노여워 하지 않음이\n또한 군자가 아니겠는가", author: "공자"),
         Quote(contents: "들은 것은 잊어버리고\n본 것은 기억하고\n직접 해본 것은 이해하여라.", author: "공자"),
         Quote(contents: "인생은\n참으로 단순하지만\n우리는 그것을\n복잡하게 만들려고 한다.", author: "공자"),
         Quote(contents: "훌륭한 사람은\n선을 생각하고\n보통의 사람은\n안락함을 생각한다.", author: "공자"),
+        Quote(contents: "좋아하는 직업을 택하면\n평생 하루도 일하지 않아도\n될 것이니라.", author: "공자"),
         Quote(contents: "사람이 먼 일을 생각하지 않으면 바로 앞에 슬픔이 닥치는 법이다.", author: "공자"),
         Quote(contents: "가장 현명한 자와\n가장 어리석은 자만이\n절대 변하지 않느니라.", author: "공자"),
         Quote(contents: "멈추지 않으면\n얼마나 천천히 가는지는\n문제가 되지 않느니라.", author: "공자"),
         Quote(contents: "인간의 천성은\n비슷하나\n습관의 차이가\n큰 차이를 만드니라.", author: "공자"),
         Quote(contents: "모든 것에는\n아름다움이 있지만\n누구나 그것을\n보진 못한다.", author: "공자"),
+        Quote(contents: "보복의 길을\n떠나기 전에는\n두 개의 무덤을\n파야 하느니라.", author: "공자"),
         Quote(contents: "산을 옮기는 자도\n작은 돌 하나를\n옮기는 것부터 시작한다.", author: "공자"),
         Quote(contents: "덕이 있는 사람은\n외롭지 않나니\n반드시 이웃이 있느니라.", author: "공자"),
         Quote(contents: "친절하게 행동하라.\n그러나 절대로\n감사는 기대하지 말라.", author: "공자"),
         Quote(contents: "스스로 존경하면\n다른 사람도\n그대를 존경할 것이니라.", author: "공자"),
         Quote(contents: "흠 없는 조약돌보다는\n흠 있는 금강석이 더 나으니라.", author: "공자"),
+        Quote(contents: "어질지 않은 사람을 보면,\n속으로 스스로 반성하라.", author: "공자"),
         Quote(contents: "이익만을 위하여 행동하면\n원망을 많이 사게 된다.", author: "공자"),
         Quote(contents: "앞날을\n결정짓고자 한다면\n옛것을 공부하라.", author: "공자"),
         Quote(contents: "화가 치밀어 오를 때는\n그 결과를 생각하라.", author: "공자"),
@@ -502,10 +534,12 @@ class QuoteStore: ObservableObject {
         Quote(contents: "충성과 신의를\n첫 번째 원칙으로 지켜라.", author: "공자"),
         Quote(contents: "아침에 도를 익히면\n저녁에 죽어도 좋다.", author: "공자"),
         Quote(contents: "허물이 있다면,\n버리기를 두려워 말라.", author: "공자"),
+        Quote(contents: "한 사람에게서\n모든 덕을 구하지 말라.", author: "공자"),
         Quote(contents: "상처는 잊되,\n은혜는 결코 잊지 말라.", author: "공자"),
         Quote(contents: "어디를 가든지\n마음을 다해 가라.", author: "공자"),
         Quote(contents: "세 번 생각한 뒤에 행하라.", author: "공자"),
         Quote(contents: "관대하면 대중을 얻는다.", author: "공자"),
+
     // - 노자
         Quote(contents: "진실이 있는 말은\n결코 아름답게 장식하지 않고,\n화려하게 장식한 말은\n진실이 없는 법이다.", author: "노자"),
         Quote(contents: "우울한 사람은 과거에 살고,\n불안한 사람은 미래에 살고,\n평안한 사람은 현재에 산다.", author: "노자"),
@@ -544,7 +578,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "도덕적이진 않으나\n재능만 있다면\n관리로 등용하겠다.", author: "조조"),
     // - 예기
         Quote(contents: "현자는\n친하게 지내면서도\n공경하고\n어려워하면서도\n사랑한다.", author: "예기"),
- 
+
         // ## 중세 철학
     // - 오다 노부나가
         Quote(contents: "자기가\n사랑하는 일을 하고\n일을 위하여 일하라,\n그러면\n나머지 것들은\n저절로 따라 올 것이다.", author: "오다 노부나가"),
@@ -559,9 +593,9 @@ class QuoteStore: ObservableObject {
 
     // ## 근대 철학
     // - 안중근
-        Quote(contents: "낡은 옷과 거친 밥을 부끄러워하는 자와 더불어 의논할 수 없다.", author: "안중근"),
-        Quote(contents: "세월을 헛되이 보내지 마라,\n청춘은 다시 돌아오지 않는다.", author: "안중근"),
+        Quote(contents: "낡은 옷과 거친 밥을\n부끄러워하는 자와\n더불어 의논할 수 없다.", author: "안중근"),
         Quote(contents: "먼 곳을 향하는\n생각이 없다면,\n큰 일을\n이루기 어렵다.", author: "안중근"),
+        Quote(contents: "세월을 헛되이 보내지 마라,\n청춘은 다시 돌아오지 않는다.", author: "안중근"),
         Quote(contents: "하루라도\n글을 읽지 않으면\n입안에 가시가 돋는다.", author: "안중근"),
 
 // MARK: - 불교철학
@@ -569,25 +603,28 @@ class QuoteStore: ObservableObject {
         Quote(contents: "다른 사람과\n나를 비교하지 말라.\n태양과 달을\n비교할 수 없듯이 사람들은\n모두 각자의 시간에 빛난다.", author: "석가모니"),
         Quote(contents: "이 세상 모든 사람들과 마찬가지로.\n나 또한 사랑과 애정을 받을\n가치가 있는 존재임을 기억하라.", author: "석가모니"),
         Quote(contents: "행복이라는 것은\n자신이 가진 것에\n감사할 줄 모르는 사람은,\n결코 느낄 수 없는 감정이다.", author: "석가모니"),
-        Quote(contents: "마음속에 화를 품고 있는 것은 마치 자신이 독약을 마시고, 상대가 죽기를 바라는 것과 같다.", author: "석가모니"),
+        Quote(contents: "마음속에\n화를 품고 있는 것은\n마치 자신이 독약을 마시고,\n상대가 죽기를\n바라는 것과 같다.", author: "석가모니"),
         Quote(contents: "폭풍을 진정시키려 하지말고,\n나 자신을 진정시키면,\n폭풍은 지나가게 되어 있다.", author: "석가모니"),
         Quote(contents: "다른 사람과 비교하면서\n자신을 괴롭히게 되면,\n인생의 즐거움을 모르게 된다.", author: "석가모니"),
-        Quote(contents: "너는 우주의 아이다,\n이 세상 나무들과 하늘의 별보다도,\n더한 존재이다.", author: "석가모니"),
+        Quote(contents: "너는 우주의 아이다,\n이 세상 나무들과\n하늘의 별보다도,\n더한 존재이다.", author: "석가모니"),
         Quote(contents: "타인이\n널 어떻게 여기는지\n신경을 덜 쓸수록,\n넌 더 행복해 질 것이다.", author: "석가모니"),
         Quote(contents: "이 세상의 삶은\n길지 않고,\n어렵고,\n괴로움으로 묶여 있다.", author: "석가모니"),
         Quote(contents: "만나면 반드시\n헤어져야 하는 것이\n인생이 정한 운명이다.", author: "석가모니"),
-        Quote(contents: "마음이 모든 것이다.\n생각하는 대로 된다.", author: "석가모니"),
         Quote(contents: "당신이 사랑하는 삶을 살아라, 당신이 사는 삶을 사랑하라.", author: "석가모니"),
         Quote(contents: "우리 인생의\n최고 목표는\n다른 사람들을 돕는 것이다.", author: "석가모니"),
         Quote(contents: "과거는 과거일 뿐,\n지나간 일은\n지나간 일로 두어라", author: "석가모니"),
         Quote(contents: "스스로를 등불로 삼아\n스스로에 의지하며 살아라.", author: "석가모니"),
+        Quote(contents: "마음이 모든 것이다.\n생각하는 대로 된다.", author: "석가모니"),
+        Quote(contents: "가장 위대한 기도는 인내.", author: "석가모니"),
+
     // - 법정스님
+        Quote(contents: "입에는 말을\n많이 담지 말고,\n가슴에는 근심을\n많이 담지 말 것이며,\n위에는 음식을\n많이 담지 말라.", author: "법정스님"),
         Quote(contents: "삶은 소유물이 아니라\n순간순간의 있음이다.\n영원한 것이 어디 있는가.\n모두가 한때일 뿐", author: "법정스님"),
         Quote(contents: "무소유란,\n아무것도 갖지\n않는다는 것이 아니라,\n불필요한 것을 갖지 않는다는 뜻이다.", author: "법정스님"),
         Quote(contents: "버리고 비우는 일은\n결코 소극적인 삶이 아니라\n지혜로운 삶의 선택이다.", author: "법정스님"),
-    
+
 // MARK: - 기업가 (52)
-        
+
     // 빌게이츠
         Quote(contents: "가난하게 태어난 것은\n당신의 잘못이 아니지만,\n가난하게 죽는 것은\n당신 책임이다.", author: "빌 게이츠"),
     // 피터 틸
@@ -683,7 +720,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "위험은\n자신이 무엇을 하는지\n모르는데서 온다.", author: "워런 에드워드 버핏"),
     // 일론 머스크
         Quote(contents: "무언가가\n충분히 중요하다면\n확률이 당신에게\n유리하지 않더라도\n시작하라", author: "일론 머스크"),
-        Quote(contents: "평범한 사람들이\n비범한 선택을\n할 수 있다고 생각합니다.", author: "일론 머스크"),
+        Quote(contents: "평범한 사람들이\n비범한 선택을\n할 수 있다고\n생각합니다.", author: "일론 머스크"),
         Quote(contents: "작동하기 위해 설명서가\n필요한 제품은 고장이 납니다.", author: "일론 머스크"),
         Quote(contents: "절대,\n저는 절대\n포기하지 않습니다.", author: "일론 머스크"),
     // 앤드류 카네기
@@ -702,10 +739,17 @@ class QuoteStore: ObservableObject {
         Quote(contents: "세상은\n당신이 한 말은\n기억하지 않습니다.\n그러나\n당신이 이룬 것은\n기억합니다.", author: "마윈"),
         Quote(contents: "누구도\n볼 수 없는 기회가\n진짜 기회입니다.", author: "마윈"),
         Quote(contents: "당신의 태도는\n당신의 능력보다\n중요합니다.", author: "마윈"),
- 
+
 
 // MARK: - 작가/시인/화가/예술가
-        
+
+    // 김종원
+        Quote(contents: "당신이 별이라면 빛날 것이고,\n꽃이라면 결국 피어날 것이다.", author: "김종원"),
+    // 은희경
+        Quote(contents: "오래된 관계를 통해서\n깨닫게 되는 게 있어요.\n서로 행복하게\n해주는 것보다\n각자의 행복이\n서로를 행복하게 해준다,\n이런 거?", author: "은희경"),
+    // 기시미 이치로
+        Quote(contents: "변함으로써 생기는\n'불안'을 선택할 것이냐,\n변하지 않아서 따르는\n'불만'을 선택할 것이냐", author: "기시미 이치로"),
+
     // 조지 고든 바이런
         Quote(contents: "그것은 이상하다.\n그러나 사실이다.\n왜냐하면 사실은 언제나 이상하니까,\n소설보다 더 이상한 것이니까.", author: "조지 고든 바이런"),
         Quote(contents: "남자의 사랑은 인생에서\n그리 대단치 않은 것이지만,\n여자의 사랑은 삶 그 자체이다.", author: "조지 고든 바이런"),
@@ -720,6 +764,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "감사하는 마음은\n위대한 교양에서\n얻어지는 열매이다.\n그것은 상스러운 사람들\n사이에서는 발견되지 않는다.", author: "새뮤얼 존슨"),
         Quote(contents: "\'지식이 없는 성실\'은 허약하고 쓸모없다.\n\'성실이 없는 지식\'은\n위험하고 두려운 것이다.", author: "새뮤얼 존슨"),
         Quote(contents: "많은 시간을 소비하면서\n인생을 어떻게\n보낼 것인가를\n고민할 만큼\n인생은 그리 길지 않다.", author: "새뮤얼 존슨"),
+        Quote(contents: "외적인 영향에\n좌우되고 싶지 않다면\n먼저 자기 자신의\n격렬한 감정부터\n초월해야 한다.", author: "새뮤얼 존슨"),
         Quote(contents: "여행에서\n지식을 얻어\n돌아오고 싶다면\n떠날 때\n지식을 몸에\n지니고 가야 한다.", author: "새뮤얼 존슨"),
         Quote(contents: "불행을\n늘어놓는 인간에게\n주어지는 것은\n연민보다는\n오히려 경멸이다.", author: "새뮤얼 존슨"),
         Quote(contents: "결혼에는\n많은 고통이 있지만\n독신에는\n아무런 즐거움이 없다.", author: "새뮤얼 존슨"),
@@ -732,7 +777,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "지식은 힘 이상의 것이다.", author: "새뮤얼 존슨"),
     // 알렉산더 포프
         Quote(contents: "아무 것도\n기대하지 않는 자는\n복이 있나니\n그가 결코 실망하지\n아니할 것임이다.", author: "알렉산더 포프"),
-        Quote(contents: "바닷가에 서서 궁금해하는 것보다\n물에 뛰어들어\n수영을 배우는 것이 낫다.", author: "알렉산더 포프"),
+        Quote(contents: "바닷가에 서서\n궁금해하는 것보다\n물에 뛰어들어\n수영을 배우는 것이 낫다.", author: "알렉산더 포프"),
         Quote(contents: "과오를 범하는 것은\n인간적이며,\n용서하는 것이며,\n신적이다.", author: "알렉산더 포프"),
         Quote(contents: "당신의 역할을 잘 수행하십시오.\n모든 영광이 거기에 있습니다.", author: "알렉산더 포프"),
         Quote(contents: "하나의 진리는 명백하다.\n존재하는 것은 무엇이라도 정당하다.", author: "알렉산더 포프"),
@@ -742,7 +787,7 @@ class QuoteStore: ObservableObject {
 
     // 마크 트웨인
         Quote(contents: "하고 싶지 않은 일을 매일하십시오.\n이것이 고통없이\n의무를 다하는 습관을\n기르는 황금률입니다.", author: "마크 트웨인"),
-        Quote(contents: "당신의 인생에서\n가장 중요한 두 날은\n태어난 날과\n그 이유를 알아내는 날입니다.", author: "마크 트웨인"),
+        Quote(contents: "당신의 인생에서\n가장 중요한 두 날은\n태어난 날과\n그 이유를\n알아내는 날입니다.", author: "마크 트웨인"),
         Quote(contents: "누군가가 당신을\n옵션으로만 여길 때,\n절대 그 사람을\n우선순위에 두지 마세요." , author: "마크 트웨인"),
         Quote(contents: "청각장애인이 들을 수 있고\n시각장애인이 볼수 있는\n언어는 친절입니다.", author: "마크 트웨인"),
         Quote(contents: "좋은 친구,\n좋은 책,\n그리고 조용한 양심,\n이것이 이상적인 생활이다.", author: "마크 트웨인"),
@@ -757,7 +802,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "좋은 칭찬으로\n두 달 동안 살 수 있어요.", author: "마크 트웨인"),
         Quote(contents: "인생은 짧습니다.\n규칙을 어기십시오.", author: "마크 트웨인"),
 
-        
+
     // 셰익스피어
         Quote(contents: "돈을 빌리지도 말며\n빌려 주지도 말아라.\n빌려 주면\n돈도 없어지거니와\n친구까지 잃고 만다.", author: "셰익스피어"),
         Quote(contents: "겁쟁이는\n죽음에 앞서\n몇 번이고 죽지만\n용감한 사람은\n한 번밖에\n죽음을 맛보지 않는다.", author: "셰익스피어"),
@@ -774,7 +819,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "죽느냐 사느냐\n그것이 문제로다.", author: "셰익스피어"),
         Quote(contents: "인생은\n불완전한 항해이다.", author: "셰익스피어"),
 
-    // 카프카 
+    // 카프카
         Quote(contents: "아무리 뛰어난\n의견이라 할지라도\n머릿속에\n떠오르는 것만으로는\n아무 소용이 없다.", author: "프란츠 카프카"),
         Quote(contents: "죽음에\n대한 준비는\n단 하나 밖에 없다.\n훌륭한 인생을 사는 것이다.", author: "프란츠 카프카"),
         Quote(contents: "침대 속에서는\n아무리 생각\n해 본다고 해도\n별로 신통한 생각을\n얻을 수 없다.", author: "프란츠 카프카"),
@@ -784,7 +829,7 @@ class QuoteStore: ObservableObject {
 
     // 랄프 왈도 에머슨
         Quote(contents: "당신이 될 것으로\n정해진 유일한 사람은\n당신이 되고자\n결정한 사람이다. ", author: "랠프 월도 에머슨"),
-        Quote(contents: "무엇이든\n성취할 수 있다는\n자신감없이\n위대한 일이 성취된 예는 없다.", author: "랠프 월도 에머슨"),
+        Quote(contents: "무엇이든\n성취할 수 있다는\n자신감없이\n위대한 일이\n성취된 예는 없다.", author: "랠프 월도 에머슨"),
         Quote(contents: "어떤 사람은\n슬픔을 딛고 서고,\n어떤 사람은\n슬픔 밑에 깔린다.", author: "랠프 월도 에머슨"),
         Quote(contents: "얼음위를\n안전하게\n미끌어지려면,\n속도를 내는 것이\n안전하다.", author: "랠프 월도 에머슨"),
         Quote(contents: "\'자기 신뢰\'가\n성공의 제1의 비결이다.", author: "랠프 월도 에머슨"),
@@ -814,7 +859,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "스스로\n지키는 비밀 이외에는\n비밀이 없다.", author: "조지 버나드 쇼"),
         Quote(contents: "젊음은\n젊은이에게\n주기에는 너무 아깝다.", author: "조지 버나드 쇼"),
     // 카뮈
-        Quote(contents: "노력은 결코\n무심하지 않다.\n그 만큼의 대가를 반드시 지급해준다.", author: "알베르 카뮈"),
+        Quote(contents: "노력은 결코\n무심하지 않다.\n그 만큼의 대가를\n반드시 지급해준다.", author: "알베르 카뮈"),
         Quote(contents: "인간이 된다는 것은\n참으로 힘든 일이며,\n참으로 쓰라린 일이다", author: "알베르 카뮈"),
         Quote(contents: "인생은\n건축해야 할 대상이 아니라\n불태워야 할 대상이다.", author: "알베르 카뮈"),
         Quote(contents: "성공하지 못한 사람들에게는\n항상 게으름의 문제가 있다.", author: "알베르 카뮈"),
@@ -832,11 +877,13 @@ class QuoteStore: ObservableObject {
         Quote(contents: "단순히 암기해서\n얻은 지식은 지식이 아니며,\n부단히 노력해서\n얻은 지식만이 진정한 지식이다.", author: "레프 톨스토이"),
         Quote(contents: "독약은\n냄새부터\n좋지 않은 데 반해,\n정신적인 독약은\n안타까우리만큼\n매혹적으로 보입니다.", author: "레프 톨스토이"),
         Quote(contents: "사람을\n불편하게 만들고\n불행으로 이끄는 유혹은\n\'남들도 그렇게 하니까\'\n라는 말이다.", author: "레프 톨스토이"),
+        Quote(contents: "미래를 위해\n무엇을 해야 한다는 것은\n결코 알 수 없다.\n그래서 인생은 멋진 것이다.", author: "레프 톨스토이"),
         Quote(contents: "사람들은\n자신의 재산에는 만족하지 않지만,\n자신의 지식에는 만족한다.", author: "레프 톨스토이"),
         Quote(contents: "인간이면서\n동물의 위치로 전락했을 때\n인간은 죽음과 고통을 느낀다.", author: "레프 톨스토이"),
         Quote(contents: "아직 아무도 지나치게\n소박한 생활을 했다고\n후회하는 사람은 없다.", author: "레프 톨스토이"),
         Quote(contents: "여자란\n아무리 연구를 계속해도\n항상 완전히 새로운 존재이다.", author: "레프 톨스토이"),
-        Quote(contents: "동물적인 자아의\n부정이야말로\n인간의 생활의\n법칙이다.", author: "톨스토이"),
+        Quote(contents: "행복해지는\n가장 확실한 방법은\n사람을 사랑하는 것이다.", author: "레프 톨스토이"),
+        Quote(contents: "동물적인 자아의\n부정이야말로\n인간의 생활의\n법칙이다.", author: "레프 톨스토이"),
         Quote(contents: "모든 전사들 중\n가장 강한 것은\n시간과 인내이다.", author: "레프 톨스토이"),
         Quote(contents: "선량한 행위에 대한\n대가를 바라지 마라.", author: "레프 톨스토이"),
         Quote(contents: "실의와 불쾌감을\n남에게 드러내지 마라.", author: "레프 톨스토이"),
@@ -871,10 +918,10 @@ class QuoteStore: ObservableObject {
         Quote(contents: "네가 한 일은\n네가 할 수 있는 일에\n비하면 아무것도 아니다.", author: "그랜드 카돈"),
         Quote(contents: "목표를\n설정하지 않으면\n아무것도 얻지 못할 것입니다.", author: "그랜드 카돈"),
         Quote(contents: "절대 목표를 낮추지 마십시오,\n행동을 늘리십시오.", author: "그랜드 카돈"),
-        Quote(contents: "당신의 환경에서\n부정적인 것을 제거하십시오.", author: "그랜드 카돈"),
+        Quote(contents: "당신의 환경에서\n부정적인 것을\n제거하십시오.", author: "그랜드 카돈"),
         Quote(contents: "진정한 힘은\n반복되는 행동에서 나온다.", author: "그랜드 카돈"),
         Quote(contents: "성공은\n당신의 의무이자 책임입니다.", author: "그랜드 카돈"),
-        Quote(contents: "돈보다\n더 높은 목적을 가지세요.", author: "그랜드 카돈"),
+        Quote(contents: "돈보다\n더 높은 목적을\n가지세요.", author: "그랜드 카돈"),
         Quote(contents: "평균은\n실패한 공식입니다.", author: "그랜드 카돈"),
     // 박웅현
         Quote(contents: "좋은 일만 생기세요?\n그런 인생은 없습니다.", author: "박웅현"),
@@ -883,13 +930,17 @@ class QuoteStore: ObservableObject {
     // 벤저민 프랭클린
         Quote(contents: "인생을 사랑하느냐?\n만일 사랑한다면\n시간을 낭비하지 말라.\n시간은 인생을 이루는 요소이다.", author: "벤저민 프랭클린"),
         Quote(contents: "부지런한 사람에게는\n모든 것이 쉽고,\n게으른 자에게는\n모든 것이 어려운 법이다.", author: "벤자민 프랭클린"),
+        Quote(contents: "인생의 비극은\n우리가 너무 일찍 늙고\n너무 늦게 현명해 진다는 것이다.", author: "벤저민 프랭클린"),
         Quote(contents: "행복한 사람이란 일하는 사람이다.\n비참한 사람이란 한가한 사람이다.", author: "벤저민 프랭클린"),
         Quote(contents: "오래 살기를 원하면 잘 살아라.\n어리석음과 사악함이 수명을 줄인다.", author: "벤자민 프랭클린"),
         Quote(contents: "엉터리로 배운 사람은\n아무것도 모르는 사람보다\n더 어리석다.", author: "벤저민 프랭클린"),
-        Quote(contents: "준비에 실패하는 것은\n실패를 준비하는 것이다.", author: "벤저민 프랭클린"),
+        Quote(contents: "잘난 척 하는 것은\n스스로를 약으로\n독살시키는 것이다.", author: "벤자민 프랭클린"),
         Quote(contents: "같은 행동을 반복하면서\n다른 결과를 기대할 수는 없다.", author: "벤자민 프랭클린"),
         Quote(contents: "백 년을 살 것처럼 일하고\n내일 죽을 것처럼 기도하라.", author: "벤자민 프랭클린"),
-        Quote(contents: "\'게으름\'은 노동보다\n더 심신을 소모시킨다.", author: "벤저민 프랭클린"),
+        Quote(contents: "자기밖에\n생각하지 않는 사람은\n큰일을 할 수 없다.", author: "벤자민 프랭클린"),
+        Quote(contents: "태만은 천천히 움직이므로\n가난이 곧 따라잡는다.", author: "벤자민 프랭클린"),
+        Quote(contents: "준비에 실패하는 것은\n실패를 준비하는 것이다.", author: "벤저민 프랭클린"),
+        Quote(contents: "게으름은 노동보다\n더 심신을 소모시킨다.", author: "벤저민 프랭클린"),
         Quote(contents: "잃어버린 시간은\n결코 다시 찾지 못한다.", author: "벤저민 프랭클린"),
         Quote(contents: "이른 아침은\n입에\n황금을 물고 있다.", author: "벤저민 프랭클린"),
         Quote(contents: "오늘의 하나는\n내일의 둘보다 낫다.", author: "벤저민 프랭클린"),
@@ -904,7 +955,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "경쟁의 세계에는\n두 마디 말밖에 없습니다.\n즉 \'이기느냐, 지느냐\'라는 말 밖에 없습니다.", author: "윈스턴 처칠"),
         Quote(contents: "남에게 무례한 짓을 하지 말고,\n남이 나에게 무례한 짓을\n하는 것도 허용하지 말아야 합니다.", author: "윈스턴 처칠"),
         Quote(contents: "과거의 일을\n과거의 일로서\n처리해 버리면,\n우리는 미래까지도\n포기해 버리는 것이 됩니다.", author: "윈스턴 처칠"),
-        Quote(contents: "비판이란 것이\n별로 달가울 것이 아닐지 모르지만\n경우에 따라서는\n꼭 필요한 것입니다.", author: "윈스턴 처칠"),
+        Quote(contents: "비판이란 것이\n별로 달가울 것이\n아닐지 모르지만\n경우에 따라서는\n꼭 필요한 것입니다.", author: "윈스턴 처칠"),
         Quote(contents: "만약 지옥을\n통과하는 중이라면,\n멈추지 말고 계속 가라", author: "윈스턴 처칠"),
     // 간디
         Quote(contents: "약한 자일수록\n상대를 용서하지 못한다. 용서한다는 것은\n강함의 증거이다.", author: "마하트마 간디"),
@@ -912,7 +963,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "나는 천천히\n걷는 사람이지만\n결코 뒷걸음치지는 않는다.", author: "에이브러햄 링컨"),
     // 최규호 변호사
         Quote(contents: "\'잠, 공부, 식사\'\n이 세 가지만 하라는게\n제 생각인데요,\n그 이외의 것은\n정말 너무나 해로운 것 같아요.", author: "최규호"),
-        
+
 
 // MARK: - 과학자
     // 아인슈타인
@@ -926,7 +977,9 @@ class QuoteStore: ObservableObject {
         Quote(contents: "약자는 복수하고\n강자는 용서하며\n현자는 무시한다.", author: "알베르트 아인슈타인"),
         Quote(contents: "자신의 운명을\n설계하는 것은\n바로 나 자신이다.", author: "알베르트 아인슈타인"),
         Quote(contents: "죽음은\n늙어서 갚아야 할\n오랜 빚과도 같다.", author: "알베르트 아인슈타인"),
+        Quote(contents: "재능은 한계가 있지만,\n노력엔 한계가 없다!", author: "알베르트 아인슈타인"),
         Quote(contents: "상상력은\n지식보다\n훨씬 중요하다.", author: "알베르트 아인슈타인"),
+
     // 아이작 뉴턴
         Quote(contents: "오늘 할 수 있는 것에\n온 힘을 쏟으면\n내일은 한발짝\n더 나아가 있을 것이다.", author: "아이작 뉴턴"),
         Quote(contents: "굳은 인내와\n노력이 없었던\n천재는\n이 세상에\n존재하지 않았다.", author: "아이작 뉴턴"),
@@ -936,7 +989,7 @@ class QuoteStore: ObservableObject {
     // 칼 세이건
         Quote(contents: "뇌는 근육과 비슷하다.\n뇌가 사용될 때\n우리는 기분이 좋다.\n이해하는 것은 즐거운 일이다.", author: "칼 세이건"),
     // 스티븐 호킹
-        Quote(contents: "일은 당신에게\n의미와 목적을 제공하며,\n일이 없다면\n삶은 헛헛하다.", author: "스티븐 호킹"),
+        Quote(contents: "일은 당신에게\n의미와 목적을\n제공하며,\n일이 없다면\n삶은 헛헛하다.", author: "스티븐 호킹"),
         Quote(contents: "조용한 사람은\n마음속으로\n참 많은 생각을\n하고 있습니다.", author: "스티븐 호킹"),
         Quote(contents: "항상 화나 있거나\n불평하는 사람과\n공유할 시간은 없어요.", author: "스티븐 호킹"),
         Quote(contents: "고개를 들어 별을 보지,\n숙여서 발을 보지 말라.", author: "스티븐 호킹"),
@@ -945,9 +998,9 @@ class QuoteStore: ObservableObject {
     // 윌리엄 스미스 클라크
         Quote(contents: "소년이여,\n야망을 가져라.", author: "윌리엄 스미스 클라크 "),
 
-        
-        
-        
+
+
+
         // MARK: - 스포츠
     // - 마이클 타이슨
         Quote(contents: "누구나\n그럴싸한\n계획을 갖고 있다.\n쳐 맞기 전까지는", author: "마이클 타이슨"),
@@ -964,11 +1017,11 @@ class QuoteStore: ObservableObject {
         Quote(contents: "인생의 매 순간을 즐겨라.\n인생을 비관적으로 바라보지 마라.", author: "마이클 조던"),
         Quote(contents: "한번 포기하면\n그것은 버릇이 된다.\n절대 포기하지 마라.", author: "마이클 조던"),
         Quote(contents: "모든 사람은 재능이 있다.\n하지만 능력은 노력을 요한다.", author: "마이클 조던"),
-        Quote(contents: "가장 좋은 것은\n가장 \'나쁜 것\'\n에서부터 나온다.", author: "마이클 조던"),
+        Quote(contents: "가장 좋은 것은\n가장 나쁜 것\n에서부터 나온다.", author: "마이클 조던"),
     // - 존 우든
         Quote(contents: "재능은\n하늘이 내린 것이므로\n겸손하라\n명예는\n사람들이 주는 것이므로\n감사하라\n자만은\n스스로 갖는 것이니\n조심하라", author: "존 우든"),
         Quote(contents: "우리는\n아무 보답을 바라지 않고\n누군가를 위해 어떤 것을 할 때\n비로소 완전한 하루를 살 수 있다.", author: "존 우든"),
-        Quote(contents: "실수를 하지 않는다면,\n아무것도 하지 않는 것이다,\n행동하는 사람들은 실수를 하고는 한다.", author: "존 우든"),
+        Quote(contents: "실수를 하지 않는다면,\n아무것도 하지 않는 것이다,\n행동하는 사람들은\n실수를 하고는 한다.", author: "존 우든"),
         Quote(contents: "당신이\n인간으로서\n어떠한지가\n농구선수로서\n어떠한가보다\n훨씬 더 중요하다.", author: "존 우든"),
         Quote(contents: "당신이\n할 수 없는 일이\n할 수 있는 일을\n방해하게 두지 마라", author: "존 우든"),
         Quote(contents: "농구든 무엇이든\n변화 없이는\n진전을 이뤄낼 수 없다", author: "존 우든"),
@@ -1014,13 +1067,13 @@ class QuoteStore: ObservableObject {
         Quote(contents: "아쉽지 않고\n아프지 않은 인생이 어딨어", author: "윤여정"),
     // - 기타
         Quote(contents: "가장 밝게\n빛나는 순간은\n주위의 모든 것이\n\'가장 어두울 때\'이다.", author: "에드워드 마이클 그릴스"),
-        Quote(contents: "가장 쉬운날은\n어제였고\n앞으로 더 어려워지는 날들을\n이겨내기위해\n내가 더 강해져야된다", author: "이근"),
+        Quote(contents: "가장 쉬운날은\n어제였고\n앞으로 더\n어려워지는 날들을\n이겨내기위해\n내가 더\n강해져야된다", author: "이근"),
         Quote(contents: "힘들 때는\n많은 생각을 하지마", author: "이정구"),
 // MARK: - 책/만화/소설/영화
     // 탈무드
         Quote(contents: "당신이 남에게 범한\n작은 잘못은 \'큰 것\'으로 보고,\n남들이 당신에게 범한\n큰 잘못은 \'작은 것\'으로 보라.", author: "⌜탈무드 中⌟"),
         Quote(contents: "승자가 즐겨 쓰는 말은\n\"다시 한번 해보자\",이고\n패자가 즐겨 쓰는 말은\n\"해봐야 별 수 없다.\"이다." , author: "⌜탈무드 中⌟"),
-        Quote(contents: "우리는 어릴때부터 \'말하기\'를 배운다,\n하지만\n\'입을 다무는 방법\'\n에 대해서는 교육 받지 못했다.", author: "⌜탈무드 中⌟"),
+        Quote(contents: "우리는 어릴때부터\n말하기를 배운다,\n하지만\n\'입을 다무는 방법\'\n에 대해서는\n교육 받지 못했다.", author: "⌜탈무드 中⌟"),
         Quote(contents: "배운 것을 복습하는 것은\n외우기 위함이 아니다.\n몇 번이고 복습하면\n새로운 발견이 있기 때문이다.", author: "⌜탈무드 中⌟"),
         Quote(contents: "남을 도와줄 때는\n화끈하게 도와주라,\n도움을 줄 건지 말 건지\n흐지부지하거나\n조건을 달지마라.", author: "⌜탈무드 中⌟"),
         Quote(contents: "두 개의 화살을\n갖지 마라,\n두 번째 화살이\n있기 때문에\n첫 번째 화살에\n집중하지 않게 된다.", author: "⌜탈무드 中⌟"),
@@ -1037,7 +1090,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "승자는 눈을 밟아\n길을 만들지만\n패자는 눈이\n녹기를 기다린다.", author: "⌜탈무드 中⌟"),
         Quote(contents: "승자는\n구름 위에\n태양을 보고\n패자는\n구름 속에\n비를 본다.", author: "⌜탈무드 中⌟"),
         Quote(contents: "승자는\n문제의 속으로 뛰어들고\n패자는\n그 변두리만 맴돈다.", author: "⌜탈무드 中⌟"),
-        Quote(contents: "실패하는 것은\n두려워하는 것은\n실패한 일보다 더 나쁘다.", author: "⌜탈무드 中⌟"),
+        Quote(contents: "실패하는 것은\n두려워하는 것은\n실패한 일보다\n더 나쁘다.", author: "⌜탈무드 中⌟"),
         Quote(contents: "남의 자비로 사는 것보다 가난한 생활을 하는 편이 낫다.", author: "⌜탈무드 中⌟"),
         Quote(contents: "파리와 같은 인간은\n남의 상처에 모여들고 싶어 한다.", author: "⌜탈무드 中⌟"),
         Quote(contents: "공짜로 처방전을 써 주는\n의사의 충고는\n듣지 마라.", author: "⌜탈무드⌟"),
@@ -1049,7 +1102,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "단번에\n바다를 만들려고\n해서는 안된다.", author: "⌜탈무드 中⌟"),
         Quote(contents: "실패는 경험이고\n성공의 어머니다.", author: "⌜탈무드 中⌟"),
         Quote(contents: "저절로 얻어지는 것은 없다.", author: "⌜탈무드 中⌟"),
-        Quote(contents: "성공의 절반은 인내심이다.", author: "⌜탈무드 中⌟"),
+        Quote(contents: "성공의 절반은\n인내심이다.", author: "⌜탈무드 中⌟"),
 
 
     // - 미생
@@ -1060,7 +1113,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "보이는게 뭔지는 모르겠지만, 보여지고 싶어하는 사람이\n이렇게 많은 세상.\n사람들은 왜 자기를 고백할까.", author: "⌜미생 中⌟"),
         Quote(contents: "바둑은 때때로\n너무나 운명적이다.\n두려움에 떨면서도\n망설임 없이\n자신의 길을 가야 한다.", author: "⌜미생 中⌟"),
         Quote(contents: "허겁지겁 퇴근하지 말고\n한 번 더 자기 자리를 뒤돌아본 뒤,\n퇴근하면 실수를 줄일 수 있을 거야.", author: "⌜미생 中⌟"),
-        Quote(contents: "말하지 않아도,\n행동이 보여지면\n그게 말인거여,\n어른 흉내내지 말고 어른답게 행동해라.", author: "⌜미생 中⌟"),
+        Quote(contents: "말하지 않아도,\n행동이 보여지면\n그게 말인거여,\n어른 흉내내지 말고\n어른답게 행동해라.", author: "⌜미생 中⌟"),
         Quote(contents: "하기 싫은 것이냐 해봤자인 것이냐.\n해서는 안되는 것이냐.\n그럼에도 할 수도 있는 것이냐.", author: "⌜미생 中⌟"),
         Quote(contents: "고수는 겁이 많다.\n뒤를 알기 때문이다.\n하수는 겁이 없다.\n뒤를 모르기 때문이다.", author: "⌜미생 中⌟"),
         Quote(contents: "탓할 만해서 남 탓하나요.\n그렇게라도 해야\n자기가 편해지니까\n남탓하는 거죠", author: "⌜미생 中⌟"),
@@ -1087,7 +1140,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "죽는 건\n아무것도 아니야,\n무서운 건\n진정으로 살지 못한 것이지" , author: "⌜레 미제라블 中⌟"),
     // 기타
         Quote(contents: "내일은 내일의 태양이 뜬다.", author: "⌜바람과 함께 사라지다 中⌟"),
-    
+
 
 // MARK: - 인강 강사
     // 이지영
@@ -1116,7 +1169,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "그냥 지금\n끝내야 돼\n\'지금\'\n다음은 없어 ", author: "강원우"),
         Quote(contents: "너는 네 생각보다\n훨씬 더 대단한 사람입니다.", author: "강원우"),
     // 김기훈
-        Quote(contents: "공부를 하다보면\n공통적인 슬로건이\n하나 있어야 합니다.\n\"나는 참는 건\n뭐든지 자신 있다.\"", author: "김기훈"),
+        Quote(contents: "공부를 하다보면\n공통적인 슬로건이\n하나 있어야 합니다.\n\"나는 참는 건\n뭐든지 자신 있다.\"인생의 태도", author: "김기훈"),
     // 조정식
         Quote(contents: "확실한 건 이겁니다,\n열심히 하면 나아질까요?\n모릅니다.\n안하면?\n망할건 거의 확실해요.", author: "조정식"),
         Quote(contents: "위로를 수집하지마세요,\n계획을 확인받으려 하지 맙시다.\n그냥 열심히 합시다.", author: "조정식"),
@@ -1130,7 +1183,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "힘을 길러야죠,\n그래야 누가 무시해도 귀엽죠.", author: "이기홍"),
     // 전한길
         Quote(contents: "밖으로는 흐느적거리는\n갈대와 같이 연약하게 보일지 몰라도\n안으로는 강철을 품고 있는\n\'외유내강\'의 마음가짐을\n간직해야 한다.", author: "전한길"),
-        Quote(contents: "힘들고 어려운 만큼\n반대급부로 좋은 일이 기다리고 있는데\n다만 지금 여러분\n눈에 안 보일 뿐이지요.", author: "전한길"),
+        Quote(contents: "힘들고 어려운 만큼\n반대급부로 좋은 일이\n기다리고 있는데\n다만 지금 여러분\n눈에 안 보일 뿐이지요.", author: "전한길"),
         Quote(contents: "다른 사람에게\n인정받는 것이 아니라,\n나한테 인정받는 것이 진정한 성공입니다.", author: "전한길"),
         Quote(contents: "너거도 그렇다.\n살아보면 본인 가족밖에 없습니다.", author: "전한길"),
         Quote(contents: "사람은\n항상 자기중심적이고\n배신하는 존재다.", author: "전한길"),
@@ -1143,11 +1196,36 @@ class QuoteStore: ObservableObject {
         Quote(contents: "이 행복의 이면엔\n당연히 고통이고, 슬픔이야.", author: "한석원"),
     // 박노준
         Quote(contents: "그때 내가 마음을 잡아서\n\"열심히 했으면 좋았을 텐데\"\n라는 시기가 바로 오늘이라고\n생각해주셨으면 좋겠어요,\n그리고 바로 \'지금\'", author: "박노준"),
-        
-        
-    // MARK: - 사랑
 
-        
+
+    // MARK: - 출저 불명
+
+        Quote(contents: "외로운 사람은\n친구가 없는\n사람이 아니라,\n홀로 있지 못하는 사람이다.\n내가 나를\n지킬 수 있다면\n혼자서도 외롭지 않다.", author: "작자 미상"),
+        Quote(contents: "나의 알은\n내가 깨야 한다.\n스스로 깨면\n새가 되고,\n남이 깨주면\n계란후라이가 된다.", author: "작자 미상"),
+        Quote(contents: "나를 절벽으로\n민 사람때문에\n나에게 날개가\n있다는 것을\n알게 되었다.", author: "작자 미상"),
+        Quote(contents: "좋아하는데 이유가\n있으면 존경이고,좋아하는데 이유가\n없으면 사랑이다.", author: "작자 미상"),
+        Quote(contents: "나를 가장 많이\n괴롭히는 것은\n불안감을 바탕으로\n한 내 상상력이다.", author: "작자 미상"),
+        Quote(contents: "상대방이 만만하게 보인다면\n그 사람은 당신을\n배려하고 있는 것이다.", author: "작자 미상"),
+        Quote(contents: "너를 사랑하는\n내 모습이\n너무 좋아서\n너를 사랑하는지도 몰라.", author: "작자 미상"),
+        Quote(contents: "하기 싫어도 해라.\n감정은 사라지고\n결과는 남는다.", author: "작자 미상"),
+        Quote(contents: "꿈을 크게 가져라.\n깨져도 그 조각이 크다.", author: "작자 미상"),
+        Quote(contents: "서두르지 않아도 된다. 멈추지만 말자.", author: "작자 미상"),
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     // MARK: - 기타
         Quote(contents: "인간으로 살아간다는 것은\n곧 끊임없이 문제들에 말려든다는 의미이며,\n사랑하고 웃고 울고\n애써 시도하고 일어나고 넘어지고\n다시 일어난다는 의미이기도 하다.", author: "앤드류 매튜스"),
         Quote(contents: "실행이 곧 전부다.\n아이디어는 과제 극복의\n5%에 불과하다.\n아이디어의 좋고 나쁨은\n어떻게 실행하느냐에 따라\n결정된다고 해도 과언이 아니다.", author: "카를로스 곤"),
@@ -1177,17 +1255,17 @@ class QuoteStore: ObservableObject {
         Quote(contents: "생각의 힘이\n얼마나 강한지 깨닫는다면\n결코 부정적인 생각을\n하지 않을 것이다.", author: " 피스 필그림"),
         Quote(contents: "비즈니스의 세계에서는\n정지된 상태는 존재하지 않는다.\n그것은 항상 변하는 세계이다.", author: "폴 게티"),
         Quote(contents: "죽는 기분 말인가?\n처음 죽어보는 거라\n잘 모르겠군.\n내 죽은 다음에 다시 말해주지.", author: "정지윤"),
-        Quote(contents: "영혼,\n그것은 인간을\n지상의 다른 모든 것과\n구별하는 영구 불멸의\n불꽃이다.", author: "J.F. 쿠퍼"),
+        Quote(contents: "영혼,\n그것은 인간을 지상의\n다른 모든 것과 구별하는\n영구 불멸의 불꽃이다.", author: "J.F. 쿠퍼"),
         Quote(contents: "결코 재산 때문에\n결혼하지 말라.\n돈 따위는 훨씬 싸게\n빌릴 수도 있다.", author: "스코틀랜드 격언"),
         Quote(contents: "한 사람의\n위대한 천재의 출현은\n백 사람의\n범인(凡人)의 출현과 맞먹는다.", author: "C. 롬브로스"),
         Quote(contents: "책은 그것을\n적절히 선택할 수 있는\n독자에게 갖가지의\n즐거움을 안겨 준다.", author: "몽테스키외"),
         Quote(contents: "그대가\n먹고 있는 것으로써\n나는 그대가\n어떤 인물인가를\n알아맞힐 수 있다.", author: "사바랭"),
         Quote(contents: "자기의 시간을\n가장 잘못 사용하는 사람이\n대개 시간의 짧음을 불평한다.", author: "라 브뤼에르"),
         Quote(contents: "오, 인간이여!\n행복은 마음속에 있거늘,\n어찌하여 그대는 밖에서 찾는가!", author: "보에티우스"),
-        Quote(contents: "학문은 페스트이며, 지식은 병원이다.\n지식은 사람을 불행하게 만든다.", author: "그리포에도프"),
+        Quote(contents: "학문은 페스트이며, 지식은 병원이다.\n지식은 사람을\n불행하게 만든다.", author: "그리포에도프"),
         Quote(contents: "일하는 것은\n내 느낌으로는\n인간에게 있어\n식사나 수면보다도\n필요하다.", author: "훔볼트"),
         Quote(contents: "배우면서 생각하지 않으면 이득이 없고,\n생각하되 배움이 없으면 위험하다.", author: "『논어』"),
-        Quote(contents: "우리는 모두 벌거숭이로\n이 세상에 왔으니\n벌거숭이로 이 세상을 떠나리라.", author: "이솝"),
+        Quote(contents: "우리는\n모두 벌거숭이로\n이 세상에 왔으니\n벌거숭이로\n이 세상을 떠나리라.", author: "이솝"),
         Quote(contents: "진리야말로\n내가 무덤에 들어갈 때까지\n언제나 지켜야 하는 것이다.", author: "카트라이트"),
         Quote(contents: "항상 죽을 각오를\n하고 있는 사람만이\n참으로 자유로운 인간이다.", author: "디오게네스"),
         Quote(contents: "결코 시계를 보지 말라.\n이것을 젊은 사람들이\n명심해 주기 바란다.", author: "에머슨"),
@@ -1236,14 +1314,14 @@ class QuoteStore: ObservableObject {
         Quote(contents: "죽음은\n모든 악을 고친다.", author: "이탈리아 격언"),
         Quote(contents: "미래는\n이미 시작되었다.", author: "로베르트 융"),
         Quote(contents: "미래는\n인간의 수중에", author: "마리 퀴리"),
-      
+
 
         Quote(contents: "인간은\n점점 나이를 먹어 간다고\n시종 생각하는 것만큼\n인간을 신속하게\n늙게 만드는 것은 없다.", author: "리히텐베르크"),
         Quote(contents: "모든 인간사회가 지녀야 할 즐거운 목표가 있다면,\n그것은 아름다운 집,\n그리고 아름다운 책이다.", author: "윌리엄 모리스"),
         Quote(contents: "만일 자기가 할 수 있는 일을 모두 실행에 옮긴다면\n우리는 모두 그 결과에\n놀라 넘어질 것이다.", author: "토머스 에디슨"),
+        Quote(contents: "되찾을 수 없는게\n세월이니\n시시한 일에 시간을\n낭비하지 말고\n순간순간을\n후회 없이\n살아야 한다.", author: "루소"),
         Quote(contents: "오늘날 소비는\n필요성을 충족시키는\n활동이라기보다,\n주변의 사람을 따라 잡는\n활동이 되어버렸다.", author: "문영미"),
         Quote(contents: "결말을 서두르거나 강요하지 말아라.\n당신이 알아야 할 전부는\n다음 장,\n그 다음 몇 장이다.", author: "척 팔라닉"),
-        Quote(contents: "되찾을 수 없는게 세월이니\n시시한 일에 시간을 낭비하지 말고\n순간순간을 후회 없이 살아야 한다.", author: "루소"),
         Quote(contents: "어떤 부부는\n특별히 연기를\n잘 하기 때문에\n사이가 좋은\n부부로 간주된다.", author: "바네사 레드그레이브"),
         Quote(contents: "가장 어려운 것은\n행동하기로 결정하는 것이고\n나머지는 끈기가 전부다.", author: "어밀리아 에어하트"),
         Quote(contents: "나보다는 상대방을\n생각하는 우정,\n이러한 우정은 어떠한 어려움도\n뚫고 나아간다.", author: "무어"),
@@ -1280,7 +1358,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "고상하면 할수록 겸손해진다.", author: "J. 레이"),
         Quote(contents: "눈은 용감한 침입자이다.", author: "올빈 고프먼"),
         Quote(contents: "이 또한 지나가리라.", author: "⌜미드라쉬 中⌟"),
-        
+
         Quote(contents: "운이 너의 편이면\n점잖거나\n소심할 때가 아니다.\n네가 이룰 수도 있는\n커다란 성공을 향해\n나아가야 할 때다.", author: "도널드 트럼프"),
         Quote(contents: "현명한 사람이라면\n노력과 근면과\n수양과 자재로써\n자기 자신을\n어떤 풍파에도\n흔들리지 않는\n피난처로 삼는다.", author: "『법구경』"),
         Quote(contents: "어리석은 사람은\n쉽게 태만에 빠진다.\n그러나\n현명한 사람은\n가장 고귀한 보배인\n근면성을 잃지 않는다.", author: "『법구경』"),
@@ -1300,8 +1378,8 @@ class QuoteStore: ObservableObject {
         Quote(contents: "그날의 주인공이 되지 않아도\n난 받아들일 준비가 되어 있다.", author: "김연아"),
         Quote(contents: "잔돈을 쓰고 있는 동안에는\n큰 돈이 들어오지 않는다.", author: "중국 격언"),
         Quote(contents: "가장 값싼 쾌락을\n즐기는 사람이\n가장 큰 부자이다.", author: "도로우"),
+        Quote(contents: "일의 괴로움이야말로\n한편으로는 진정한 기쁨이다.", author: "마니리우스"),
         Quote(contents: "인간은\n웃는 힘을 부여받은\n유일한 동물이다.", author: " F. 그레빌"),
-        Quote(contents: "일의 괴로움이야말로 한편으로는 진정한 기쁨이다.", author: "마니리우스"),
         Quote(contents: "성공의 비결은\n좌절하지 않고\n극복하는 데 있다.", author: "발자크"),
         Quote(contents: "인간의\n최대 행복은\n희망을 갖는데 있다.", author: "레오날드 세파"),
         Quote(contents: "재능은 싸구려다.\n중요한 건 훈련이다.", author: "앙드레 드뷔"),
@@ -1312,7 +1390,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "식욕은 먹을수록 자란다.", author: "F. 라블레"),
         Quote(contents: "너의 수확으로 생활하라.", author: "페르시우스"),
         Quote(contents: "산책은 위대한 예술이다.", author: "헨리 도로"),
-        
+
         Quote(contents: "좋은 일을 생각하면\n좋은 일이 생긴다.\n나쁜 일을 생각하면\n나쁜 일이 생긴다.\n여러분이 온종일을\n생각하고 있는 것,\n바로 그것이다.", author: "조셉 머피"),
         Quote(contents: "자신을 완벽하게\n이길 수 있으면\n다른 어떤 것도\n쉽게 통달할 수 있다.\n자신을 이겨내는 것이\n가장 완벽한 승리이다.", author: "토마스 A 캠피스"),
         Quote(contents: "현명한 사람이 되려거든 사리에 맞게 묻고, 조심스럽게 듣고, 침착하게 대답하라. 그리고 더 할 말이 없으면 침묵하기를 배워라.", author: "라파엘로"),
@@ -1348,7 +1426,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "느리지만\n꾸준하면 경기에 이긴다.", author: "이솝"),
         Quote(contents: "삶은 매일 아침 시작된다.", author: "조엘 오스틴"),
         Quote(contents: "성공하면 친구가 많다.", author: "그리스 격언"),
-        
+
         Quote(contents: "어떤 종류의 성공이든\n인내보다 필수적인 자질은 없다.\n인내는 거의 모든 것,\n심지어 천성까지 극복한다.", author: "존 데이비슨 록펠러"),
         Quote(contents: "당신이 보아야 하는 것은\n건물의 아름다운 외관이 아니라\n오랜 세월을 견뎌낼\n건물의 기초 공사다.", author: "데이빗 앨런 코"),
         Quote(contents: "자신의\n아주 작은 행위에도\n마음과 정신과 영혼을 쏟아라.\n이것이 성공의 비결이다.", author: "스와미 시바난다"),
@@ -1368,18 +1446,18 @@ class QuoteStore: ObservableObject {
         Quote(contents: "과거의 탓,\n남의 탓이라는\n생각을 버릴 때\n인생은 호전한다.", author: "웨인 다이어"),
         Quote(contents: "인류를 위한\n어떤 승리를 얻기 전에\n죽는 것을 부끄러워하라.", author: "호레이스 만"),
         Quote(contents: "특별한 삶은\n매일 끊임없이\n개선을 통해\n만들어지는 것이다.", author: "로빈 샤르마"),
-        Quote(contents: "올바른 길 위에 있지 않다면, 달리는 것이 무슨 의미가 있을까?", author: "독일 격언"),
+        Quote(contents: "올바른 길 위에 있지 않다면,\n달리는 것이 무슨 의미가 있을까?", author: "독일 격언"),
         Quote(contents: "성공은\n당신이 만들어낸\n그 사람이\n끌어당기는 것이다.", author: "짐 론"),
         Quote(contents: "타성에 젖어 사는 것은\n죽은 것이나 다름없다.", author: "엘렌 글래스고"),
-        Quote(contents: "바보는 현인이 보는\n그 나무를 보지 못한다.", author: "윌리엄 블레이크"),
+        Quote(contents: "바보는\n현인이 보는\n그 나무를 보지 못한다.", author: "윌리엄 블레이크"),
         Quote(contents: "호랑이에게 물려가도\n정신만 바짝 차리면 된다.", author: "한국 격언"),
         Quote(contents: "유순하면 벗을 얻지만\n직언하면 미움을 산다.", author: "테렌티우스"),
         Quote(contents: "우리는\n우리가 읽는 것으로\n만들어진다.", author: "마르틴 발저"),
         Quote(contents: "세상에서 친절보다\n더 강한 것은 없다.", author: "한 수인"),
         Quote(contents: "인내는 천재의 필수요소이다.", author: "벤저민 디즈레일리"),
         Quote(contents: "우리는\n우리가 읽는\n책이 된다.", author: "메튜 켈리"),
-       
-     
+
+
         Quote(contents: "여유가 생긴 뒤에\n남을 도우려 하면\n결코 그런 날은 없을 것이고,\n여가가 생긴 뒤에\n책을 읽으려 하면\n결코 그 기회는 없을 것이다.", author: "정약용"),
         Quote(contents: "마냥 슬픔에\n잠긴다는 것은 위험하다.\n용기를 빼앗아 갈 뿐 아니라\n회복하려는 의욕마저\n잃게 하기 때문이다.", author: "앙리 프레데리크 아미엘"),
         Quote(contents: "성공한 사람이란\n실패로부터 많은 것을 배워\n새롭게 연구해 낸 방법으로\n또다시 문제에 뛰어드는 사람을 말한다.", author: "데일 카네기"),
@@ -1396,12 +1474,12 @@ class QuoteStore: ObservableObject {
         Quote(contents: "돈을 벌어라,\n되도록이면 정직하게.\n그러나 역시 돈은 벌어라.", author: "영국 속담"),
         Quote(contents: "가장 축복받는 사람이 되려면 \n가장 감사하는 사람이 되라.", author: "C. 쿨리지"),
         Quote(contents: "고통이 크면 클수록\n그 고통을 이겨내는\n명예는 더욱 크다.", author: "몰리에르"),
+        Quote(contents: "생각하지 않는\n사람의 재능은\n쉴새 없이\n지껄이는 일이다.", author: "보브날그"),
         Quote(contents: "독서의\n진정한 기쁨은\n몇 번이고 되풀이 해\n읽는 데 있다.", author: "로렌스"),
-        Quote(contents: "너무 쉽게 믿는 것보다\n의심이 많은 편이 낫다.", author: "로버트 그린 잉거솔"),
+        Quote(contents: "너무 쉽게\n믿는 것보다\n의심이 많은 편이 낫다.", author: "로버트 그린 잉거솔"),
         Quote(contents: "고귀한 실패가\n수많은 저속한 성공보다\n훨씬 낫다.", author: "루이스 모리스"),
         Quote(contents: "일기는\n고독한 사람의 상대이며,\n위안자이며,\n의사이다.", author: "아미엘"),
         Quote(contents: "그림도 생활과 같다.\n지체없이 행동하지\n않으면 안 된다.", author: "피카소"),
-        Quote(contents: "생각하지 않는 사람의 재능은 쉴새 없이 지껄이는 일이다.", author: "보브날그"),
         Quote(contents: "지식이 없으면\n인생은 죽음의 그림자에\n지나지 않는다.", author: "몰리에르"),
         Quote(contents: "고통은 지나가지만 아름다움은 영원하다.", author: "피에르 오귀스트 르누아르"),
         Quote(contents: "최초의 큰 웃음 보다는\n마지막의 미소가 오히려 낫다.", author: "영국 격언"),
@@ -1410,7 +1488,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "사소한 일을 소홀히 하는 자는 사소한 일로 멸망한다.", author: "솔로몬"),
         Quote(contents: "습관은\n인간 생활의\n가장 큰 안내자이다.", author: "데이비드 흄"),
         Quote(contents: "가능할 때는 웃으라.\n값 싼 약이다.", author: "로드 바이런"),
-        Quote(contents: "웃음은 어떤 핵무기 보다도 강하다.", author: "오쇼 라즈니쉬"),
+        Quote(contents: "웃음은\n어떤 핵무기\n보다도 강하다.", author: "오쇼 라즈니쉬"),
         Quote(contents: "부지런한 부자는\n하늘도 못막는다.", author: "한국 격언"),
         Quote(contents: "존경이 없으면 참사랑도 없다.", author: "J. G. 피히테­"),
         Quote(contents: "가난하지만 그대 삶을 사랑하라.", author: "H. D. 솔로­"),
@@ -1423,8 +1501,8 @@ class QuoteStore: ObservableObject {
         Quote(contents: "굶주림이 크면\n사랑은 적다.", author: "G. 그린"),
         Quote(contents: "마음은\n나를 장소로 한다.", author: "J. 밀턴"),
         Quote(contents: "악이란\n약함이다.", author: "밀톤"),
-        
-        Quote(contents: "위험이 있는 곳에 기회가 있고, 기회가 있는 곳에 위험도 있다. 이 둘은 분리될 수 없다.\n이 둘은 함께 한다.", author: "나이팅 게일"),
+
+        Quote(contents: "위험이 있는 곳에\n기회가 있고,\n기회가 있는 곳에\n위험도 있다.\n이 둘은 분리될 수 없다.\n이 둘은 함께 한다.", author: "나이팅 게일"),
         Quote(contents: "문제가 없다면\n그것이야말로\n진짜 심각한 상태다.\n문제가 많을수록\n오히려 더 생기 있게\n살수 있다.", author: "노먼 빈센트 필"),
         Quote(contents: "고독 없이는\n아무것도 달성할 수 없다.\n나는 예전에\n나를 위해\n일종의 고독을 만들었다.", author: "피카소"),
         Quote(contents: "슬픈 마음이여,\n침착하고 탄식을 멈추라.\n구름 뒤엔 아직도\n햇빛이 빛나고 있다.", author: "롱펠로우"),
@@ -1438,7 +1516,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "근면과 성실로\n재산을 모은 것은\n신의 섭리에\n어긋나지\n않는다.", author: "캘빈"),
         Quote(contents: "기쁨을 주는 사람만이\n더 많은 기쁨을 즐길 수 있다.", author: "알렉산더 듀마"),
         Quote(contents: "부자는\n가난한 자의 노동이\n맺은 열매를 향락한다.", author: "J. 스위프트"),
-        Quote(contents: "언제나 현재만 생각하라. 어제도 내일도 생각하지 마라.", author: "마광수"),
+        Quote(contents: "언제나 현재만 생각하라.\n어제도 내일도\n생각하지 마라.", author: "마광수"),
         Quote(contents: "행복과 불행은\n모두 마음에\n달려 있는 것이다.", author: "데모크리토스"),
         Quote(contents: "깨닫기만 하고 실천을 안하면 깨달음이 아무 소용없다.", author: "힐티"),
         Quote(contents: "가시에 찔리지 않고서는\n장미꽃을 모을 수가 없다.", author: "필페이"),
@@ -1462,7 +1540,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "남의 비밀을 캐지 말라.", author: "호메로스"),
         Quote(contents: "식욕은 근면의 채찍이다.", author: "흄"),
         Quote(contents: "인간은 관습의 묶음이다.", author: "흄"),
-        
+
         Quote(contents: "약간의 돈이 생길 때마다\n나는 책을 산다.\n그렇게 하고\n남는 돈이 있을 때,\n비로소 나는\n먹을 것과 입을 것을 산다.", author: "에라스무스"),
         Quote(contents: "나는 실수를 저지를 때\n느끼는 짜증보다\n그 실수를\n자세히 관찰하는 데서\n오는 즐거움이 더 크다.", author: "게오르그 리히텐베르크"),
         Quote(contents: "인생은\n자고 쉬는 데\n있는 것이 아니라\n한 걸음 한 걸음\n걸어가는 데 있다.", author: "로버트 브라우닝"),
@@ -1485,12 +1563,12 @@ class QuoteStore: ObservableObject {
         Quote(contents: "투자의 성공은\n원칙이 결정한다.", author: "박영옥"),
         Quote(contents: "인생은 실험이\n아니라\n실행이다.", author: "이상"),
         Quote(contents: "자유는\n공짜가\n아니다.", author: "미국 격언"),
-      
+
         Quote(contents: "무엇인가 하고 싶은 사람은\n방법을 찾아내고\n아무 것도 하기 싫은 사람은\n구실을 찾아낸다.", author: "아라비아 격언"),
         Quote(contents: "언제나 겸손한 사람은\n남에게\n칭찬을 들었을 때나\n험담을 들었을 때나\n변함이 없다.", author: "장 파울"),
         Quote(contents: "나이를 먹고\n세월이 흐르면\n시간이 없기 때문에\n자기가 좋아하는 일부터\n먼저 해라.", author: "이어령"),
         Quote(contents: "넘어지는 횟수보다\n일어나는 횟수가\n한 번 더 많을 때\n성공할 수 있다.", author: "올리버 골드스미스"),
-        Quote(contents: "생각이야말로 진정한 힘이다. 생각은 에너지인 것이다.", author: "앤드류 매튜스"),
+        Quote(contents: "생각이야말로\n진정한 힘이다.\n생각은\n에너지인 것이다.", author: "앤드류 매튜스"),
         Quote(contents: "행복은 지배하여야 하고,\n불행은 극복하여야 한다.", author: "독일 격언"),
         Quote(contents: "유리하지 않은 말은\n비밀로 간직하는 편이 낫다.", author: "제프리 초서"),
         Quote(contents: "나는 혼자 있을 때\n가장 외롭지 않았다.", author: "에드워드 기본"),
@@ -1503,7 +1581,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "몸을 잘 돌보고\n조심해서 다루라.\n사람의 몸은 여분이 없다.\n그러니 평소\n부지런히 운동도 하고\n잘 먹어 두어야 한다.", author: "앤드류 매튜스"),
         Quote(contents: "한 권의 좋은 책은\n위대한 정신의 귀중한 활력소이고,\n삶을 초월하여 보존하려고\n방부 처리하여 둔 보물이다.", author: "존 밀턴"),
         Quote(contents: "무엇인가를\n이루려고 하는\n마음이 없다면\n세상 어디를 가나\n두각을 나타낼 수가 없다.", author: "데일 카네기"),
-        Quote(contents: "육체적 노동은 정신적 고통을\n해방시킨다.\n그러므로\n가난한 사람이 행복해진다.", author: "라 로시푸코"),
+        Quote(contents: "육체적 노동은\n정신적 고통을\n해방시킨다.\n그러므로\n가난한 사람이 행복해진다.", author: "라 로시푸코"),
         Quote(contents: "뛰어난 인물이 되려면,\n누구와 교제해야 할 것인가를\n깊이 숙고해야 한다.", author: "발타자르 그라시안"),
         Quote(contents: "진정한 의미의 실패는\n패배했을 때 오는 게 아니라\n포기했을 때 오는 것이다.", author: "리처드 닉슨"),
         Quote(contents: "먼저 어떤 사람이\n되겠다고 다짐하라.\n그 다음에\n해야 할 바를 실천하라.", author: "에픽테토스"),
@@ -1519,7 +1597,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "완벽한 사람이 아닌\n솔직한 사람이 되라.", author: "앤드류 매튜스"),
         Quote(contents: "먼 과거에 몰두하지 말고\n가까운 현재를 파악하라.", author: "실러"),
         Quote(contents: "한잠 자고 나서\n생각하는 것이\n더욱 좋다.", author: "영국 격언"),
-        Quote(contents: "인간은\n행복보다\n불행 쪽이 두 배나 많다.", author: "호메로스"),
+        Quote(contents: "인간은\n행복보다\n불행 쪽이\n두 배나 많다.", author: "호메로스"),
         Quote(contents: "독서에 빠지면\n기르던 양이\n없어져도\n모른다.", author: "장자"),
         Quote(contents: "주사위를 던지는 한 기회는 존재한다.", author: "스테판 말라르메"),
         Quote(contents: "괴로운 한 시간은\n즐거운 하루만큼 길다.", author: "T. 풀러"),
@@ -1528,8 +1606,8 @@ class QuoteStore: ObservableObject {
         Quote(contents: "대중은\n머리는 많지만\n두뇌는 없다.", author: "T. 풀러"),
         Quote(contents: "침묵은\n회화의 위대한 기법이다.", author: "헤즐리트"),
         Quote(contents: "습관보다 강한 것은 없다.", author: "오비디우스"),
-        
-        
+
+
         Quote(contents: "사람은 눈앞에 보이는 것만\n바라보고 살아가는 것이 아니다.\n좀 더 먼 곳을 바라보며\n미래 속에 잠긴 꿈을\n바라보며 살아간다.", author: "릴케"),
         Quote(contents: "값어치가 있는 일을 달성하려면\n중요한 세 가지가 있다.\n열심히 일해라.\n창조하려고 해라.\n그리고 상식을 공부해라.", author: "토마스 에디슨"),
         Quote(contents: "배운다는 것은\n당신이 이미 아는 것을\n찾아내는 것이다.\n행한다는 것은\n당신이 알고 있다는 것을\n증명하는 것이다.", author: "리처드 바크"),
@@ -1538,7 +1616,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "작은 일을 할 때도\n큰 그림을 그리며 실행하라,\n그래야 올바른 방향으로\n갈 수 있다.", author: "앨빈 토플러"),
         Quote(contents: "우리는\n태어나서 죽을 때까지\n매일 한 페이지 한 페이지를\n창작해 간다.", author: "모리스 메테르링크"),
         Quote(contents: "성공이란\n결과로 측정되기보다는\n소비한 노력의 총계로\n따져야 할 것이다.", author: "토마스 에디슨"),
-        Quote(contents: "독서는\n작가의 지혜가 끝나는 곳에서\n우리의 지혜가 시작되는 행위다.", author: "마르셀 프루스트"),
+        Quote(contents: "독서는\n작가의 지혜가\n끝나는 곳에서\n우리의 지혜가\n시작되는 행위다.", author: "마르셀 프루스트"),
         Quote(contents: "살아있는 동안\n위대했던 사람은\n죽은 뒤에는\n두배나 위대해 진다.", author: "토마스 칼라일"),
         Quote(contents: "서로 작은 결점을\n용서할 마음이 없고선\n온전한 우애를 이룰 수 없다.", author: "라브뤼예르"),
         Quote(contents: "인간은 행복하지 않다.\n그러나 항상 미래의 행복을 기대하는 존재다.", author: "A. 포프"),
@@ -1560,19 +1638,19 @@ class QuoteStore: ObservableObject {
         Quote(contents: "한 가지 일이 늦어지면\n만사가 늦어진다.", author: "H. 게도"),
         Quote(contents: "좋은 책은\n인류에게\n불멸의 정신이다.", author: "존 밀턴"),
         Quote(contents: "내 그리운 추억은\n바위보다 무겁다.", author: "보들레르"),
-        Quote(contents: "야심은\n실패의\n최후의 피난처이다.", author: "와일드"),
+        Quote(contents: "야심은 실패의\n최후의 피난처이다.", author: "와일드"),
         Quote(contents: "사랑이 없는 인생은\n죽음과 같다.", author: "M. 루터"),
         Quote(contents: "인내는 정의의 일종이다.", author: "아우렐리우스"),
         Quote(contents: "사랑은\n모든 것을 극복한다.", author: "힐티"),
         Quote(contents: "살았다, 썼다, 사랑했다.", author: "스탕달"),
         Quote(contents: "뛰기 전에 보라.", author: "T. 헤이우드"),
-        
+
         Quote(contents: "인간사에는\n안정된 것이\n하나도 없음을 기억하라.\n그러므로 성공에 들뜨거나\n역경에 지나치게\n의기소침하지 마라.", author: "소크라테스"),
         Quote(contents: "인사는 마음의 문을 여는 노크다.\n상쾌하고 기분 좋게 인사하는 모습에\n승리하는 인간성이 있다.", author: "이케다 다이사쿠"),
         Quote(contents: "매우 일찍 일어나서\n바로 일을 시작해라.\n먼저 일하고,\n씻는 건 나중에 해라.", author: "『명심보감』"),
         Quote(contents: "견고한 기초 위에\n좋은 건설이 있고,\n튼튼한 뿌리 위에\n좋은 꽃과 열매가 있다.", author: "안창호"),
         Quote(contents: "실제로\n일어나지도 않은\n걱정거리가\n얼마나\n우리들에게\n타격을 주었던가.", author: "T. 제퍼슨"),
-        Quote(contents: "부귀도 명예도,지식도 미덕도\n사랑도 건강이 없으면\n모두 낡고 사라져 버린다.", author: "몽테뉴"),
+        Quote(contents: "부귀도 명예도,\n지식도 미덕도\n사랑도 건강이 없으면\n모두 낡고 사라져 버린다.", author: "몽테뉴"),
         Quote(contents: "철학의\n궁극적인 임무는\n일반적인 이성의 지도자,\n감시인이 되는 일이다.", author: "슈바이처"),
         Quote(contents: "지나치게 긁으면 피부를 상하듯이,\n지나치게 지껄이면 마음을 상한다.", author: "러시아 격언"),
         Quote(contents: "문명인은 철도 객차를 만들어 내었으나,\n자기의 두 다리를 못쓰게 했다.", author: "에머슨"),
@@ -1585,7 +1663,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "여행의 벗은\n인생의 벗이다.", author: "영국 격언"),
         Quote(contents: "예방은 치료보다 낫다.", author: "에라스무스"),
         Quote(contents: "현재에서 미래는 태어난다.", author: "볼테르"),
-        
+
         Quote(contents: "돈벌이를 잘하는 사람은\n무일푼이 되어도\n자기 자신이라는\n재산을 갖고 있다.", author: "알랭"),
         Quote(contents: "근면에 의해서\n부를 얻고\n또 이것을\n선하게 쓴 자에게만\n부는 좋다.", author: "뤼케르트"),
         Quote(contents: "재난은\n피하려고 하면\n안 된다.\n도리어 이것에\n용감하게 대항하라.", author: "버질"),
@@ -1596,19 +1674,19 @@ class QuoteStore: ObservableObject {
         Quote(contents: "까마귀에 분칠을 해도\n곧 검게 된다.", author: "중국 격언"),
         Quote(contents: "친구는 제2의 재산이다.", author: "아리스토텔레스"),
         Quote(contents: "남자는 배짱\n여자는 애교", author: "일본 격언"),
-        
+
         Quote(contents: "왜 뻔한 원칙들을 강조하는 것일까?\n이유는 단순하다.\n중요한데 지켜지지 않기 때문이다.", author: "박영옥"),
         Quote(contents: "독서를\n하고\n생각하지\n않는 것은\n식사를\n하고\n소화되지\n않은 것과 같다.", author: "에드먼드 버어크"),
         Quote(contents: "게으르고\n나태한 사람은\n죽음에 이르고,\n애써 노력하는 사람은\n죽는 법이 없다.", author: "『법구경』"),
         Quote(contents: "당장 편하자고\n남의 손을 빌리면\n성공의 기쁨도 영영\n남의 것이 된다.", author: "앤드류 매튜스"),
         Quote(contents: "미소와 악수에는\n돈도 시간도 들지 않는다.\n그리고 사업을 번창시킨다.", author: "워너메이커"),
-        Quote(contents: "자기의\n직업적 적성을\n일찍 파악할수록\n행복한 삶을\n사는 데\n유리하다.", author: "마광수"),
+        Quote(contents: "자기의\n직업적 적성을\n일찍 파악할수록\n행복한 삶을 사는 데\n유리하다.", author: "마광수"),
         Quote(contents: "인간이\n서로 애정을 주고 받는 곳에\n신은 가까이 있다.", author: "페스탈로치"),
         Quote(contents: "사랑은\n자기희생 없이는\n생각할 수 없는 것이다.", author: "도스토예프스키"),
         Quote(contents: "눈은 무엇이든 보지만,\n자기 자신은 못 본다.", author: "유고슬라비아 속단"),
         Quote(contents: "하찮은 것이라도\n새로우면\n대중을 기쁘게 한다.", author: "에우리피데스"),
         Quote(contents: "일하는 자를\n신(神)은 버리지 않는다.", author: "유고슬라비아 격언"),
-        
+
         Quote(contents: "삶을 하찮게 여겨야만\n작은 행복이나마\n누릴 수 있다.\n싫다고 하면\n부여잡는 것이\n사랑인 것처럼.", author: "마광수"),
         Quote(contents: "인생에는 싫은 일이 수없이 많다.\n그 중에서도 가장 싫은 것은\n남자끼리의 만찬이다.", author: "디즈렐리"),
         Quote(contents: "싸워라,\n지금까지 너는 언제나\n싸워보지도 않고 도망쳤다.\n이번만은 싸워 얻어라.", author: "이문열"),
@@ -1623,7 +1701,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "고독한 인간은\n이 세상에서 가장 강하다.", author: "입센"),
         Quote(contents: "욕망이 없는 곳에 근면도 없다.", author: "J. 로크"),
         Quote(contents: "고통은 잠시요, 즐거움은 영원하다.", author: "실러"),
-        
+
         Quote(contents: "인간도 많지만\n얼굴은 더욱 많다.\n왜냐하면,\n각자의 인간이\n또 몇 가지 얼굴을\n갖고 있기 때문에.", author: "릴케"),
         Quote(contents: "우리는 홀로 세상을 살아가고 있다.\n우리가 바라는 친구들은\n꿈이요,\n우화이다.", author: "에머슨"),
         Quote(contents: "성공의 비결을 묻지 말라.\n해야 할 일 하나 하나에\n전력을 다하라.", author: "워너메이커"),
@@ -1632,20 +1710,20 @@ class QuoteStore: ObservableObject {
         Quote(contents: "경험 있는 자는\n학문 있는 자보다 낫다.", author: "스위스 격언"),
         Quote(contents: "비평은 쉽고 예술은 어렵다.", author: "보부아르"),
         Quote(contents: "문장은 호흡하듯 써야 한다.", author: "르나르"),
-        
+
         Quote(contents: "산은 산을\n필요로 하지 않는다.\n그러나\n사람은 사람을\n필요로 한다.", author: "스페인 격언"),
         Quote(contents: "아무리 유익한 책이라도\n그 반은 독자가 만든다.", author: "볼테르"),
         Quote(contents: "성공은\n수고의 댓가라는 것을\n기억하라.", author: "소포클레스"),
         Quote(contents: "행복은 꿈에 지나지 않고 고통은 현실이다.", author: "볼테르"),
         Quote(contents: "많은 약속은 신용을 해친다.", author: "호라티우스"),
         Quote(contents: "화폐는 나의 힘을 나타낸다.", author: "사르트르"),
-        
+
         Quote(contents: "새는 날도록 태어났고,\n사람은 고생하도록 태어났다.", author: "네덜란드 격언"),
         Quote(contents: "고통의 뒷맛이 없으면\n진정한 쾌락은 거의 없다.", author: "헬렌 켈러"),
         Quote(contents: "웃지 못하는 남자는\n가게를 열어서는 안 된다.", author: "중국 격언"),
         Quote(contents: "돈은\n모든 불평등을\n평등하게 만든다.", author: "도스토예프스키"),
         Quote(contents: "신용은 자본이다.", author: "영국 격언"),
-        
+
         Quote(contents: "말은 언제나 위험하다.\n그 말을 들을 때\n사람들은\n각자 자기 자신의\n경험을 통한 의미로\n받아들이기 때문이다.", author: "오쇼 라즈니쉬"),
         Quote(contents: "목소리의 톤이\n높아질 수록\n뜻은 왜곡된다.\n흥분하지마라.\n낮은 목소리가 힘이 있다.", author: "유재석"),
         Quote(contents: "돈을 가지지\n못한 불행보다도\n꿈을 가지지\n못한 불행이\n더 불행하다.", author: "이시다 가즈야스"),
@@ -1658,7 +1736,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "자신의 삶을\n열심히 사는 게\n바로 사랑이란 말이야.", author: "정호승"),
         Quote(contents: "어느날 운명이 말했다.\n작작 맡기라고.", author: "유병재"),
         Quote(contents: "고객을 영업사원으로 만들어라.", author: "마크 베니오프"),
-        
+
         Quote(contents: "일단 목표를 적기 시작하면\n두뇌는 그 목표와\n관련된 것들에 대해\n민감하게 반응하기 시작한다.", author: "헨리에트 앤 클라우저"),
         Quote(contents: "누구보다 못하다거나\n누구보다 잘났다거나\n하는 의미 없는 비교는\n우리를 지치고 피곤하게\n만들 뿐입니다.", author: "우애령"),
         Quote(contents: "종목에 대해 연구하지 않고\n주식투자를 하는 것은\n패를 보지 않고\n포커를 치는 것과 같다.", author: "피터 린치"),
@@ -1670,7 +1748,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "고독을 사랑하는 자는\n야수가 아니면 신이다.", author: "아리스토텔레스"),
         Quote(contents: "술친구를\n이웃으로 삼아선 안된다.", author: "스페인 격언"),
         Quote(contents: "여행은 관용을 가르친다.", author: "벤저민 디즈레일리"),
-        
+
         Quote(contents: "인생이 불확실하다고 하지 말라.\n대신 경이롭다고 하라.\n인생이 불안전하다고 하지 말라.\n대신 자유 그 자체라고 하라.", author: "오쇼 라즈니쉬"),
         Quote(contents: "과거는\n이미 다 써버린 것,\n죽은 것이다.\n과거가\n무덤과 같다면\n미래는\n씨앗과 같다.", author: "오쇼 라즈니쉬"),
         Quote(contents: "정말 좋은 추억은\n언제든 살아 빛난다.\n시간이 지날수록\n애처롭게 숨쉰다.", author: "요시모토 바나나"),
@@ -1690,9 +1768,9 @@ class QuoteStore: ObservableObject {
         Quote(contents: "어머니의 품속은\n모든 사람들의\n마음의 고향이다.", author: "이어령"),
         Quote(contents: "우리는\n믿음이 부족할 때에만\n속박당한다.", author: "마크 비숍"),
         Quote(contents: "불신은\n사랑의 나무를\n자르는 도끼이다.", author: "러시아 격언"),
-        Quote(contents: "늙은이는 두 번째의 어린애이다.", author: "메난드로스"),
+        Quote(contents: "늙은이는\n두 번째의 어린애이다.", author: "메난드로스"),
         Quote(contents: "행동은 절망을 치료하는 해독제.", author: "존 바에즈"),
-        
+
         Quote(contents: "인간이여,\n잡동사니를 버려라!\n당신의 보트 인생을 가볍게 하라.\n필요한 것만으로 채우라.", author: "제롬 K. 제롬"),
         Quote(contents: "추억은\n너를 내면에서부터 따뜻하게 해줘.\n그러나\n그것은 널 갈갈이\n찢어버리기도 해.", author: "무라카미 하루키"),
         Quote(contents: "용기란\n겁이 없는 것이\n아니다.\n두려움보다\n더 소중한\n무언가가\n있다는 판단이다.", author: "앰브로스 레드문"),
@@ -1720,18 +1798,18 @@ class QuoteStore: ObservableObject {
         Quote(contents: "말을 해도 못 알아 들으니,\n솔직히 이길 자신이 없다.", author: "진중권"),
         Quote(contents: "외로움은\n사물을\n제대로 보는\n거리감을 조정한다.", author: "김영희"),
         Quote(contents: "나는 지겨움보다는 열정으로 죽고싶다.", author: "빈센트 반 고흐"),
-        
+
         Quote(contents: "행복은 난해한 것이다.\n왜냐하면 행복은\n다른 이들을\n행복하게 할 때에만\n얻을 수 있기 때문이다.", author: "스튜어트 클루티"),
         Quote(contents: "그들이\n변형된 기억에\n중독되는 것은\n그들의\n현재와 미래가\n언제나 과거보다\n불행하기 때문이다.", author: "김언수"),
         Quote(contents: "매달리고\n집착하는 것이\n곧 지옥이다.\n삶은 항상 흘러 가고 있다.\n그 흐름을 받아들여라.", author: "오쇼 라즈니쉬"),
         Quote(contents: "자신이 뜻한 바의 성취가\n바로 부의 성취다.\n꼭 재무만이 부가 아니다.\n돈만이 부가 아니다.", author: "정주영"),
         Quote(contents: "변명은\n승부의 세계에서\n절대 통하지 않는다.\n결과가 전부이기 때문이다.", author: "사이토 다카시"),
         Quote(contents: "재미있고\n열정을 가진 사람이 되라.\n그리고 말을 많이 하지 말아라.", author: "노먼 빈센트 필"),
-        Quote(contents: "배제해야 집중할 수 있고,\n집중해야 비로소\n어떤 색깔이 생기기 시작한다.", author: "김하나"),
+        Quote(contents: "배제해야\n집중할 수 있고,\n집중해야 비로소\n어떤 색깔이 생기기 시작한다.", author: "김하나"),
         Quote(contents: "나이가 들수록\n친절함은 행복과\n동일한 것임을 알게 된다.", author: "라이오넬 베리모어"),
         Quote(contents: "용기는\n두려움 없이 생기지 않는다.\n용기는 두려움의 산물이다.", author: "월터 앤더슨"),
+        Quote(contents: "뛰어난 사람은\n자신을 책망하고,\n열등한 사람은\n남을 원망한다.", author: "돈 슐라"),
         Quote(contents: "당신 가고 나서\n뒤돌아서니\n어디 발 디딜 땅\n한 곳 없습니다.", author: "김용택"),
-        Quote(contents: "뛰어난 사람은 자신을 책망하고,\n열등한 사람은 남을 원망한다.", author: "돈 슐라"),
         Quote(contents: "모든 것을 잘하겠다는 것은\n모두 다 적당히 하겠다는 말과 같다.", author: "허창수"),
         Quote(contents: "선행은\n결코 실패하지 않는\n유일한 투자이다.", author: "헨리 데이비드 소로우"),
         Quote(contents: "녹슬어 없어지기보다\n닳아 없어지는 게 낫다.", author: "리처드 컴벌랜드"),
@@ -1750,7 +1828,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "지식은 사라지지만\n삶의 태도는 변하지 않는다.", author: "안철수"),
         Quote(contents: "노목은 똑바로 잡기 어렵다.", author: "프랑스 격언"),
         Quote(contents: "습관은 이성보다 강하다.", author: "조지 산타야나"),
-        
+
         Quote(contents: "자연의 이치에 맞춰\n살도록 노력하세요.\n밤낮을 뒤집어 사는\n사람도 병이 들지요. 나무처럼, 계곡물처럼\n살면 병이 없습니다.", author: "김형경"),
         Quote(contents: "인생은 고뇌와 고독,\n고통으로 가득하다.\n그리고 인생은\n모두 너무 빨리 끝난다.", author: "우디 알렌"),
         Quote(contents: "한 번 확장된 정신은\n다시 원래의 모습으로\n수축하는 법이 절대 없다.", author: "올리버 웬들 홈스"),
@@ -1760,20 +1838,20 @@ class QuoteStore: ObservableObject {
         Quote(contents: "잘 모르고 무식한 사람이\n신념을 가지면 무섭습니다.", author: "이경규"),
         Quote(contents: "검은띠는\n단념을 모르는\n흰띠이다.", author: "스포츠 격언"),
         Quote(contents: "태생보다는\n양육이 더 중요하다.", author: "스페인 격언"),
-        
+
         Quote(contents: "많이 생각하는 것과\n깊이 생각하는 것은 다릅니다.\n생각이 많으면\n번민하기 쉽습니다.\n깊이 생각한다는 것은\n성찰을 의미합니다.", author: "김석년"),
         Quote(contents: "산다는 것이 힘들지만\n그 힘든 고비를 넘기면\n신나는 데가 있습니다.\n힘들지만 신난다.\n이런 게 사는 것 같아요.", author: "전우익"),
-        Quote(contents: "만약 매일매일이 휴일과 같다면 노는 것도 일하는 것 만큼이나 지루할 것이다.", author: "셰익스피어"),
+        Quote(contents: "만약 매일매일이\n휴일과 같다면\n노는 것도\n일하는 것 만큼이나\n지루할 것이다.", author: "셰익스피어"),
         Quote(contents: "나는 가난하게 태어났다.\n그래서 즐기기 전에\n먼저 고생하는 것을 배웠다.", author: "마키아벨리"),
         Quote(contents: "나는 행동이\n사람의 생각을\n가장 훌륭하게\n해석해준다고\n늘 생각해왔다.", author: "존 로크"),
         Quote(contents: "기쁨을 행복으로\n착각하지 마라.\n둘은\n완전 별개의 것이다.", author: "조쉬 빌링스"),
         Quote(contents: "들으라,\n아니면 너의 혀가\n너를 귀 먹게 하리라.", author: "아메리카 인디언 격언"),
         Quote(contents: "원칙이 곧 지름길이다.", author: "배중호"),
-        
+
         Quote(contents: "함께 사는 것은\n하나의 기술이다.\n기술은 삶에서\n필수적인 것이다.\n말과 행동을\n더욱 기술적으로\n하도록 노력하라.", author: "틱낫한"),
         Quote(contents: "여행을 떠날 각오가\n되어 있는 사람만이\n자기를 묶고 있는 속박에서\n벗어날 수 있다.", author: "헤르만 헤세"),
         Quote(contents: "모든 사람이 하루 종일\n너무 많은 정보를 얻는 나머지,\n그들은 상식을 잃어간다.", author: "거트루드 스타인"),
-        Quote(contents: "항상 자녀에게 친절하라.\n그 애들이 후에\n당신이 갈 양로원을\n고를 테니까.", author: "필리스 딜러"),
+        Quote(contents: "항상 자녀에게\n친절하라.\n그 애들이\n후에 당신이 갈\n양로원을\n고를 테니까.", author: "필리스 딜러"),
         Quote(contents: "올바른 방법으로\n잃을 줄 아는 사람이\n장기적으로 승자가 된다.", author: "아서 심슨"),
         Quote(contents: "여러분은\n모두 다 아름다우며\n모두 특별한 재능이 있다.", author: "존 레논"),
         Quote(contents: "남이 뭐라든\n내 기준으로 보면\n나는 아름답다.", author: "카를린 봉그랑"),
@@ -1782,7 +1860,7 @@ class QuoteStore: ObservableObject {
         Quote(contents: "나는 승리를 즐기지만\n그것은 순수한 고통이다.", author: "빌리 미첼"),
         Quote(contents: "착한 마음은 불운을 이겨낸다.", author: "스페인 격언"),
         Quote(contents: "첫 걸음이 항상 가장 어렵다.", author: "서양 격언"),
-                
+
         Quote(contents: "직업에서 행복을 찾아라.\n아니면 행복이\n무엇인지 절대 모를 것이다.", author: "엘버트 허버드"),
         Quote(contents: "네 영감과 네 상상력을\n가라앉히지말라.\n규범의 노예가 되지 말라.", author: "빈센트 반 고흐"),
         Quote(contents: "인생은 본래 녹록지 않다.\n하지만 멍청한 사람에게는\n더욱 녹록지 않다.", author: "존 웨인"),
@@ -1791,20 +1869,576 @@ class QuoteStore: ObservableObject {
         Quote(contents: "떠들썩한 포수는\n새를 잡지 못한다.", author: "영국 격언"),
         Quote(contents: "모든 운명은\n인내로 극복된다.", author: "그리스 격언"),
         Quote(contents: "우리는 행운으로 타락한다.", author: "타키투스"),
-        
+
         Quote(contents: "매력 있는 남자란\n자기 냄새를 피우는 사람이다.\n스스로 생각하고,\n스스로 판단하고,\n그러면서\n더욱 예리하고\n통찰력이 있는,\n바로 그런 남자이다.", author: "시오노 나나미"),
         Quote(contents: "성숙하다는 것은\n다가오는\n모든 생생한 위기를\n피하지 않고\n마주하는 것을 의미한다.", author: "프리츠 쿤켈"),
         Quote(contents: "자유를 지키는 데\n게을리하지 않는 사람만이\n자유의 축복을 받을 자격이 있다.", author: "더글러스 맥아더"),
         Quote(contents: "그 무엇으로도\n대체할 수 없는 존재가\n되기 위해서는\n늘 남달라야 한다.", author: "가브리엘 코코 샤넬"),
         Quote(contents: "명성을 잃을 때까지는\n그것이 얼마나 무거운 짐인지\n결코 깨닫지 못한다.", author: "마가릿 미첼"),
         Quote(contents: "자기의 실력을\n감출 줄 아는 것이야말로\n크나큰 실력이다.", author: "프랑수아 드 라 로슈푸코"),
-        Quote(contents: "오직 너 자신만을 믿어라,\n그러면 아무도\n너를 배신하지 않을지니.", author: "토마스 풀러"),
+        Quote(contents: "오직 너 자신만을 믿어라,\n그러면 아무도 너를\n배신하지 않을지니.", author: "토마스 풀러"),
         Quote(contents: "젊은 날의 매력은\n결국 꿈을 위해\n무엇을 저지르는 것이다.", author: "앨빈 토플러"),
         Quote(contents: "진정한 대인관계는\n맺는데서가 아닌\n끊는데서 있다.", author: "앨빈 토플러"),
         Quote(contents: "말을 부드럽게,\n주장은 단단하게 하라.", author: "영국 격언"),
         Quote(contents: "건강한 이에게는 매일이 축제다.", author: "터키 격언"),
         Quote(contents: "인내는 천국의 열쇠다.", author: "터키 격언"),
 
+        Quote(contents: "속도를 줄이고\n인생을 즐겨라.\n너무 빨리 가다 보면\n놓치는 것은\n주위 경관뿐이 아니다.\n어디로 왜 가는지도\n모르게 된다.", author: "에디 캔터"),
+        Quote(contents: "욕구란\n성취에 대한 생각이\n함께 할 때\n희망이라 불린다.\n같은 욕구에\n이러한 생각이 없다면\n이는 절망이다.", author: "토마스 홉스"),
+        Quote(contents: "친구를 얻는 방법은\n친구에게 부탁을 들어달라고\n하는 것이 아니라\n내가 부탁을 들어주는 것이다.", author: "투키디데스"),
+        Quote(contents: "창조적인 삶을\n살기 위해\n우리는\n잘못되는 것에 대한\n두려움을\n버려야 한다.", author: "조셉 칠턴 피어스"),
+        Quote(contents: "\"그건 할 수 없어\"\n라는 말을\n들을 때마다\n나는 성공이\n가까웠음을 안다.", author: "마이클 플래틀리"),
+        Quote(contents: "그 어떤 것에서라도\n내적인 도움과 위안을\n찾을 수 있다면\n그것을 잡아라.", author: "마하트마 간디"),
+        Quote(contents: "가족이란\n네가 누구\n핏줄이냐가 아니야.\n네가 누구를\n사랑하느냐는 거야.", author: "트레이 파커"),
+        Quote(contents: "자원자 한 사람이\n징용된 열 명보다 낫다.", author: "아프리카 격언"),
+        Quote(contents: "웃는 법을 모르면, 가게를 열지 마라.", author: "유대인 격언"),
+        Quote(contents: "우리 성격은\n우리 행동의 결과다.", author: "아리스토텔레스"),
+        Quote(contents: "혀는\n창보다\n많은 상처를 준다.", author: "프랑스 격언"),
+        Quote(contents: "작은 구멍이\n큰 배를 가라앉힌다.", author: "영국 격언"),
+        Quote(contents: "바람이 없으면,\n노를 저어라.", author: "라틴 격언"),
+
+        Quote(contents: "소유하고 있는 대상은\n처음 그것을 추구할 때의\n동일한 매력을\n유지하는 경우가\n거의 없다.", author: "플라니 2세"),
+        Quote(contents: "당신이\n진정으로 믿는 일은\n반드시 이루어진다.\n그 믿음이\n그것을 실현시킨다.", author: "프랭크 로이드 라이트"),
+        Quote(contents: "성공은\n자연 발화의\n결과가 아니다.\n먼저 자기 자신에게\n불을 지펴야 한다.", author: "프레드 셰로"),
+        Quote(contents: "다른 사람의 생각에\n인생을 맞춰가는 것은\n노예나 다름 없다.", author: "라와나 블랙웰"),
+        Quote(contents: "너무 많이\n고려하는 사람은\n실행하지 못한다.", author: "프리드리히 실러"),
+        Quote(contents: "적에게 숨기고 싶은 것은\n친구에게도 말하지 말라.", author: "아랍 격언"),
+        Quote(contents: "용감한 자는\n그의 행운을 캐낸다.", author: "미겔 데 세르반테스"),
+        Quote(contents: "기적을 믿는 이에게\n기적은 나타난다.", author: "버나드 베런슨"),
+        Quote(contents: "배울수 없을 정도로\n늙은 사람은 없다.", author: "프랑스 격언"),
+        Quote(contents: "허약한 육체는\n마음을 허약하게 한다.", author: "장자크 루소"),
+        Quote(contents: "눈 밖에 있으면,\n마음 밖에 있다.", author: "이디시어 격언"),
+        Quote(contents: "아무도\n늘 현명하지는 않다.", author: "대 플라니"),
+
+        Quote(contents: "행복한 결혼은\n완벽한 부부가 만났을 때\n이루어지는 게 아니다.\n불완전한 부부가\n서로의 차이점을\n즐거이 받아들이는 법을\n배울 때 이뤄지는 것이다.", author: "데이브 모이러"),
+        Quote(contents: "인간이 획득할 수 있는\n가장 고결한 행동은\n이해하기 위한 배움이다.\n이해하면 자유로워지기 때문이다.", author: "바뤼흐 스피노자"),
+        Quote(contents: "전 결혼이 좋아요.\n평생 괴롭히고 싶은\n특별한 한 사람을\n발견하는 것은\n정말 멋진 일이거든요.", author: "리타 러드너"),
+        Quote(contents: "한 권의 책을\n읽음으로써\n자신의 삶에서\n새 시대를 본 사람이\n너무나 많다.", author: "헨리 데이비드 소로"),
+        Quote(contents: "많이 보고\n많이 겪고\n많이 공부하는 것은\n배움의 세 기둥이다.", author: "벤저민 디즈레일리"),
+        Quote(contents: "아픈 사람은 잠을 자도,\n빚진 사람은 잠을 못 잔다.", author: "이탈리아 격언"),
+        Quote(contents: "이름이란 게\n무슨 소용인가?\n장미꽃은\n다른 이름으로\n불리워져도\n똑같이 향기로울 게 아닌가?", author: "윌리엄 셰익스피어"),
+        Quote(contents: "네 모습 그대로\n미움 받는 것이\n너 아닌 다른 모습으로\n사랑 받는 것보다 낫다.", author: "앙드레 지드"),
+        Quote(contents: "못 가진 것에\n대한 욕망으로\n가진 것을 망치지 말라.\n하지만 지금 가진 것이\n한때는 바라기만 했던 것 중\n하나였다는 것도 기억하라.", author: "에피쿠로스"),
+        Quote(contents: "너희들이 나만큼\n인생에 대해 알게 되면\n강박적인 사랑의 힘을\n과소평가하진 않을 게다.", author: "J. K. 롤링"),
+
+        Quote(contents: "후회를 곱씹기보다,\n오늘 즉시 결의하고,\n일을 시작하고,\n기술을 시도해볼 일이다.\n시작하는데 나이가\n이르고 늦고\n따윈 문제가 아니다.", author: "요시다 쇼인"),
+        Quote(contents: "진정한 기쁨은\n편안함이나 부,\n인간에 대한 찬양\n으로부터가 아니라\n가치 있는 일을\n하는데서 나온다.", author: "윌프레드 그렌펠 경"),
+        Quote(contents: "스스로 생각할 수 있는\n능력을 가진 계층은\n그렇지 못한 계층과\n현격한 차이를\n보이며 구분된다.", author: "루드비히 폰 미제스"),
+        Quote(contents: "매월 말\n조금씩 저금을 해 보면,\n연말에\n얼마나 적은\n금액이 모였는지 알고\n놀라게 될 것이다.", author: "어니스트 해스킨스"),
+        Quote(contents: "자신의 실수를 비웃으면\n삶이 길어질 것이요,\n남의 실수를 비웃으면\n삶이 단축될 것이다.", author: "컬린 하이타워"),
+        Quote(contents: "물고기는\n미끼만 보고\n낚시 바늘을 보지 못하며,\n인간은\n이익만 보고\n위험을 보지 못한다.", author: "중국 속담"),
+        Quote(contents: "추락할 때는\n밑바닥까지 추락해봐야,\n자기 자신을 발견하고\n구해낼 수 있다.", author: "사카구치 안고"),
+        Quote(contents: "저는 미래가 어떻게\n전개될지는 모르지만,\n누가 그 미래를\n결정하는지는 압니다.", author: "호메로스"),
+        Quote(contents: "천재와 광인 사이에는\n아주 가느다란 선이 있다.\n나는 이 선을 지웠다.", author: "오스카 레반트"),
+        Quote(contents: "사람에 대한\n호기심은 줄이고\n지식에 대한\n호기심을 늘려라.", author: "마리 퀴리"),
+        Quote(contents: "변화는\n인생에 필요할 뿐만 아니라\n인생 그 자체다.", author: "앨빈 토플러"),
+        Quote(contents: "그들은\n답을 모르는 것이 아니라\n문제를 모른다.", author: "G.K. 체스터"),
+
+        Quote(contents: "늘 명심하라.\n성공하겠다는\n너 자신의 결심이\n다른 어떤 것보다\n중요하다는 것을.", author: "에이브러햄 링컨"),
+        Quote(contents: "많은 사람이\n충고를 받지만\n오직 현명한 사람만이\n이 충고의 덕을 본다.", author: "푸블릴리우스 시루스"),
+        Quote(contents: "겸손해져라.\n그것은 다른 사람에게\n가장 불쾌감을 주지 않는\n종류의 자신감이다.", author: "쥘 르나르"),
+        Quote(contents: "힘은 육체적인 역량에서\n나오지 않는다.\n그것은 불굴의 의지에서\n나온다.", author: "마하트마 간디"),
+        Quote(contents: "자신을 변화시키지\n못하는 것이\n바로 일상을\n재미없게 만드는\n원인이다.", author: "요로 다케시"),
+        Quote(contents: "돈으로 살 수 없는,\n돌이킬 수 없는 시간\n이라는 것이 있지 않나.", author: "트레이 힐만"),
+        Quote(contents: "은혜를 베풀되\n그 보답은 바라지 말며,\n준 뒤에는 후회하지 말라.", author: "원효 대사"),
+        Quote(contents: "인생에는\n세 가지만\n있으면 된다.\n희망과 용기와\n약간의 돈.", author: "찰리 채플린"),
+        Quote(contents: "희망은 언제나\n힘든 언덕길 너머에서\n기다리고 있다.", author: "『숫타니파타』"),
+        Quote(contents: "인간은 본시\n후회하도록\n만들어져 있다.", author: "후지사와 슈헤이"),
+        Quote(contents: "떨어져 있으면\n그리움은 더해진다.", author: "프로페르티우스"),
+        Quote(contents: "뛰어난 영혼일수록\n크게 고민한다.", author: "사카구치 안고"),
+        Quote(contents: "행복이란\n행복을 찾는 것이다.", author: "쥘 르나르"),
+
+        Quote(contents: "남을 꾸짖는 마음으로\n자기를 꾸짖고\n자기를 용서하는 마음으로\n남을 용서하라.", author: "『명심보감』"),
+        Quote(contents: "수입이 많은 것이야말로\n행복을 보장받는\n가장 좋은 열쇠라고\n들었거든요.", author: "제인 오스틴"),
+        Quote(contents: "삶의 원동력은 무엇일까?\n첫째도 욕망,\n둘째도 욕망,\n셋째도 욕망이다.", author: "스탠리 쿠니츠"),
+        Quote(contents: "몸은 가꾸고\n단련하며 자랑하며,\n세월이 흐르면\n믿고 의지하게 된다.", author: "마사 그레이엄"),
+        Quote(contents: "인간은\n오직 사고(思考)의 산물일\n뿐이다.\n생각하는 대로 되는 법.", author: "마하트마 간디"),
+        Quote(contents: "모든 성공은\n더 어려운\n문제로 가는 입장권을\n사는 것일 뿐이다.", author: "헨리 키신저"),
+        Quote(contents: "경험을 현명하게\n사용한다면,\n어떤 일도\n시간 낭비는 아니다.", author: "오귀스트 로댕"),
+        Quote(contents: "인생을 다시 산다면\n다음 번에는\n더 많은 실수를\n저지르리라.", author: "나딘 스테어"),
+        Quote(contents: "잘난 척 하는 것은\n스스로를 약으로\n독살시키는 것이다.", author: "벤자민 프랭클린"),
+        Quote(contents: "행복은\n생각, 말, 행동이\n조화를 이룰 때 찾아온다.", author: "마하트마 간디"),
+        Quote(contents: "내면의 지혜를 듣는 일은\n근력처럼 훈련을 통해 강화된다.", author: "로비 개스"),
+        Quote(contents: "실패하는 길은 여럿이나\n성공하는 길은 오직 하나다.", author: "아리스토텔레스"),
+        Quote(contents: "걷기는 최고의 운동이다.\n멀리 걷기를 습관화하라.", author: "토마스 제퍼슨"),
+        Quote(contents: "약으로써 병을 고치듯이\n독서로써 마음을 다스린다.", author: "시저"),
+
+        Quote(contents: "겁쟁이는\n도망가는 것을 택하고,\n용기있는 자는\n위험을 택한다.", author: "에우리피데스"),
+        Quote(contents: "인간의 삶 전체는\n단지 한 순간에\n불과하다.\n인생을 즐기자.", author: "플루타르코스"),
+        Quote(contents: "행복해지려면\n다른 사람들과\n지나치게 관계하지\n말아야 한다.", author: "알베르 카뮈"),
+        Quote(contents: "인생은\n스스로 되풀이하면서\n변화하는 모습의\n연속이 아닐까?", author: "앤디 워홀"),
+        Quote(contents: "스스로를 자제하는 것은\n사람의 의무라고 생각한다.", author: "로이스 맥마스터 부욜"),
+        Quote(contents: "가장 불만에\n가득 찬 고객은\n가장 위대한\n배움의 원천이다.", author: "빌 게이츠"),
+        Quote(contents: "행동만이\n삶에 힘을 주고,\n절제만이\n삶에 매력을 준다.", author: "장 폴 리히터"),
+        Quote(contents: "여러분을 더욱\n높이 올려줄 사람만을\n가까이 하세요.", author: "오프라 윈프리"),
+        Quote(contents: "출생과 죽음은\n피할 수 없으므로\n그 사이를 즐겨라.", author: "조지 산타야나"),
+        Quote(contents: "우리가 노력 없이\n얻는 거의 유일한 것은\n노년이다.", author: "글로리아 피처"),
+
+        Quote(contents: "성공한 사람이\n될 수 있는데\n왜 평범한 이에\n머무르려 하는가?", author: "베르톨트 브레히트"),
+        Quote(contents: "비참하게 실패할\n용기있는 자만이\n크게 이룰 수 있습니다.", author: "존 F. 케네디"),
+        Quote(contents: "우리가 이룬 것만큼,\n이루지 못한 것도\n자랑스럽습니다.", author: "스티브 잡스"),
+        Quote(contents: "멈추지 않으면\n얼마나 천천히 가는지는\n문제가 되지 않느니라.", author: "공자"),
+        Quote(contents: "행복은\n돈으로 살 수 없지만,\n가난으로도 살 수 없다.", author: "레오 로스텐"),
+        Quote(contents: "의사소통에 문제가 있는 사람은\n그냥 입 닥쳤으면 좋겠다.", author: "톰 레러"),
+        Quote(contents: "성공은\n영원하지 않고,\n실패는\n치명적이지 않다.", author: "마이크 디트카"),
+        Quote(contents: "언제나 현재에\n집중할 수 있다면\n행복할 것이다.", author: "파울로 코엘료"),
+        Quote(contents: "미래는 현재\n우리가 무엇을 하는가에\n달려 있다.", author: "마하트마 간디"),
+        Quote(contents: "사랑, 돈, 명성보다는\n진실을 내게 달라.", author: "헨리 데이비드 소로우"),
+        Quote(contents: "행운은 100퍼센트\n노력한 뒤에\n남는 것이다.", author: "랭스턴 콜만"),
+        Quote(contents: "중요한건 꺾이지 않는 마음", author: "Deft"),
+
+        Quote(contents: "기쁨은 사물 안에 있지 않다.\n그것은 우리 안에 있다.", author: "리하르트 바그너"),
+        Quote(contents: "행동을 변화시키려면\n많은 돈을 투자해야 한다.", author: "빌 게이츠"),
+        Quote(contents: "성인이 된다는 것은\n곧 혼자가 된다는 뜻이다.", author: "쟝 로스땅"),
+        Quote(contents: "꺼지지 않을 불길로 타올라라.", author: "루이사 시게아"),
+        Quote(contents: "겸손해지면 젊은 청년이 된다.", author: "플라우투스"),
+
+        Quote(contents: "제가 이루어낸 일들은\n모두 제 자신을\n억제한 덕분입니다.", author: "벤저민 프랭클린"),
+        Quote(contents: "공포를 느껴라,\n그리고 그래도 도전하라.", author: "수잔 제퍼스"),
+        Quote(contents: "반성하지 않는 삶은\n살 가치가 없다.", author: "소크라테스"),
+        Quote(contents: "성공의 8할은\n일단 출석하는 것이다.", author: "우디 알렌"),
+        Quote(contents: "가장 큰 위험은\n위험없는 삶이다.", author: "스티븐 코비"),
+        Quote(contents: "어떤 것들은\n믿어야 볼 수 있다.", author: "랄프 호지슨"),
+
+        Quote(contents: "인간은 자신이 행복하면\n차츰 그 행복을 크게 생각하여\n남에게 나누어 주고 싶어한다.", author: "제러미 벤담 "),
+        Quote(contents: "낭비한 시간에 대한 후회는\n더 큰 시간 낭비이다.", author: "메이슨 쿨리"),
+        Quote(contents: "모름지기 남자는 다섯 수레의 책을 읽어야 한다.", author: "두보 (杜甫)"),
+        Quote(contents: "모든 사람들은\n자기의 경험밖에\n믿지 않는다.", author: "엠페도클레스"),
+        Quote(contents: "청춘은 모든 것이 실험이다.", author: "스티븐슨"),
+
+        Quote(contents: "가장 중요한 것은\n나의 내부에서\n빛이 꺼지지 않도록\n노력하는 일이다.\n안에 빛이 있으면\n스스로 밖이\n빛나는 법이다.", author: "알베르트 슈바이처"),
+        Quote(contents: "인간은\n자기의 운명을\n창조하는 것이지\n받아들이는 것이 아니다.", author: "비르만"),
+        Quote(contents: "어리석은 자는\n자기가 하려고\n마음먹은 것을\n말한다.", author: "프랑스 격언"),
+        Quote(contents: "사색하는 것은\n자신과 이야기를 나누는 것이다.", author: "우나무노"),
+        Quote(contents: "버리는 것이\n곧 얻는 것이다.", author: "타고르"),
+
+        Quote(contents: "하루 하루란\n도대체 얼마나 값진\n생의 특전인가,\n거창하게, 아름답게, 행복하게.", author: "헬렌 니어링"),
+        Quote(contents: "우리 내면에는\n언제든지 들어가서\n자신을 회복할 수 있는\n고요한 성소가 있다.", author: "헤르만 헤세"),
+        Quote(contents: "자신을 향해\n마음 놓고 웃는 날,\n너는 어른이 된다.", author: "에델 배리모어"),
+        Quote(contents: "실패한 사람과\n성공한 사람의 차이는\n습관의 차이에 있다.", author: "만디노"),
+        Quote(contents: "선하고 정직한 인생만이\n정신적 건강을 약속한다.", author: "해럴드 커슈너"),
+        Quote(contents: "고난이 클수록\n극복했을 때의\n기쁨도 크다.", author: "몰리에르"),
+        Quote(contents: "방향이 잘못되면\n속도는 무의미하다.", author: "마하트마 간디"),
+        Quote(contents: "남에게 구하느니\n스스로에게 구하라.", author: "불경"),
+
+        Quote(contents: "사랑받지 못하는 것은\n슬프다.\n그러나 더욱 슬픈 것은\n사랑할 수 없다는 것이다.", author: "마구엘 드 우나무노"),
+        Quote(contents: "자신이 해야 할 일을\n결정하는 사람은\n세상에서 단 한 사람,\n오직 나 자신뿐이다.", author: " 오손 웰스"),
+        Quote(contents: "걱정을 해서\n걱정이 없어지면\n걱정이 없겠네.", author: "티벳 격언"),
+        Quote(contents: "직관은\n이성의 서두르는\n모습이다.", author: "홀브룩 잭슨"),
+        Quote(contents: "베풀면 베풀수록\n삶이 윤택해진다.", author: "밥 데드먼"),
+        Quote(contents: "지혜는\n땀에서\n오는 것이다.", author: "토마스 칼라일"),
+
+        Quote(contents: "사랑은 인생이 추구하는\n최고의 목적이다.\n노동, 소득, 재산, 명예는\n단지 목적을 성취하고\n찬미하기 위한 수단에 불과하다.", author: "엘 반 데어 베크 엘렌"),
+        Quote(contents: "현명한 사람은\n큰 불행도\n작게 처리하고\n어리석은 사람은\n조금한 불행도\n현미경으로 확대하여\n스스로 큰 고민 속에 빠진다.", author: "라 로스푸코"),
+        Quote(contents: "차라리 고난 속에\n인생의 기쁨이 있다.\n풍파 없는 항해,\n얼마나 단조로운가!\n고난이 심할수록\n내 가슴은 뛴다.", author: "니체"),
+        Quote(contents: "널리 배워\n기술을 익히고,\n규칙적인 생활을 하며\n바른 말을 하라.\n이것이 인간에게\n최상의 행복이다.", author: "불경"),
+        Quote(contents: "행복의 비밀은\n자신이 좋아하는 일을\n하는 것이 아니라,\n자신이 하는 일을\n좋아하는 것이다.", author: "앤드류 매튜스"),
+        Quote(contents: "행복에서\n불행의 거리는\n고작 한 발짝밖에 안되지만\n불행에서\n행복의 거리는\n매우 먼 거리이다.", author: "유태 격언"),
+        Quote(contents: "사랑은 달콤한 꽃이다.\n그러나 그것을\n따기 위해서는\n벼랑 끝까지 갈\n용기가 있어야 한다.", author: "스탕달"),
+        Quote(contents: "훌륭한 사람을 잡아먹는\n가장 무서운 것은\n가난이다.\n이것은 무엇보다도 무섭다.", author: "테오그라스"),
+        Quote(contents: "천성이 참기에 적합지\n않은 사람에게는\n아무 일도 일어나지 않는다.", author: "마르쿠스 아우렐리우스"),
+        Quote(contents: "초인이란\n필요한 일을 견디어\n나아갈 뿐 아니라\n그 고난을\n사랑하는 사람이다.", author: "니체"),
+        Quote(contents: "낙원의 파랑새는\n자신을 잡으려 하지 않는 사람의\n손위에 날아와 앉는다.", author: "존 베리"),
+        Quote(contents: "행복이란,\n그것이 변하지 않고\n계속되었으면\n하고 바라는 그런 상태다.", author: "퐁트넬"),
+        Quote(contents: "하루에 세 번\n미소 짓는 자에게는\n약이 필요 없는 법이다.", author: "중국 격언"),
+        Quote(contents: "행복은 불행이 없으면\n보다 커지지 않는다.", author: "회남자"),
+
+        Quote(contents: "일의 진행이 더딘 것은\n별로 문제가 되지 않는다.\n그러나 그 상황이\n멈춰 버리면\n큰 문제가 되는 법이다.", author: "중국 격언"),
+        Quote(contents: "초가집에 살면서도\n미소 지을 수 있는 자가\n궁전에 살면서\n눈물 흘리는 자보다\n훨씬 처지가 나은 자이다.", author: "중국 격언"),
+        Quote(contents: "세상에서 가장 행복한 사람은\n수많은 타인의 행복을\n먼저 생각해 주는 사람이다.", author: "디드로"),
+        Quote(contents: "연애라는 것은\n마음으로부터 마음에\n이르는 가장 가까운 지름길이다.\n직선이다.", author: "브델"),
+        Quote(contents: "다른 사람을\n지나치게 신경 쓰면,\n결국 그 사람의\n포로가 된다.", author: "중국 도덕경"),
+        Quote(contents: "가장 작은 기쁨은\n타인을 기쁘게\n해주는 데서 시작된다.", author: "장 드 라브뤼예르"),
+        Quote(contents: "물고기는 언제나 입으로 낚인다.\n인간도 역시 입으로 걸린다.", author: "탈무드"),
+
+        Quote(contents: "부모들이\n우리의 어린 시절을\n꾸며 주셨으니\n우리는\n그들의 말년을\n아름답게 꾸며\n드려야 한다.", author: "생텍쥐페리"),
+        Quote(contents: "험담은 세 사람을 죽인다.\n말하는 자,\n험담의 대상자,\n듣는자.", author: "미드라쉬"),
+        Quote(contents: "참된 삶을\n맛보지 못한 자만이\n죽음을\n두려워 하는 것이다.", author: "제이 메이"),
+        Quote(contents: "산은 반드시\n올라오는 자에게만\n정복당한다는 것을\n잊지 말라.", author: "알랭"),
+        Quote(contents: "큰일을 목적하는 자는 또한\n큰 고통을 당해야한다.", author: "플루타르쿠스"),
+        Quote(contents: "행복은 무엇보다\n건강 속에 있다.", author: "G W 커티스"),
+        Quote(contents: "큰 시련은\n큰 의무를\n완수하게 만드는 것이다.", author: "톰슨"),
+        Quote(contents: "큰 나무는\n바람을 많이 받는다.", author: "카네기"),
+
+        Quote(contents: "패배를 극복하는 법을\n배워야 한다.\n그럴때에 당신의\n인격이 향상된다.", author: "닉슨"),
+        Quote(contents: "평온한 마음으로\n아껴 생활하는 것이\n사람에게 큰 부이다.", author: "크레티우스"),
+        Quote(contents: "태만이란\n약한 마음을\n가진 사람의\n유일한 피난처이다.", author: "체스터필드"),
+        Quote(contents: "흐르는 물은 결코 썩는 법이 없다.", author: "중국 격언"),
+        Quote(contents: "당신은 바로 자기 자신의 창조자이다.", author: "카네기"),
+        Quote(contents: "풍요의 낭비는 부족의 원천이다.", author: "피코크"),
+
+        Quote(contents: "당신이 잠자리에서\n일어나든 안 일어나든\n하루는 시작된다.", author: "존 차디"),
+        Quote(contents: "나는 대단한 인간이 아니다.\n노력하는 노인일뿐이다.", author: "넬슨 만델라"),
+        Quote(contents: "근심은\n세월을 거치지 않고\n백발과 노령을 가져온다.", author: "영국 격언"),
+        Quote(contents: "그릇이 차면 넘치고,\n사람이 자만하면 이지러진다.", author: "『명심보감』"),
+        Quote(contents: "나이란\n성숙해지기 위해서\n치르는 비싼 대가.", author: "톰 스토파드"),
+        Quote(contents: "기회는 새와 같은 것,\n날아가기 전에 꼭 잡아라.", author: "스마일즈"),
+        Quote(contents: "근로가 잠들면\n빈곤은 창으로\n들어온다.", author: "라이닉"),
+
+        Quote(contents: "만약 가슴 안에서\n\"나는 그림에 재능이 없는 걸\"\n이라는 음성이 들려오면\n반드시 그림을\n그려 보아야 한다.\n그 소리는\n당신이 그림을\n그릴 때 잠잠해진다.", author: "빈센트 반 고흐"),
+        Quote(contents: "결정을 내리기 전에\n모든 것을 완벽하게 알고자\n고집하는 사람은\n결코 결단을 내리지 못한다.", author: "앙리 F. 아미엘"),
+        Quote(contents: "그림자를 두려워 말라.\n그림자란 빛이 어딘가\n가까운 곳에서\n비치고 있음을\n뜻하는 것이다.", author: "루스 E. 렌컬"),
+        Quote(contents: "오늘의 식사는\n내일로 미루지 않으면서\n오늘 할 일은\n내일로 미루는 사람이 많다.", author: "C. 힐티"),
+        Quote(contents: "진정한 행복을 만드는 것은\n수많은 친구가 아니며,\n훌륭히 선택된 친구들이다.", author: "벤 죤슨"),
+        Quote(contents: "글이란 한번 인쇄되면\n스스로의 생명을 지니게 되는 법.", author: "캐롤 버넷"),
+        Quote(contents: "그날의 일은\n그날 해치우는 것이\n나의 일상규칙이다.", author: "웨링턴"),
+        Quote(contents: "육체의 노예가 된 자가\n어찌 자유를 찾겠는가.", author: "세네카"),
+        Quote(contents: "이해 관계를 떠나야\n참된 사랑을 가질 수 있다.", author: "쉴러"),
+        Quote(contents: "어려운 일은 시간이 해결해 준다.", author: "이솝 우화"),
+
+        Quote(contents: "세월은 누구에게나\n공평하게 주어진 자본금이다.\n이 자본을\n잘 이용한 사람에겐\n승리가 있다.", author: "아뷰난드"),
+        Quote(contents: "사람은 금전을\n시간보다 중히 여기지만,\n그로 인해\n잃어버린 시간은\n금전으론 살 수 없다.", author: "유태 격언"),
+        Quote(contents: "네가 헛되이 보내고\n있는 오늘은\n어제 죽은 사람이\n그렇게도 살고\n싶었던 내일이다.", author: "칸트"),
+        Quote(contents: "시간을 최악으로\n사용하는 사람들은\n시간이 부족하다고\n늘 불평한다.", author: "장 드 라브뤼예르"),
+        Quote(contents: "아무 것도 시도할\n용기를 갖지 못한다면\n인생은 대체 무엇이겠는가.", author: "빈센트 반 고흐"),
+        Quote(contents: "변명 중에서도 가장 어리석고 못난 변명은 \"시간이 없어서\"라는 변명이다.", author: "에디슨"),
+        Quote(contents: "시간이 덜어주거나\n부드럽게 해주지 않는\n슬픔이란 하나도 없다.", author: "키케로"),
+        Quote(contents: "승자는 시간을 관리하며 살고,\n패자는 시간에 끌려 산다.", author: "J. 하비스"),
+        Quote(contents: "태양을 바라보고 살아라.\n너의 그림자를 못 보리라.", author: "헬렌 켈러"),
+
+        Quote(contents: "인간을 사랑할 것.\n아무리 나약한 인간이나\n초라하고 불쌍한\n인간도 사랑할 것.\n그리고 그들을\n심판하지 말 것.", author: "생텍쥐페리"),
+        Quote(contents: "지혜는 슬픔이다.\n가장 많이 아는 자는\n숙명적인 진리를\n가장 깊이 한탄하지\n않으면 안된다.", author: "바이런"),
+        Quote(contents: "책도 사람의 경우와 같다.\n소수가 큰 역할을 하고,\n그 나머지는 대부분 사라진다.", author: "볼테르"),
+        Quote(contents: "달콤한 사랑이여...\n아아, 네게 날개가\n없었으면 좋겠는데.", author: "아이텐드르프"),
+        Quote(contents: "당신이 잘 하는 일이라면\n무엇이나 행복에 도움이 된다.", author: "버트런드 러셀"),
+        Quote(contents: "독서와 정신의 관계는,\n운동과 육체의 관계와\n마찬가지이다.", author: "에디슨"),
+        Quote(contents: "고난과 불행이 찾아올 때에\n비로소 친구가 친구임을 안다.", author: "이태백"),
+        Quote(contents: "겸손한 사람은\n언제나 신을\n그의 안내자로\n삼을 것이다.", author: "번연"),
+        Quote(contents: "30세가 넘으면 사람은\n자기 주관을 갖게 된다.", author: "베터 미들러"),
+
+        Quote(contents: "거룩하고 즐겁고\n활기차게 살아라.\n믿음과 열심에는\n피곤과 짜증이 없다.", author: "어니스트 핸즈"),
+        Quote(contents: "\"단 한 번의 인생\"이니까\n함부로 산다는 것은\n말이 안 되는 변명이다.", author: "빌 코플랜드"),
+        Quote(contents: "평범한 날이여,\n그대의 귀한 가치를\n깨닫게 하여라.", author: "매리 J. 아이리언"),
+        Quote(contents: "충고를 하게 될 때\n나는 가능하면\n짧게 하라고 충고한다.", author: "호라티우스"),
+        Quote(contents: "권력에 대한 탐욕은\n힘이 아니라\n약함에 뿌리박고 있다.", author: "에리히 프롬"),
+        Quote(contents: "결점 없는 사람을 고르다간\n끝내 벗을 얻을 수 없다.", author: "프랑스 속담"),
+        Quote(contents: "결혼은\n최고 아니면 최악\n어느 한쪽일 것이다.", author: "프랑스 격언"),
+        Quote(contents: "이혼이란\n발달된 문명세계에서는\n필요한 것이다.", author: "몽테스키외"),
+
+        Quote(contents: "재능 가운데\n가장 소중한 재능은\n한 마디면 될 때\n두 마디 말하지 않는 재주.", author: "토머스 제퍼슨"),
+        Quote(contents: "재산은 그것을\n가지고 있는\n자의 것이 아니고,\n그것을 즐기는\n자의 것이다.", author: "하우얼"),
+        Quote(contents: "진심으로 기도를 올려\n무언가 깨닫지 못하는 사람은\n없다.", author: "랠프 월도 에머슨"),
+        Quote(contents: "가장 위대한 에너지원 가운데\n하나는 자기가 하는 일에 대한 긍지.", author: "스포크"),
+        Quote(contents: "나는 현명한 외면보다는\n열정적인 실책을 더 좋아한다.", author: "아나톨 프랑스"),
+        Quote(contents: "부자가 되는\n가장 가까운 길은\n부를 경영하는데 있다.", author: "세네카"),
+        Quote(contents: "어떻게 죽든,\n그것이 한창\n일하는 도중이었으면.", author: "오비디우스"),
+        Quote(contents: "내일이란\n오늘의\n다른 이름일 뿐", author: "윌리엄 포크너"),
+
+        Quote(contents: "만 가지 이치,\n하나의 근원은\n단번에 깨쳐지는 것이\n아니니 참마음,\n진실된 본체는\n애써 연구하는 데 있다.", author: "이황"),
+        Quote(contents: "자기 자신 속에서\n편안한 마음을\n찾아내지 못하면서\n밖에서 그것을\n찾는다는 것은\n헛수고이다.", author: "라 로시푸코"),
+        Quote(contents: "즐거움은\n가끔씩 찾아오는\n손님이지만\n고통은 항상\n우리를 따라다닌다.", author: "존 키츠"),
+        Quote(contents: "무지한 이의 특징은\n허영, 자만,\n그리고 교만이다.", author: "버틀러"),
+        Quote(contents: "분노할 때는 천천히\n시간은 충분하니까.", author: "랠프 월도 에머슨"),
+        Quote(contents: "성공에 중요한 요소는\n지식과 창조력이다.", author: "에릭 브리 뉼슨"),
+        Quote(contents: "행동하라!\n학문만으로는\n결코 행복해질 수 없다.", author: "베토벤"),
+        Quote(contents: "부부 싸움은\n가난이 씨를 뿌린다.", author: "일본 격언"),
+
+        Quote(contents: "손을 게으르게\n놀리는 자는\n가난하게 되고,\n손이 부지런한 자는\n부하게 되느니라.", author: "구약 잠언"),
+        Quote(contents: "고통은 인간의\n위대한 교사이다.\n고통의 숨결 속에서\n영혼은 발육된다.", author: "에셴바흐"),
+        Quote(contents: "어머니의 눈물을\n닦을 수 있는 것은\n어머니를 울게\n한 아들뿐이다.", author: "중국 격언"),
+        Quote(contents: "인생이란\n고독하다는 것이다.\n아무도 타인을 모른다.\n모두가 외톨이다.", author: "헤세"),
+        Quote(contents: "저것을 좀 보오,\n하늘이 참 맑고 청명하오.\n나는 저기로 가는 것이오.", author: "루소"),
+        Quote(contents: "육체의 고통은\n인간의 생활과 행복에 있어서\n불가결의 조건이다.", author: "톨스토이"),
+        Quote(contents: "인생은 학교이다.\n거기선 행복 보다도\n불행이 더 좋은 교사이다.", author: "프리체"),
+        Quote(contents: "독서같이\n값싸게 주어지는\n영속적인 쾌락은 또 없다.", author: "몽테뉴"),
+        Quote(contents: "큰 사업에 성공하는 데는\n비상한 건강을 필요로 한다.", author: "에머슨"),
+        Quote(contents: "자기가 뿌린 씨는\n자기가 거두지 않으면 안된다.", author: "영국 격언"),
+        Quote(contents: "한가한 인간은\n고인 물처럼 끝내 썩어버린다.", author: "프랑스 격언"),
+        Quote(contents: "재능은 없어도\n인격은 갖추지 않으면 안된다.", author: "하이네"),
+        Quote(contents: "바보는 언제나\n자기 자랑을\n서슴지 않는다.", author: "보봐르"),
+        Quote(contents: "자신의 덕이\n닦아진 후에야\n집이 정돈된다.", author: "대학"),
+        Quote(contents: "하루의 가장\n달콤한 순간은\n새벽에 있다.", author: "윌콕스"),
+        Quote(contents: "고통의 보수는 경험이다.", author: "아이스킬로스"),
+
+        Quote(contents: "가난을 한탄하지 말아라.\n가난한 자는 때가 오면\n언젠가는 부자가 될 수 있다.\n그러나 마음이\n나쁜 자에게는\n변화란 없다.\n그들은 영원히\n가난할 것이다.", author: "우피니샤드"),
+        Quote(contents: "기쁨에 대한 추억은\n이제 기쁨이 아니다.\n하지만 슬픔에 대한\n슬픔은 언제나 슬픔이다.", author: "바이런"),
+        Quote(contents: "네가 원하는 것을\n전부 얻었을 때에\n조심하라.\n살찌는 돼지는\n운이 나쁘다.", author: "해리스"),
+        Quote(contents: "아름다움과 추함은\n다 인간의 감정에서 나온다.\n대자연은 추함이 없다.", author: "마호메트"),
+        Quote(contents: "꿈 속에 있는 것이\n연인들이고\n꿈에서 깨어난 것이\n부부이다.", author: "포프"),
+        Quote(contents: "학문과 독서에 있어서는\n모름지기 권태와 번뇌를\n참아야 한다.", author: "주자"),
+        Quote(contents: "자존심은\n어리석은 자가\n가지고 다니는\n물건이다.", author: "헤라도토스"),
+        Quote(contents: "자기의 존재에 대해\n끊임없이 놀라는 것이\n인생이다.", author: "타고르"),
+        Quote(contents: "열 번 읽기보다는 한 번 베끼는 편이 낫다.", author: "학림옥로"),
+        Quote(contents: "분별이 앞서면\n사랑은 뒤로 물러선다.", author: "발자크"),
+
+        Quote(contents: "막대한 부를\n가진 자는 때로\n불행하다.\n중용의 재물밖에\n안 가진 자는\n행복하다.", author: "헤로도토스"),
+        Quote(contents: "성공을 뽐내는 것은 위험하다.\n그러나 실패에 함구하는 것은\n더 위험하다.", author: "케네"),
+        Quote(contents: "세상에서 가장\n용감한 광경은,\n불리한 여건과\n싸우는 사람이다.", author: "레인"),
+        Quote(contents: "근심 걱정을 치료하는 데는\n위스키보다\n일이 낫다.", author: "토마스 A. 에디슨"),
+        Quote(contents: "아는 것이\n어려운 것이\n아니라,\n이것을\n행하는 것이\n어렵다.", author: "서경"),
+        Quote(contents: "나무는 열매로 알려지지\n잎으로 알려지지 않는다.", author: "레이"),
+        Quote(contents: "위대한 포부가\n위대한 사람을 만든다.", author: "풀러"),
+
+        Quote(contents: "인생이란 고통뿐이다.\n그런데 한 사람은 행복한데\n다른 한 사람은 불행하다는 것은,\n단지 두 사람이 받고 있는\n고통의 차이가\n어느 정도냐 하는 데\n달렸을 뿐,\n다른 차이는 없다.", author: "버너드 쇼"),
+        Quote(contents: "세상이란 사람들이\n생각하고 있는 것처럼\n그렇게 즐거운 것이 아니다.\n즐거운 것도 나쁜 것도\n오직 자기에게\n달렸기 때문이다.", author: "모파상"),
+        Quote(contents: "단 일 분간도\n쉴 수 없는 때처럼\n행복스러운 일이 없다.\n일하는 것,\n이것만이 살고 있다는\n증거이다.", author: "파브르"),
+        Quote(contents: "의지가 굳센 사람은\n행복할지니,\n너희는 고통을 겪겠지만\n그 고통은 오래가지\n않을 것이다.", author: "테니슨"),
+        Quote(contents: "인간이 위대하다는 것은,\n그가 자신이\n비참하다는 것을\n알고 있다는 점에서\n위대한 것이다.", author: "파스칼"),
+        Quote(contents: "우리의 할 일은\n성공이 아니다.\n다만 실패에도\n낙심 말고\n더욱 전진하는 일이다.", author: "R. 스티븐슨"),
+        Quote(contents: "오늘 할 수 있는 일에\n최선을 다하라.\n그러면 내일에는\n한 발자국 더\n진보하리라.", author: "뉴턴"),
+        Quote(contents: "세상에는 아름다운\n여인은 많다.\n그러나 완전한 여인은\n하나도 없다.", author: "위고"),
+        Quote(contents: "마음 평안하게\n기다리는 사람은\n기다림에 지치는\n일이 없다.", author: "프랑스 격언"),
+        Quote(contents: "할 수 있는 자는 행한다.\n할 수 없는 자는 가르친다.", author: "조지 버나드 쇼"),
+        Quote(contents: "최악의 고독은\n한 사람도 친구가\n없는 것이다.", author: "프랜시스 베이컨"),
+        Quote(contents: "마음은 팔고\n사지는 못하지만, 줄 수는 있는 재산이다.", author: "플로베르"),
+        Quote(contents: "행복을 체념한 사람은\n행복을 찾은 것이나 다름 없다.", author: "치일"),
+        Quote(contents: "고난은,\n사람의 진가를\n증명하는 기회다.", author: " 에픽테토스"),
+        Quote(contents: "행복한 마음은\n아름다운 얼굴을\n만든다.", author: "영국 격언"),
+        Quote(contents: "괴롭다고 보았던 세상도,\n지금은 그립다.", author: "일본 격언"),
+        Quote(contents: "산다는 것,\n그것은 치열한 전투이다.", author: "로망 롤랑"),
+        Quote(contents: "가장 뛰어난 천재적 자질도\n무위도식으로 망쳐진다.", author: "몽테뉴"),
+
+        Quote(contents: "희생이 없이\n인생을 좋게 하겠다는\n모든 방법은 무익한 것이다.\n그런 방법은\n도리어 좋게\n만들 가능성을\n없애 버리는 데에\n지나지 않는다.", author: "러스킨"),
+        Quote(contents: "인간은 죽게 되면\n그 시체를 벌레에게\n먹히고 만다.\n그러나 살아 있다 하더라도\n근심걱정에게 먹히고\n말 때가 있다.", author: "유태 격언"),
+        Quote(contents: "살아가는 기술이란\n하나의 공격 목표를\n골라 그리로\n힘을 집중시키는 일이다.", author: "앙드레 모로아"),
+        Quote(contents: "자기의 경험으로\n얻은 소자본은\n타인의 경험으로\n얻은 백만의 자본보다\n값 있다.", author: "레싱"),
+        Quote(contents: "남자란 여자에게\n접근할 때는\n봄이지만\n결혼해 버리면\n내내 겨울이다.", author: "셰익스피어"),
+        Quote(contents: "시작할 때와\n마찬가지로 끝맺음을\n신중히 다루면\n실패함은 없을 것이다.", author: "노자"),
+        Quote(contents: "꿈을 계속\n가지고 있으면\n언젠가는 반듯이\n그것이 실현될 때가 온다.", author: "괴테"),
+        Quote(contents: "친구들에게서 기대하는 것을\n친구들에게 베풀어야 한다.", author: "아리스토텔레스"),
+        Quote(contents: "우리가 사는\n이 인생은\n서글픈 꿈에\n지나지 않는다.", author: "루터"),
+        Quote(contents: "많이 읽어라. 그러나 많은 책을 읽지 말라.", author: "C. 폴리니우스"),
+        Quote(contents: "오늘을 잡으라.\n내일이 있다고\n믿지 말라.", author: "호라티우스"),
+        Quote(contents: "고양이와 여자는\n부르지 않을 때\n찾아온다.", author: "보들레르"),
+        Quote(contents: "바쁜 벌은\n슬퍼할 시간이 없다.", author: "윌리엄 블레이크"),
+        Quote(contents: "현실에 꿈과 웃음을 더한 것이 지혜다.", author: "임어당"),
+        Quote(contents: "예술은 슬픔과 고통을 통해 나온다.", author: "피카소"),
+        Quote(contents: "지나친 휴식은 녹이 슨다.", author: "월터 스콧 경"),
+        Quote(contents: "너무 긴 휴식은 고통이다.", author: "호메로스"),
+        Quote(contents: "사색은 지혜를 낳는다.", author: "관자"),
+        Quote(contents: "남을 흉내내지 말라.", author: "이솝"),
+
+        Quote(contents: "인생을 사는 이상\n인생에 깊이\n파고들지 않는 자는\n불행하다.", author: "아리지마 다케오"),
+        Quote(contents: "인생은 좋은 것들만\n오는 것이 아니라,\n여러가지 것과\n섞어서 온다.", author: "찰스 램"),
+        Quote(contents: "인생의 어느 시절,\n어느 시간도 헛되이\n아무렇게나 보낼 수는 없다.", author: "러스킨"),
+        Quote(contents: "인생의 봄에는\n오직 한 번밖에는\n꽃피지 않는다.\n다시 피지 않는다.", author: "실러"),
+        Quote(contents: "인류의 목적은\n휴식이 아니다.\n그것은 지적이며\n도덕적인 완성이다.", author: "르낭"),
+        Quote(contents: "마음의 힘은\n휴식하는 것이 아니라\n운동하는 것이다.", author: "알렉산더 포우프"),
+        Quote(contents: "잠은 일어나기 위함이요,\n휴식은 일하기 위함이다.", author: "토쿠토미 소호오"),
+        Quote(contents: "노동 뒤의\n휴식이야말로\n가장 편안하고\n순수한 기쁨이다.", author: "칸트"),
+        Quote(contents: "인생의 매력을 음미하라!\n인생은 한 번밖에는 없다.", author: "F. 융거"),
+        Quote(contents: "근로하여 얻은 빵보다\n더 맛있는 것은 없다.", author: "스마일즈"),
+        Quote(contents: "고통을 주지 않는 것은,\n쾌락도 주지 않는다.", author: "몽테뉴"),
+        Quote(contents: "정신을 집중시켜 일하면\n불가능할 것이 없다.", author: "주자"),
+
+        Quote(contents: "휴식과 행복은\n누구나 갈망하는 바이지만\n그것은 다만\n근면에 의해서만\n얻게 된다.", author: "T.A. 켐피스"),
+        Quote(contents: "우리가 사는 환경은\n우리가 만들어\n가는 것이다.\n내가 바뀔 때\n인생도 바뀐다.", author: "앤드류 매튜스"),
+        Quote(contents: "인간은 생각하는 것이 적으면\n적을수록 더 말이 많아진다.", author: "몽테스키외"),
+        Quote(contents: "사색하기를\n포기하는 것은\n정신적 파산 선고와 같다.", author: "슈바이처"),
+        Quote(contents: "과거는 모두 잊어버렸다.\n나는 미래만을 보고 있다.", author: "에디슨"),
+        Quote(contents: "군자는 말에는 더디고\n행동에는 민첩하고자 하느니라.", author: "공자"),
+        Quote(contents: "자기 신뢰는\n위대한 사업의\n제일의 필요 조건이다.", author: "존슨"),
+        Quote(contents: "미인은 보는 것이지\n결혼할 상대는 아니다.", author: "유태인 격언"),
+        Quote(contents: "일의 성패는 반드시 작은 일로부터 생긴다.", author: " 『회남자』"),
+        Quote(contents: "타인은 우리가\n자신의 마음을\n읽는 렌즈다.", author: "에머슨"),
+        Quote(contents: "성공하면\n오래 머물지\n말 것이다.", author: "『사기』"),
+        Quote(contents: "바쁘면 슬픔이 잊혀진다.", author: "바이런"),
+        Quote(contents: "고생 끝에 낙이 있다.", author: "한국 격언"),
+
+        Quote(contents: "너무도 자유롭다는 것은,\n좋은 것이 아니다.\n모든 필요한 물건을\n다 가진다는 것은\n좋은 일이 아니다.", author: "파스칼"),
+        Quote(contents: "남을 위해서 하는 일은\n결국 돌고 돌아서\n나 자신을 위한 일이\n되기도 하니까.", author: "카마도 탄지로"),
+        Quote(contents: "우리들은 짧은 인생을\n받은 것이 아니다.\n우리들이 짧게\n하고 있는 것이다.", author: "세네카"),
+        Quote(contents: "결코 후회하지 말며,\n남을 비난하지 말라.\n이것이 지혜의 첫 걸음이다.", author: "D. 디으로"),
+        Quote(contents: "왜 굳이 의미를\n찾으려 하는가?\n인생은 욕망이지,\n의미가 아니다.", author: "찰리 채플린"),
+        Quote(contents: "비록 환경이 어둡고\n괴롭더라도\n항상 마음의 눈을\n넓게 뜨고 있어라.", author: "명심보감"),
+        Quote(contents: "내적인 생활이\n없는 사람은\n환경의 노예에\n불과한 사람이다.", author: "아미엘"),
+        Quote(contents: "해야할 일을 먼저 하고\n여가는 뒤로 돌려라.", author: "그라시안"),
+        Quote(contents: "로마는 하루 아침에\n이루어지지 않았다.", author: "세르반테스"),
+        Quote(contents: "휴식은 좋은 것이지만\n권태는 그 형제다.", author: "볼테르"),
+
+        Quote(contents: "다른 사람이 쓴\n책을 읽는 일로\n시간을 보내라.\n다른 사람이\n고생한 것을 보고\n배우는 것으로써\n쉽게 자기를\n개선시킬 수 있다.", author: "소크라테스"),
+        Quote(contents: "배불리 먹고\n따뜻하게 입고\n평안하게 살면서\n교육이 없으면\n새와 짐승에\n가까워지느니라.", author: "맹자"),
+        Quote(contents: "자제할 줄 모르는 사람을\n자유인이라고 부를 수 없다.", author: "피타고라스"),
+        Quote(contents: "기다릴 줄 아는 것이\n성공의 큰 비결이다.", author: "프랑스 격언"),
+        Quote(contents: "성공의 지름길은 첫째 일을 사랑하는 것.", author: "츄크"),
+        Quote(contents: "살아있는 한\n계속 사는 법을 배우라.", author: "세네카"),
+        Quote(contents: "인생은 일방통행의 길이다.", author: "버너스 베렌슨"),
+        Quote(contents: "배우지 않으면 곧 늙고 쇠해진다.", author: "주자"),
+        Quote(contents: "하루는 영원의 축소판이다.", author: "에머슨"),
+        Quote(contents: "사랑은 계산하지 않는 것.", author: "김대규"),
+
+        Quote(contents: "인생에는\n해결법 같은 것은 없다.\n인생에 있는 것은\n진행중의 힘뿐이다.\n그 힘을 만들어내야\n하는 것이다.\n그것만 있으면\n해결법 따위는\n저절로 알게 되는 것이다.", author: "생텍쥐페리"),
+        Quote(contents: "화를 낼줄 모르는 것은\n바보이고\n화를 내지 않는 것은\n현명한 사람이다.", author: "서양 격언"),
+        Quote(contents: "우리의 인생에서\n가장 행복한 때라는 것은 일에\n몰두하고 있을 때이다.", author: "힐티"),
+        Quote(contents: "고뇌는 철저하게\n경험하는 것에\n의해서만\n치유될 수 있다.", author: "마르셀 프루스트"),
+        Quote(contents: "과거는 잊어버리고\n다른 일에 몰두하자.\n이것이 고민의 해결이다.", author: "잭 템프시"),
+        Quote(contents: "자기 자신을\n희생하는 것처럼\n행복한 일은 없다.", author: "도스토예프스키"),
+        Quote(contents: "고민하면서\n길을 찾는 사람들,\n그들이 참된 인간상이다.", author: "파스칼"),
+        Quote(contents: "기다림만으로\n사는 사람은\n굶어서 죽는다.", author: "이탈리아 격언"),
+        Quote(contents: "슬픔의\n유일한 치료제는\n행동이다.", author: "조지 헨리 루이스"),
+        Quote(contents: "근심은\n미(美)를\n훔치는 도둑이다.", author: "마미언"),
+
+        Quote(contents: "인생의 긴급사는\n과단성 있게\n밀고 나가라.\n여기저기 돌아다 보고\n주저하는 것은\n어리석은 짓이다.", author: "비스마르크"),
+        Quote(contents: "불행한 사람을\n비웃지 말라.\n자기의 행복이\n영원할 것이라고\n누가 장담할 것인가.", author: "라 퐁텐"),
+        Quote(contents: "미리 생각할 수도 없는\n앞날의 비극을\n상상해서\n자기를 불행하게\n만들지 말라.", author: "모로아"),
+        Quote(contents: "웃을 때도\n마음에 슬픔이 있고,\n즐거움의 끝에도\n근심이 있느니라.", author: "구약 잠언"),
+        Quote(contents: "우리가 가져야 하는 것은\n현실주의와 조화되는\n이상주의이다.", author: "A. 헉슬리"),
+        Quote(contents: "우리의 욕망은\n항상 우리의 소유에\n비례해서 증가한다.", author: "B. 존슨"),
+        Quote(contents: "기쁨에는 괴로움이,\n괴로움에는 기쁨이\n없으면 안된다.", author: "괴테"),
+        Quote(contents: "너무 고르는 자가\n가장 나쁜 것을 갖는다.", author: "영국 격언"),
+        Quote(contents: "빨리 하려고 하면,\n일이 되지 않는다.", author: "중국 격언"),
+        Quote(contents: "용자는 두려워하지 않는다.", author: "공자"),
+
+        Quote(contents: "아무것도 바라지\n않는 때가\n최고의 행복이다.\n극히 작은 것\n밖에 바라지 않을 때가\n그 다음가는 행복이다.", author: "소크라테스"),
+        Quote(contents: "세상에는\n우리의 침울한\n두 눈으로\n발견할 수 있는\n이상의 행복이\n있는 법이다.", author: "프리드리히 니체"),
+        Quote(contents: "일을 하지 않으면 안된다.\n살아간다는 행복의 뜻도\n모두 그 안에\n포함되어 있다.", author: "체호프"),
+        Quote(contents: "인간은 자기가\n행복하다는 것을\n알지 못하기 때문에\n불행한 것이다.", author: "도스토예프스키"),
+        Quote(contents: "행복은 산울림과 같다.\n당신에게 대답을 하면서\n찾아오지는 않는다.", author: "칼멘 실봐"),
+        Quote(contents: "희망은,\n희망을 갈망하여\n추구하는 사람을\n결코 외면하지 않는다.", author: "J. 플레"),
+        Quote(contents: "환희는 짧고 무상한 것이며,\n쾌활은 정착되어 항구적이다.", author: "스위프트"),
+        Quote(contents: "행운이 재산을 주는 자에게는\n걱정도 또한 준다.", author: "페릭스 바이세"),
+        Quote(contents: "행운은 여간해서\n계속해서 오지는 않는다.", author: "영국 격언"),
+        Quote(contents: "위험 없이는 기쁨이 없다.", author: "스코틀랜드 격언"),
+
+        Quote(contents: "인간의 행복의 원리는 간단하다.\n불만에 자기가\n속지 않으면 된다.\n어떤 불만으로 해서\n자기를 학대하지만\n않는다면\n인생은 즐거운 것이다.", author: "버트런드 러셀"),
+        Quote(contents: "행복도 하나의 기술이다.\n즉 자기 자신 속에서\n발견하는 기술이 필요하다.", author: "힐티"),
+        Quote(contents: "크고 작고 간에\n고통을 수반하지\n않는 행복이\n이 세상에 있을까?", author: "M. 올리판토"),
+        Quote(contents: "인간의 행복이란\n자유에 있지 않고\n의무를 수행하는 데 있다.", author: "생텍쥐페리"),
+        Quote(contents: "불행 속에서도\n위대할 수 있다는 것.\n그것은 행복이다.", author: "R. 후고"),
+        Quote(contents: "자기 스스로를\n행복하다고\n생각하는 사람은 행복하다.", author: "영국 속담"),
+        Quote(contents: "아무것도 모르는 것이\n가장 행복한 것이다.", author: "서양 격언"),
+        Quote(contents: "희망은 강한 용기이며\n새로운 의지이다.", author: "마르틴 루터"),
+        Quote(contents: "가르치는 것은\n두 번 배우는 것이다.", author: "조제프 주베르"),
+        Quote(contents: "대사업의 기록은\n대고난의 기록이다.", author: "스마일스"),
+
+        Quote(contents: "행복의 원칙은\n첫째 어떤 일을 할 것,\n둘째 어떤 사람을 사랑할 것,\n세째 어떤 일에 희망을 가질 것이다.", author: "칸트"),
+        Quote(contents: "말이 있기에 사람은\n짐승보다 낫다.\n그러나 바르게\n말하지 않으면\n짐승이 그대보다\n나을 것이다.", author: "사아디"),
+        Quote(contents: "아내를\n눈으로 보고서만\n택해선 안 된다.\n눈보다는 귀로써\n아내를 선택하라.", author: "토마스 풀러"),
+        Quote(contents: "행복을 즐겨야 할 시간은\n지금이다.\n행복을 즐겨야 할 장소는\n여기다.", author: "로버트 인젠솔"),
+        Quote(contents: "착한 일은\n작다 해서\n아니하지 말고,\n악한 일은\n작다 해도\n하지 말라.", author: "소열황제"),
+        Quote(contents: "습관이란\n인간으로 하여금\n어떤 일이든지\n하게 만든다.", author: "도스토예프스키"),
+        Quote(contents: "말을 많이 한다는 것과\n잘 한다는 것은 별개이다.", author: "소포클레스"),
+        Quote(contents: "시기는\n자신의 화살로\n자신을 죽인다.", author: "그리이스 사화집"),
+        Quote(contents: "빈곤은 가난하다고\n느끼는 데서 존재한다.", author: "에머슨"),
+        Quote(contents: "언제까지 계속되는\n불행이란 없다.", author: "로맹 롤랑"),
+
+        Quote(contents: "조급히 굴지 말아라.\n행운이나 명성도\n일순간에 생기고\n일순간에 사라진다.\n그대 앞에 놓인\n장애물을 달게 받아라.\n싸워 이겨 나가는 데서\n기쁨을 느껴라.", author: "앙드레 모로아"),
+        Quote(contents: "고통은 인간을\n생각하게 만든다.\n사고는 인간을\n현명하게 만든다.\n지혜는 인생을\n견딜 만한 것으로 만든다.", author: "J. 패트릭"),
+        Quote(contents: "우리가 두려워하는\n공포는 종종 허깨비이지만,\n그럼에도 불구하고\n실제 고통을 초래한다.", author: "실러"),
+        Quote(contents: "인생의 낙은\n과욕에서보다 절욕에서 찾아야 한다.\n허욕을 버리면\n심신이 상쾌해진다.", author: "예기"),
+        Quote(contents: "나는 가장\n적은 욕심을\n가졌으므로\n신에 가장 가까운 존재이다.", author: "소크라테스"),
+        Quote(contents: "인간의 행실은\n각자가 자기의\n이미지를 보여주는\n거울이다.", author: "괴테"),
+        Quote(contents: "용기는 별로 인도하고,\n두려움은 죽음으로 인도한다.", author: "세네카"),
+        Quote(contents: "수면은\n피로한 마음의\n최상의 약이다.", author: "세르반테스"),
+        Quote(contents: "역경은 진리로\n통하는 으뜸가는 길이다.", author: "바이런"),
+        Quote(contents: "고생보다\n더 중요한 교육은 없다.", author: "지스레지"),
+
+        Quote(contents: "웃음도 눈물도\n그렇게 오래 가는 것은 아니다.\n사랑도 욕망도 미움도\n한 번 스치고 지나가면,\n마음 속에\n아무런 힘을 미치지\n못하는 것이라고\n나는 생각한다.", author: "어네스트 다우슨"),
+        Quote(contents: "다급하게\n책을 읽는 버릇을\n가진 사람은\n좋은 책을\n천천히 읽어나갈 때의\n묘한 힘을\n결코 알지 못한다.", author: "로망 롤랑"),
+        Quote(contents: "사랑은 일에 굴복한다.\n만일 사랑으로부터\n빠져 나오기를 원한다면,\n바쁘게 되라.\n그러면 안전할 것이다.", author: "오비디우스"),
+        Quote(contents: "우리는 남의 기쁨에서\n우리 자신의 슬픔을 뽑아오고\n남의 슬픔에서\n우리의 기쁨을 얻어 온다.", author: "O. 펠덤"),
+        Quote(contents: "열매 맺지 않는\n과일 나무는\n심을 필요가 없고,\n의리 없는 벗은\n사귈 필요가 없다.", author: "명심보감"),
+        Quote(contents: "그 사람됨을\n알고자 하면\n그의 친구가\n누구인가를 알아보라.", author: "터키 격언"),
+        Quote(contents: "사랑하며 가난한 것이,\n애정 없는 부유함보다 훨씬 낫다.", author: "L. 모리스"),
+        Quote(contents: "벗이 먼곳으로부터 찾아오니\n이 얼마나 즐거운가.", author: "논어"),
+        Quote(contents: "너희 중에 죄 없는 자는 돌을 던져라.", author: "『신약성서』"),
+        Quote(contents: "결혼은 도를 닦는 일이다.", author: "양소영"),
+
+        Quote(contents: "인생은\n한 권의 책과 같다.\n어리석은 이는\n그것을 마구\n넘겨 버리지만,\n현명한 인간은\n열심히 읽는다.\n단 한 번밖에\n인생을 읽지\n못한다는 것을\n알고 있기 때문이다.", author: "장 파울"),
+        Quote(contents: "인생은\n반복된 생활이다.\n좋은 일을 반복하면\n좋은 인생을,\n나쁜 일을 반복하면\n불행한 인생을\n보내는 것이다.", author: "W. NL. 영안"),
+        Quote(contents: "인생은\n하나의 실험이다.\n실험이 많아질수록\n당신은 더 좋은\n사람이 된다.", author: "에머슨"),
+        Quote(contents: "인생의 최고 불행은\n인간이면서\n인간을 모르는 것이다.", author: "파스칼"),
+        Quote(contents: "우리의 인생은\n우리가 노력한 만큼\n가치가 있다.", author: "모리악"),
+        Quote(contents: "인생은 우주의 영광이요,\n또한 우주의 모욕이다.", author: "파스칼"),
+        Quote(contents: "인생의 위대한 목표는\n지식이 아니라 행동이다.", author: "헉슬리"),
+        Quote(contents: "삶은 호흡하는 것이 아니라\n행위를 하는 것이다.", author: "루소"),
+        Quote(contents: "인생은 선을\n실행하기 위하여\n만들어졌다.", author: "칸트"),
+        Quote(contents: "미루다 보면\n한이 없다.", author: "힌두스탄 격언"),
+
+
+        Quote(contents: "처음에는 도대체 왜\n하냐고 물을 것이고,\n나중에는 도대체\n어떻게 해낸거냐고\n물을 것이다.", author: "어니스트 헤밍웨이"),
+        Quote(contents: "타인은 설득하느라\n시간을 낭비하지 마라.\n어차피 사람들은\n자신이 듣고 싶은 것만 듣는다.", author: "피을러 코엘료"),
+        Quote(contents: "사람들에게 친절하십시오.\n그러나 그들을\n기쁘게 하려고\n노력하지는 마십시오.", author: "우 조티카 사야도"),
+        Quote(contents: "멋진 사람이 되세요.\n하지만 그것을 증명하는 데\n시간 낭비는 하지 마세요.", author: "파울로 코엘료"),
+        Quote(contents: "뛰어들어라,\n그러면 온 우주가\n당신에게 헤엄치는 법을\n가르칠 것이다.", author: "보도 섀퍼"),
+        Quote(contents: "인간관계는\n넓히는 건줄 알았는데\n잘 좁혀야 하는거더라", author: "하상욱"),
+        Quote(contents: "다정한 말이\n똑똑한 말을\n이깁니다.", author: "이재은"),
+
+        Quote(contents: "돈을 벌기 위해서는\n돈이 되지 않는 시간을 견뎌야 한다.\n금을 세공하는 동안에\n금이 깎여나가는 것은\n어쩔 수 없다.", author: "김종봉, 재갈현열"),
+        Quote(contents: "소금 3%가\n바닷물을 썩지 않게 하듯이\n우리 마음 안에 있는\n3%의 좋은 생각이\n우리 삶을 지탱하고\n있는지 모릅니다.", author: "정호승"),
+        Quote(contents: "저를 싫어하는 사람까지\n좋아하게 만들만큼\n저는 대인배가 아니거든요.\n저를 싫어하는 사람은\n나도 싫어하면 그만이니까", author: "아이유"),
+        Quote(contents: "세상에서 가장 용기 있는 자는\n세 가지 능력을 가지고 있다.\n도움을 청하고,\n질문을 하고,\n견해를 바꾸는 일이다.", author: "김승호"),
+        Quote(contents: "내가 생각하기에\n성공한 인생은\n진심을 많이 나눈\n인생이라고 생각한다.", author: "류재언"),
+        Quote(contents: "자신을 사랑하는 것이야말로\n평생 지속되는 로맨스다.", author: "오스카 와일드"),
+        Quote(contents: "둘 중 하나야\n도망치거나 극복하거나.", author: "라이온 킹"),
+
+            Quote(contents: "공부를 많이 하면 공부가 늘고\n운동을 많이 하면 운동이 늘고\n요리를 많이 하면 요리가 느는 것처럼\n무언가를 하면 할수록 늘게 된다.\n그러니 걱정하지 말아라,\n더 이상 걱정이 늘지 않게", author: "⌜걱정하지 마라 中⌟"),
+        Quote(contents: "당신이 사는 서양에서는\n가장 높이 올라가는\n사람을 존경하지요?\n여기서는 제일 많이\n버리는 사람을 존경해요.", author: "⌜티벳에서의 7년 中⌟"),
+        Quote(contents: "때론 미친 척하고\n딱 20초만 용기를\n내 볼 필요가 있어.\n그럼 장담하는데\n멋진 일이 생길거야.", author: "⌜우리는 동물원을 샀다. 中⌟"),
+        Quote(contents: "소중한 순간이 오면\n따지지 말고 누릴 것.\n우리에게 내일이 있으리란\n보장은 없으니까", author: "⌜창문 넘어 도망친 100세 노인 中⌟"),
+        Quote(contents: "있다고 다 보여주지 말고,\n안다고 다 말하지 말고,\n가졌다고 다 빌려주지 말고,\n들었다고 다 믿지 말라.", author: "⌜리어왕 中⌟"),
+        Quote(contents: "나빴던건 신호등이 아니라,\n타이밍이 아니라,\n내 수많은 망설임 들이었다.", author: "⌜응답하라 1988 中⌟"),
+        Quote(contents: "\"하려는 자는 방법을 찾고\n하지 않으려는 자는 변명을 찾는다.\"", author: "⌜마음에 불을 中⌟"),
+        Quote(contents: "비법이란 없단다.\n특별하지 않아도\n특별하다고 믿으면 특별해지는 거야", author: "⌜쿵푸팬더 中⌟"),
+        Quote(contents: "사는게 힘들면\n어떻게 하는 줄 알아?\n 그냥 계속 헤엄쳐!", author: "⌜니모를 찾아서 中⌟"),
+        Quote(contents: "절대 되돌릴 수 없는 것들\n1. 지나간 시간\n2. 놓쳐버린 기회\n3. 내뱉은 말", author: "인생의 태도"),
+        Quote(contents: "오늘은\n당신의 남은 인생이\n시작되는 첫째 날입니다.", author: "⌜아메리칸 뷰티 中⌟"),
+        Quote(contents: "매 1분마다\n인생을 바꿀 수 있는\n기회가 찾아온다.", author: "⌜바닐라 스카이 中⌟"),
+        Quote(contents: "세상에서 제일 쓸데없고\n해로운 말이 '그만하면 잘했어'야", author: "⌜위플래쉬 中⌟"),
+        Quote(contents: "가난하다고 해서\n꿈마저 가난한 것은 아니다.", author: "⌜서칭 포 슈가맨 中⌟"),
+        Quote(contents: "사랑해서 함께한 게 아니야\n더 사랑하려고 함께 하는 거야", author: "⌜Up 中⌟"),
+        Quote(contents: "너에게는\n꿈을 이루기 위한 시간이\n아직 충분히 있어", author: "⌜피터팬 中⌟"),
+      
+        Quote(contents: "당신이 세상에 무엇을 할지 말해줘라.\n하지만 먼저 그것을 행동으로 보여라.", author: "생각하라, 그리고 부자가 되어라"),
+        Quote(contents: "탁월한 사람에게 규칙적인 습관이란,\n야망의 또 다른 표현이다.", author: "위스톤 휴 오든"),
+        Quote(contents: "행복의 반대는\n불행이 아니라\n‘비교’다.", author: "인생의 태도"),
+        Quote(contents: "돈과 기회는\n필요에 답하지 않고\n능력에 답한다.", author: "보도 섀퍼"),
+        Quote(contents: "우리가 찾고 있는 마법은\n우리가 피하고 있는 일 안에 있다.", author: "인생의 태도"),
+        Quote(contents: "남들보다 더 잘하려고\n고민하지 마세요.\n'지금의 나'보다 잘하려\n애쓰는 게 중요해요.", author: "윌리엄 포크너"),
+        Quote(contents: "스스로 돌아봐서 잘못이 없다면\n천만인이 가로막아도 나는 가겠다.", author: "맹자"),
+        Quote(contents: "성공의 비밀은 '자신감'이며\n자신감의 비밀은 '엄청난 준비'다.", author: "조수미"),
+        Quote(contents: "꿈은 도망가지 않아...\n도망가는 건\n언제나 자기 자신이지.", author: "짱구아빠"),
+        Quote(contents: "사랑받는 것이 행복이 아니라\n사랑하는 것이 행복이다.", author: "헤르만 헤세"),
+        
+   
+        Quote(contents: "세 가지 헛된 확신이 우리를 가로막는다.\n내가 잘해야만 한다는 확신,\n타인이 나를 대우해야만 한다는 확신,\n세상이 힘들지 않아야만 한다는 확신", author: "엘버트 엘리스"),
+        Quote(contents: "불가능해, 자존심이 말했다.\n위험해, 경험이 말했다.\n해결책이 없어, 이성이 말했다.\n한번 해보자, 심장이 속삭였다.", author: "윌리엄 아서 워드"),
+        Quote(contents: "나에게 필요한 합리화\n1. 나와는 다른 사람이구나.\n2. 아, 그럴 수도 있겠다.\n3.그게 나의 최선이었어.", author: "인생의 태도"),
+        Quote(contents: "\"네 말은 틀렸어\"가 아니라\n\"너는 그렇게 생각하는구나\"\n고개를 끄덕일 줄 아는 사람", author: "인생의 태도"),
+        Quote(contents: "당신이 원하는\n그 모든 것들은\n바로 두려움의 건너편에\n있다는 것을 명심해라.", author: "잭 캔필드"),
+        Quote(contents: "자세히 들여다보면,\n대부분의 갑작스러운 성공은\n오랜 시간이 걸렸습니다.", author: "스티브 잡스"),
+        Quote(contents: "만약 당신이\n다수에 속해 있다는 것을 깨달았다면,\n변화할 때다.", author: "마크 트웨인"),
+        Quote(contents: "선택했는데 아니면\n그럼 다른 거 다시 선택하면 되는 거야.\n걱정하지 마", author: "인생의 태도"),
+        Quote(contents: "우리들의 불행은\n대부분 남을 의식하는 데서 온다.", author: "쇼펜하우어"),
+        Quote(contents: "너에게 이렇게 젖을 줄 알았다면\n우산이라도 쓸걸.", author: "인생의 태도"),
+        Quote(contents: "내가 꿈을 이루면\n난 다시 누군가의 꿈이 된다.", author: "인생의 태도"),
+        Quote(contents: "목적지가 아니라\n여정에 집중하세요.", author: "인생의 태도"),
+        Quote(contents: "서두르지 말고\n그러나 쉬지도 말고", author: "요한 볼프강 폰 괴테"),
+        Quote(contents: "인생은\n폭풍우가 지나가기를\n기다리는 것이 아니라\n빗속에서 춤추는 법을\n배우는 것이다.", author: "비비안 그린"),
+        
+
+        Quote(contents: "평생, 삶의 결정적 순간을\n찍으려 노력헀는데,\n삶의 모든 순간이\n결정적 순간이었다.", author: "앙리 까르띠에 브레송"),
+        Quote(contents: "우리는 자신이\n반복한 일로 이루어진다.\n그렇기에 탁월함은\n행위가 아니라 습관이다.", author: "아리스토텔레스"),
+        Quote(contents: "넘어지는 것은\n너의 잘못이 아니지만,\n일어나지 않는 것은\n너의 잘못이다.", author: "인생의 태도"),
+        Quote(contents: "아마추어는 문제를 복잡하게 만들고,\n프로는 문제를 단순화시킨다.", author: "카를로스 곤"),
+        Quote(contents: "아무것도 변하지 않을지라도,\n내가 변하면 모든 것이 변한다.", author: "오노레 드 발자크"),
+        Quote(contents: "고개를 들어라.\n각도가 곧 태도다.", author: "프랭크 시나트라"),
+        Quote(contents: "얼마나 많은 실수를 하든,\n얼마나 더디게 진행하든,\n당신은 여전히\n시도하지 않는 모든 사람보다\n훨씬 앞서 있습니다.", author: "토니 로빈스"),
+        Quote(contents: "일생의 계획은 젊은 시절에 달려있고\n일년의 계획은 봄에 있으며\n하루의 계획은 아침에 달려 있다.", author: "공자"),
+        Quote(contents: "가장 중요한 일이\n가장 중요하지 않은 일들에\n밀려나서는 안 된다.", author: "요한 볼프강 폰 괴테"),
+        Quote(contents: "진정한 성공이란\n극심한 경쟁의\n쳇바퀴에서 빠져나와\n내 활동을 마음의 평화에\n맞추는 것이다.", author: "나심 탈레브"),
+        Quote(contents: "'80%' 하려고 할 때는\n결과를 얻지만,\n'100%' 완벽하게 하려고 하면\n여전히 고민만 하게 된다.", author: "댄 설리번"),
+        Quote(contents: "나이가 들수록 제 모습을 있는\n그대로 보여줄 수 있는\n사람들만 만나게 되고,\n찾게 되더라고요.\n만약 그럴 수 없다면 안만나요.\n이유는 간단해요.\n그래야 스트레스 받지 않고\n살 수 있더라고요.", author: "조인성"),
+        Quote(contents: "내가 내 자신이 기특해 보이는 순간이 많을수록 자존감이 높아져.", author: "이효리"),
+        Quote(contents: "우리는 장애물을 만나\n목표에서 멀어지는 게 아니다.\n눈앞에 보이는 덜 중요한 목표를\n추구하다가 진정한 목표에서 멀어진다.", author: "로버트 브롤트"),
+        Quote(contents: "힘든 시기는 ‘강한 사람’을 만들고\n강한 사람은 ‘쉬운 삶’을 만들며\n약한 사람은\n’힘든 시기‘를 만든다.", author: "인생의 태도"),
+        Quote(contents: "독서야말로 사람에게 있어\n최고의 청정한 일로,\n부귀하든 가난하든\n인간이 독서를 통해 삶의 방향성을 찾고,\n지식과 지혜를 쌓을 수 있다.", author: "정약용"),
+
+        Quote(contents: "누군가를 만난다는 건\n내 인생에서 돌려받지 못할\n시간의 일부를 주는 것", author: "인생의 태도"),
+        Quote(contents: "들은 것이 아니라,\n보이는 것을 믿으세요.", author: "일론 머스크"),
+        Quote(contents: "지식의 가장 큰 적은\n무지가 아니라\n지식에 대한 환상이다.", author: "스티븐 호킹"),
+        Quote(contents: "최상의 덕은\n베푼 것을\n마음에 두지 않는 것이다.", author: "인생의 태도"),
+        Quote(contents: "자신이 하는 일을\n사랑하면, 더 이상 그것을\n일로 여기지 않게 된다.", author: "팀 쿡"),
+        Quote(contents: "성공은\n최고의 것을\n만들어내는 것이 절대 아니다.", author: "팀 쿡"),
+        Quote(contents: "시간이 들더라도\n제대로 하는 것이 중요하다.", author: "팀 쿡"),
+            
+        Quote(contents: "집중이야말로\n모든 것이 핵심이다. ", author: "팀 쿡"),
+        Quote(contents: "내일이 확실히\n오리라는 보장은 없다.\n쓸데없는 것들은 버려라.", author: "팀 쿡"),
+        Quote(contents: "인생의 즐거움은\n멀리 있는 목표가 아니라,\n그 과정에 있다.", author: "팀 쿡"),
+        Quote(contents: "책을 읽으면서\n나를 찾아가는 것이 아니라,\n나를 찾아가면서\n책을 읽어야 한다.", author: "무라카미 하루키"),
+        Quote(contents: "어른들이 알려준 지름길로만\n다닌 아이는 훗날 아이에도,\n어른에도 속하지 못하게 된다.", author: "정약용"),
+        Quote(contents: "자신을 위해서는 적게 쓰고 다른 사람들에게 많이 주어라.", author: "아인슈타인"),
+        Quote(contents: "성공한 사람의\n숨겨진 노력에는 대부분 관심이 없다.\n사실 알아도 따라하지 않는다.", author: "인생의 태도"),
     ]
     .shuffled()
     }

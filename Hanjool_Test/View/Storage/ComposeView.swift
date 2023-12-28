@@ -14,7 +14,9 @@ struct ComposeView: View {
     @Environment(\.dismiss) var dismiss
     
     @State private var content: String = ""
-    @State private var placeholderText: String = "당신의 느낌, 생각, 목표를 적어주세요."
+    @State private var placeholderText: String = "당신의 느낌이나 생각 혹은 목표를 적어주세요."
+    
+    @FocusState private var isRespond: Bool
     
     var memo: QuoteEntity? = nil
 
@@ -22,13 +24,28 @@ struct ComposeView: View {
         NavigationView {
             ZStack {
                 TextEditor(text: $content)
-                        .font(.body)
-                        .padding()
-                        .onAppear {
-                            if let memo = memo?.memoSubject {
-                                    content = memo
-                            }
+                    .font(.body)
+                    .padding()
+                    .onAppear {
+                        if let memo = memo?.memoSubject {
+                            content = memo
                         }
+                    }
+                
+                if content == "" {
+                    VStack {
+                        Image(systemName: "pencil")
+                            .resizable()
+                            .foregroundColor(.gray)
+                            .frame(width: 50, height: 50)
+                            .padding()
+                        
+                        Text(placeholderText)
+                            .foregroundColor(.gray)
+                            .font(.subheadline)
+                    }
+                    .padding()
+                }
             }
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
@@ -51,6 +68,8 @@ struct ComposeView: View {
         }
     }
 }
+
+
 
 struct ComposeView_Previews: PreviewProvider {
     static var previews: some View {

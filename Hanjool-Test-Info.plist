@@ -4,8 +4,11 @@
 <dict>
 	<key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-4948351456840245~5198902156</string>
+
+
 	<key>GADIsAdManagerApp</key>
 	<true/>
+    
 	<key>SKAdNetworkItems</key>
 	<array>
 		<dict>
@@ -205,6 +208,7 @@
 			<string>3qcr597p9d.skadnetwork</string>
 		</dict>
 	</array>
+    
 	<key>UIAppFonts</key>
 	<array>
 		<string>Pretendard-Light.otf</string>

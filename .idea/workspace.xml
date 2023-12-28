@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e0d6362b-d170-48bd-aa63-7e9f5bc51060" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Hanjool-Test-Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Hanjool-Test-Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hanjool_Test.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Hanjool_Test.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hanjool_Test.xcodeproj/project.xcworkspace/xcuserdata/minho.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/Hanjool_Test.xcodeproj/project.xcworkspace/xcuserdata/minho.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hanjool_Test.xcodeproj/xcuserdata/minho.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" beforeDir="false" afterPath="$PROJECT_DIR$/Hanjool_Test.xcodeproj/xcuserdata/minho.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hanjool_Test/Assets.xcassets/pic.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hanjool_Test/Assets.xcassets/pic.imageset/drag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hanjool_Test/Assets.xcassets/share.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hanjool_Test/Assets.xcassets/share.imageset/share.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hanjool_Test/Hanjool_TestApp.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Hanjool_Test/Hanjool_TestApp.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hanjool_Test/Memory/Highlight.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hanjool_Test/Memory/Quote.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Hanjool_Test/Memory/Quote.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hanjool_Test/Memory/QuoteStore.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Hanjool_Test/Memory/QuoteStore.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hanjool_Test/View/ActivityView/ActivityView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hanjool_Test/View/Main/MainListView.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Hanjool_Test/View/Main/MainListView.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hanjool_Test/View/Onboarding/Walkthrough.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Hanjool_Test/View/Onboarding/Walkthrough.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hanjool_Test/View/Storage/ComposeView.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Hanjool_Test/View/Storage/ComposeView.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hanjool_Test/View/Tab/Tab_View.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Hanjool_Test/View/Tab/Tab_View.swift" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2ZWXOqSwThdyFzsqwGX1jVwcfmC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "/Users/minho/Desktop/Hanjool_Test",
+    "settings.editor.selected.configurable": "AndroidSdkUpdater",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e0d6362b-d170-48bd-aa63-7e9f5bc51060" name="Changes" comment="" />
+      <created>1702538779947</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702538779947</updated>
+    </task>
+    <servers />
+  </component>
+</project>
